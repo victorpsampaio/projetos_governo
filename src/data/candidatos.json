@@ -1,0 +1,44 @@
+[
+  {
+    "id": "lula",
+    "nome": "Luiz Inácio Lula da Silva",
+    "partido": "PT",
+    "vice": "Geraldo Alckmin (PSB)",
+    "coligacao": ["PT", "PSB", "PCdoB", "PV", "PDT", "PSOL", "Rede"],
+    "statusCandidatura": "oficializada"
+  },
+  {
+    "id": "zema",
+    "nome": "Romeu Zema",
+    "partido": "Novo",
+    "statusCandidatura": "homologada"
+  },
+  {
+    "id": "flavio-bolsonaro",
+    "nome": "Flávio Bolsonaro",
+    "partido": "PL",
+    "vice": "Rogério Marinho (PL-RN)",
+    "statusCandidatura": "oficializada",
+    "observacaoStatus": "Vice definido em 05/ago/2026 (Rogério Marinho, também do PL), mas a chapa segue isolada: União Brasil, PP, Republicanos e Podemos recusaram aliança formal — candidatura sem coligação, chapa 'pura' dentro do PL."
+  },
+  {
+    "id": "caiado",
+    "nome": "Ronaldo Caiado",
+    "partido": "PSD",
+    "vice": "Gilberto Kassab",
+    "statusCandidatura": "oficializada"
+  },
+  {
+    "id": "renan-santos",
+    "nome": "Renan Santos",
+    "partido": "Missão",
+    "statusCandidatura": "oficializada"
+  },
+  {
+    "id": "marcal",
+    "nome": "Pablo Marçal",
+    "partido": "PRTB",
+    "statusCandidatura": "sub-judice",
+    "observacaoStatus": "Candidatura sub judice — inelegível até 2032 por abuso de poder econômico/político na eleição municipal de São Paulo de 2024. As propostas são avaliadas normalmente pelas 4 dimensões, como qualquer outro candidato."
+  }
+]
