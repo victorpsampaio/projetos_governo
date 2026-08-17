@@ -1,17 +1,24 @@
 :root {
-  --cor-fundo: #f7f6f3;
-  --cor-texto: #1f2328;
-  --cor-texto-suave: #57606a;
-  --cor-borda: #d8dee4;
-  --cor-superficie: #ffffff;
-  --cor-acento: #1a4d8f;
-  --cor-alerta: #b42318;
-  --cor-alerta-fundo: #fdecea;
-  --cor-score-alto: #1a7f37;
-  --cor-score-medio: #9a6700;
-  --cor-score-baixo: #cf222e;
-  --cor-opiniao-fundo: #fff8e6;
-  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --paper: #efede3;
+  --paper-raised: #faf8f1;
+  --ink: #201e1a;
+  --ink-soft: #5b584c;
+  --borda: #d9d4c4;
+  --carimbo: #4a3172;
+  --carimbo-tint: #ede7f5;
+  --score-alto: #2f6b3f;
+  --score-alto-tint: #e7efe6;
+  --score-medio: #96601a;
+  --score-medio-tint: #f5ecdd;
+  --score-baixo: #9b2c2c;
+  --score-baixo-tint: #f6e6e2;
+
+  --font-display: "Libre Caslon Display", "Georgia", serif;
+  --font-serif: "Libre Caslon Text", "Georgia", serif;
+  --font-sans: "Public Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  font-family: var(--font-sans);
   color-scheme: light;
 }
 
@@ -19,227 +26,678 @@
   box-sizing: border-box;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 body {
   margin: 0;
-  background: var(--cor-fundo);
-  color: var(--cor-texto);
-  line-height: 1.5;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
 
 a {
-  color: var(--cor-acento);
+  color: var(--carimbo);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+.candidato-card:focus-visible {
+  outline: 2px solid var(--carimbo);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  color: var(--ink);
+  letter-spacing: -0.01em;
 }
 
 .pagina-lista,
 .pagina-detalhe {
-  max-width: 960px;
+  max-width: 880px;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 2.5rem 1.25rem 5rem;
 }
 
-.cabecalho h1,
-.cabecalho-detalhe h1 {
-  margin-bottom: 0.25rem;
+/* ---------- Masthead ---------- */
+
+@keyframes surgir {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.cabecalho {
+  animation: surgir 0.6s ease-out both;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.eyebrow {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--carimbo);
+  margin-bottom: 0.6rem;
+}
+
+.cabecalho h1 {
+  font-size: clamp(2rem, 5vw, 2.9rem);
+  margin: 0 0 0.5rem;
 }
 
 .subtitulo {
-  color: var(--cor-texto-suave);
-  margin-top: 0;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: 46ch;
+  font-size: 1.02rem;
 }
+
+/* ---------- Aviso metodológico ---------- */
 
 .aviso-metodologico {
-  background: #eef4fc;
-  border: 1px solid #b9d3ef;
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
+  position: relative;
+  background: var(--paper-raised);
+  border: 1px dashed var(--ink-soft);
+  border-radius: 3px;
+  padding: 1.1rem 1.35rem;
   font-size: 0.92rem;
-  margin: 1.25rem 0 2rem;
+  color: var(--ink-soft);
+  margin: 0 0 2.25rem;
 }
 
-.aviso-status {
-  background: var(--cor-alerta-fundo);
-  color: var(--cor-alerta);
-  border: 1px solid #f3b6ae;
-  border-radius: 8px;
-  padding: 0.75rem 1rem;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
+.aviso-metodologico strong {
+  color: var(--ink);
 }
+
+/* ---------- Selo / carimbo ---------- */
+
+.selo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.32em 0.65em;
+  border: 1.5px solid currentColor;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1.5px var(--paper-raised), 0 0 0 2.5px currentColor inset;
+  outline: 2px solid currentColor;
+  outline-offset: -4px;
+  transform: rotate(var(--selo-rotacao, -6deg));
+  transition: transform 0.15s ease;
+  white-space: nowrap;
+  background: color-mix(in srgb, currentColor 8%, var(--paper-raised));
+}
+
+.selo:hover {
+  transform: rotate(0deg) scale(1.03);
+}
+
+.selo-carimbo {
+  color: var(--carimbo);
+}
+
+.selo-alerta {
+  color: var(--score-baixo);
+}
+
+.selo-alto {
+  color: var(--score-alto);
+}
+
+.selo-medio {
+  color: var(--score-medio);
+}
+
+.selo-baixo {
+  color: var(--score-baixo);
+}
+
+.selo-sm {
+  font-size: 0.6rem;
+  padding: 0.24em 0.5em;
+}
+
+.aviso-metodologico .selo {
+  float: right;
+  margin: -0.2rem 0 0.75rem 0.75rem;
+}
+
+@media (max-width: 560px) {
+  .aviso-metodologico .selo {
+    float: none;
+    display: table;
+    margin: 0 0 0.85rem;
+  }
+}
+
+/* ---------- Radar ---------- */
 
 .secao-radar {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.75rem;
 }
+
+.secao-radar h2,
+.secao-lista h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Lista / ordenação ---------- */
 
 .controles-ordenacao {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1.25rem;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
 }
 
 .controles-ordenacao select {
-  padding: 0.35rem 0.5rem;
-  border-radius: 6px;
-  border: 1px solid var(--cor-borda);
+  font-family: var(--font-sans);
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--borda);
+  background: var(--paper-raised);
+  color: var(--ink);
 }
 
 .grid-candidatos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
+  gap: 1.1rem;
 }
 
+/* ---------- Card de candidato (dossiê) ---------- */
+
 .candidato-card {
+  position: relative;
   display: block;
-  background: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
-  border-radius: 10px;
-  padding: 1.25rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--borda);
+  border-radius: 4px;
+  padding: 1.5rem 1.25rem 1.25rem;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.15s ease;
+  overflow: visible;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.candidato-card::before {
+  content: attr(data-partido);
+  position: absolute;
+  top: -0.6rem;
+  left: 1.1rem;
+  background: var(--carimbo-tint);
+  color: var(--carimbo);
+  border: 1px solid var(--carimbo);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 0.15em 0.5em;
 }
 
 .candidato-card:hover {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px) rotate(-0.3deg);
+  box-shadow: 3px 4px 0 var(--borda);
+}
+
+.candidato-card-alerta {
+  position: absolute;
+  top: -0.85rem;
+  right: 0.75rem;
 }
 
 .candidato-card h2 {
-  margin: 0 0 0.25rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  margin: 0.6rem 0 0.2rem;
 }
 
 .candidato-card-partido {
-  color: var(--cor-texto-suave);
-  font-size: 0.9rem;
-  margin: 0 0 0.75rem;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin: 0 0 0.9rem;
 }
 
 .candidato-card-media {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.candidato-card-media strong {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  color: var(--ink);
 }
 
 .candidato-card-sem-dados {
-  color: var(--cor-texto-suave);
   font-style: italic;
 }
 
-.candidato-card-alerta {
-  display: inline-block;
-  background: var(--cor-alerta-fundo);
-  color: var(--cor-alerta);
-  border-radius: 999px;
-  padding: 0.2rem 0.6rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
+/* ---------- Detalhe: cabeçalho ---------- */
 
 .link-voltar {
   display: inline-block;
-  margin-bottom: 1.5rem;
-  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.cabecalho-detalhe {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.cabecalho-detalhe h1 {
+  font-size: clamp(1.8rem, 4.5vw, 2.5rem);
+  margin: 0 0 0.35rem;
+}
+
+.aviso-status {
+  background: var(--score-baixo-tint);
+  color: var(--score-baixo);
+  border: 1px solid var(--score-baixo);
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+  font-size: 0.88rem;
+  margin-top: 0.9rem;
+}
+
+/* ---------- Scores (selos-certificado) ---------- */
+
+.secao-scores {
+  margin-bottom: 2.5rem;
+}
+
+.secao-scores h2 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
 }
 
 .grid-scores {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 0.75rem;
-  margin-bottom: 2rem;
+  gap: 0.9rem;
 }
 
 .score-badge {
-  border-radius: 8px;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--cor-borda);
+  border-radius: 4px;
+  padding: 0.9rem 1rem;
+  border: 1.5px solid var(--borda);
+  background: var(--paper-raised);
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.3rem;
+  transition: transform 0.15s ease;
+}
+
+.score-badge:hover {
+  transform: translateY(-2px);
 }
 
 .score-badge-label {
-  font-size: 0.8rem;
-  color: var(--cor-texto-suave);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
 }
 
 .score-badge-valor {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
+.score-alto {
+  border-color: var(--score-alto);
+  background: var(--score-alto-tint);
+}
 .score-alto .score-badge-valor {
-  color: var(--cor-score-alto);
+  color: var(--score-alto);
 }
 
+.score-medio {
+  border-color: var(--score-medio);
+  background: var(--score-medio-tint);
+}
 .score-medio .score-badge-valor {
-  color: var(--cor-score-medio);
+  color: var(--score-medio);
 }
 
+.score-baixo {
+  border-color: var(--score-baixo);
+  background: var(--score-baixo-tint);
+}
 .score-baixo .score-badge-valor {
-  color: var(--cor-score-baixo);
+  color: var(--score-baixo);
 }
 
-.secao-north-star,
-.secao-okrs,
-.secao-hipoteses,
-.secao-lacunas,
-.secao-analise,
-.secao-opiniao,
-.secao-fontes,
-.secao-scores {
-  margin-bottom: 2rem;
+/* ---------- North Star ---------- */
+
+.secao-north-star {
+  margin-bottom: 2.5rem;
 }
 
-.north-star-definicao {
-  background: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
-  border-radius: 8px;
-  padding: 0.75rem 1rem;
-  font-style: italic;
-}
-
-.lacuna {
-  color: var(--cor-score-baixo);
-}
-
-.hipotese {
-  background: var(--cor-superficie);
-  border: 1px solid var(--cor-borda);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
+.secao-north-star h2 {
+  font-size: 1.15rem;
   margin-bottom: 0.75rem;
 }
 
-.hipotese p {
-  margin: 0.25rem 0;
+.secao-north-star h3 {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin: 1.5rem 0 0.5rem;
 }
 
+.north-star-definicao {
+  position: relative;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  background: var(--paper-raised);
+  border-left: 3px solid var(--carimbo);
+  border-radius: 0 3px 3px 0;
+  padding: 0.9rem 1.1rem 0.9rem 1.5rem;
+  color: var(--ink);
+}
+
+.lacuna {
+  color: var(--score-baixo);
+}
+
+/* ---------- OKRs ---------- */
+
+.secao-okrs {
+  margin-bottom: 2.5rem;
+}
+
+.secao-okrs h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.9rem;
+}
+
+.secao-okrs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: okr;
+}
+
+.secao-okrs li {
+  counter-increment: okr;
+  position: relative;
+  padding: 0.7rem 0 0.7rem 3rem;
+  border-top: 1px solid var(--borda);
+}
+
+.secao-okrs li:first-child {
+  border-top: none;
+}
+
+.secao-okrs li::before {
+  content: "OBJ. " counter(okr, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--carimbo);
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Hipóteses (cláusulas) ---------- */
+
+.secao-hipoteses {
+  margin-bottom: 2.5rem;
+}
+
+.secao-hipoteses h2 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.secao-hipoteses {
+  counter-reset: clausula;
+}
+
+.hipotese {
+  counter-increment: clausula;
+  position: relative;
+  background: var(--paper-raised);
+  border: 1px solid var(--borda);
+  border-radius: 4px;
+  padding: 1.5rem 1.25rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.hipotese::before {
+  content: "§ " counter(clausula);
+  position: absolute;
+  top: -0.65rem;
+  left: 1.1rem;
+  background: var(--carimbo-tint);
+  color: var(--carimbo);
+  border: 1px solid var(--carimbo);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.1em 0.5em;
+}
+
+.hipotese p {
+  margin: 0;
+  padding: 0.55rem 0;
+  border-top: 1px solid var(--borda);
+  display: flex;
+  gap: 0.6em;
+}
+
+.hipotese p:first-of-type {
+  border-top: none;
+  padding-top: 0.15rem;
+}
+
+.hipotese strong {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  width: 6.5em;
+  padding-top: 0.15em;
+}
+
+/* ---------- Lacunas ---------- */
+
+.secao-lacunas {
+  margin-bottom: 2.5rem;
+}
+
+.secao-lacunas h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.9rem;
+}
+
+.secao-lacunas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.secao-lacunas li {
+  position: relative;
+  padding: 0.6rem 0 0.6rem 1.75rem;
+  border-top: 1px solid var(--borda);
+  color: var(--ink-soft);
+}
+
+.secao-lacunas li:first-child {
+  border-top: none;
+}
+
+.secao-lacunas li::before {
+  content: "✕";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  color: var(--score-baixo);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+/* ---------- Análise ---------- */
+
+.secao-analise {
+  margin-bottom: 2.5rem;
+}
+
+.secao-analise h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.9rem;
+}
+
+.secao-analise p {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 68ch;
+}
+
+/* ---------- Opinião do curador ---------- */
+
 .secao-opiniao {
-  background: var(--cor-opiniao-fundo);
-  border: 1px solid #f0d38a;
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
+  position: relative;
+  background: #fbf3d6;
+  border: 1px dashed #c7a53b;
+  border-radius: 3px;
+  padding: 1.1rem 1.35rem;
+  margin-bottom: 2.5rem;
+  transform: rotate(-0.5deg);
+}
+
+.secao-opiniao h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.35rem;
 }
 
 .rotulo-opiniao {
-  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--cor-texto-suave);
-  margin-top: 0;
+  letter-spacing: 0.06em;
+  color: #8a6d1f;
+  margin: 0 0 0.6rem;
 }
 
-.secao-fontes ul {
-  padding-left: 1.25rem;
+.secao-opiniao p:last-child {
+  font-family: var(--font-serif);
+  font-style: italic;
+  margin: 0;
+}
+
+/* ---------- Fontes (notas de rodapé) ---------- */
+
+.secao-fontes {
+  border-top: 1px solid var(--ink);
+  padding-top: 1.25rem;
+}
+
+.secao-fontes h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.9rem;
+}
+
+.secao-fontes ol {
+  padding-left: 1.4rem;
+  margin: 0 0 1rem;
+  font-size: 0.92rem;
+}
+
+.secao-fontes li {
+  margin-bottom: 0.4rem;
 }
 
 .fonte-data {
-  color: var(--cor-texto-suave);
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  color: var(--ink-soft);
+  font-size: 0.82rem;
 }
 
 .ultima-atualizacao {
-  color: var(--cor-texto-suave);
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .hipotese strong {
+    width: 100%;
+  }
+  .hipotese p {
+    flex-direction: column;
+    gap: 0.15em;
+  }
 }

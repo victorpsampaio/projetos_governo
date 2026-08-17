@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import ScoreBadge from "../components/ScoreBadge";
+import Selo from "../components/Selo";
 import { getCandidato, getProposta, getSetor } from "../lib/dados";
 import { DIMENSOES_SCORE } from "../types";
 
@@ -27,11 +28,15 @@ export default function DetalheCandidato() {
       </Link>
 
       <header className="cabecalho-detalhe">
+        <span className="eyebrow">Ficha de auditoria — Economia</span>
         <h1>{candidato.nome}</h1>
         <p className="candidato-card-partido">
           {candidato.partido}
           {candidato.vice ? ` · vice: ${candidato.vice}` : ""}
         </p>
+        {candidato.statusCandidatura === "sub-judice" && (
+          <Selo texto="Sub judice" variante="alerta" rotacao={-4} />
+        )}
         {candidato.observacaoStatus && (
           <div className="aviso-status">{candidato.observacaoStatus}</div>
         )}
@@ -70,11 +75,11 @@ export default function DetalheCandidato() {
 
           <section className="secao-okrs">
             <h2>OKRs derivados das propostas</h2>
-            <ul>
+            <ol>
               {proposta.okrs.map((okr, i) => (
                 <li key={i}>{okr}</li>
               ))}
-            </ul>
+            </ol>
           </section>
 
           <section className="secao-hipoteses">
@@ -123,7 +128,7 @@ export default function DetalheCandidato() {
 
           <section className="secao-fontes">
             <h2>Fontes</h2>
-            <ul>
+            <ol>
               {proposta.fontes.map((fonte, i) => (
                 <li key={i}>
                   <a href={fonte.url} target="_blank" rel="noreferrer">
@@ -134,7 +139,7 @@ export default function DetalheCandidato() {
                   </span>
                 </li>
               ))}
-            </ul>
+            </ol>
             <p className="ultima-atualizacao">
               Última atualização: {proposta.ultimaAtualizacao}
             </p>

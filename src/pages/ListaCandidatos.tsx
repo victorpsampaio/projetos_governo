@@ -49,7 +49,10 @@ export default function ListaCandidatos() {
   return (
     <div className="pagina-lista">
       <header className="cabecalho">
-        <h1>Candidatos 2026 — Economia</h1>
+        <span className="eyebrow">
+          Auditoria de programas de governo — Setor Economia
+        </span>
+        <h1>Candidatos 2026</h1>
         <p className="subtitulo">
           Propostas econômicas dos 6 principais candidatos à Presidência,
           avaliadas com metodologia de Product Ownership.
