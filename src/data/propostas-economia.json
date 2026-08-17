@@ -1,0 +1,487 @@
+[
+  {
+    "candidatoId": "lula",
+    "setorId": "economia",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 6,
+      "clarezaMetrica": 3,
+      "viabilidadePolitica": 6
+    },
+    "northStar": "Não há uma North Star Metric única e explícita no plano de governo. A narrativa organiza-se em torno de três eixos que funcionam como North Star implícita — crescimento com distribuição de renda, reindustrialização soberana e controle do gasto primário sob o arcabouço fiscal — mas sem uma métrica-síntese com meta numérica e prazo.",
+    "okrs": [
+      "Reindustrialização soberana: ampliar financiamento via Nova Indústria Brasil (NIB)/Plano Mais Produção (R$ 860 bi mobilizados no ciclo 2023–2026, sem meta prospectiva declarada para 2027–2030) e avançar em semicondutores, hidrogênio verde e minerais críticos.",
+      "Sustentabilidade fiscal sob o arcabouço: manter o crescimento do gasto primário na banda de 0,6% a 2,5% acima da inflação/ano e 'controlar o aumento do gasto primário', sem meta numérica declarada para dívida bruta/PIB.",
+      "Renda e mercado de trabalho: sustentar a valorização do salário mínimo acima da inflação (sem percentual definido para o próximo mandato), aprovar no Senado o fim da escala 6x1/jornada de 40h, e manter/ampliar o Bolsa Família sem meta de cobertura ou valor declarada.",
+      "Concluir a transição da Reforma Tributária sobre consumo (CBS/IBS) conforme cronograma já definido em lei (LC 214/2025)."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo mantiver o arcabouço fiscal (banda de crescimento do gasto primário de 0,6%–2,5% acima da inflação/ano) e 'controlar o aumento do gasto primário'",
+        "porque": "essa é a regra fiscal desenhada pelo próprio governo em 2023 para substituir o teto de gastos",
+        "entao": "o plano não especifica número-alvo de resultado primário ou de dívida/PIB para 2027–2030 — descreve o mecanismo, mas não a meta quantitativa nem o prazo de estabilização da dívida",
+        "medicao": "não especificada no plano; métrica externa disponível seria dívida bruta/PIB do Banco Central, divulgação mensal"
+      },
+      {
+        "se": "o governo continuar direcionando crédito subsidiado via NIB/Plano Mais Produção para setores estratégicos (semicondutores, terras raras, minerais críticos, hidrogênio verde)",
+        "porque": "o ciclo 2023–2026 já mobilizou, segundo o próprio governo, R$ 860 bilhões em financiamentos contratados",
+        "entao": "espera-se aumento da participação da indústria de transformação no PIB e maior processamento doméstico de matérias-primas críticas, mas o plano não define meta numérica de participação industrial no PIB nem prazo específico para 2027–2030",
+        "medicao": "não especificada no plano; métrica externa disponível: participação da indústria de transformação no PIB, IBGE, divulgação trimestral"
+      },
+      {
+        "se": "for aprovada no Senado a PEC que reduz a jornada máxima para 40 horas semanais sem redução salarial (já aprovada na Câmara)",
+        "porque": "o governo argumenta ganhos de qualidade de vida e produtividade do trabalhador",
+        "entao": "o plano não estima impacto sobre emprego, custo da folha para empresas ou prazo de implementação",
+        "medicao": "não especificada no plano; métrica externa disponível: PNAD Contínua/IBGE, taxa de ocupação e rendimento médio, divulgação trimestral"
+      }
+    ],
+    "lacunas": [
+      "Ausência de meta numérica para dívida bruta/PIB, apesar de a dívida ter subido de 71,7% (dez/2022) para cerca de 81,1%–81,9% do PIB (mai-jun/2026) — dado que a imprensa aponta como não mencionado no documento.",
+      "Sem cronograma de redução de emendas parlamentares: o plano critica o modelo atual, mas não propõe redução de volume nem mecanismo concreto.",
+      "Metas de reindustrialização sem números-alvo prospectivos: o R$ 860 bi citado é retrospectivo (2023–2026), não uma meta declarada para o novo mandato.",
+      "Salário mínimo 'acima da inflação' sem percentual ou fórmula específica reafirmada para o novo mandato.",
+      "Bolsa Família descrito como 'manter, aprimorar e ampliar', sem meta de cobertura populacional, valor médio do benefício ou custo fiscal projetado.",
+      "Reforma tributária: cronograma de transição já está em lei (não é proposta nova do candidato); plano não detalha metas adicionais de simplificação."
+    ],
+    "analise": "O plano de governo 2026 de Lula-Alckmin é estruturalmente uma proposta de continuidade de política já em curso, não um redesenho. Isso tem uma vantagem sob a ótica de rigor de produto: as hipóteses já têm dados observados de um ciclo anterior (2023–2026) como evidência — por exemplo, o financiamento via NIB já tem número histórico (R$ 860 bi), e o arcabouço fiscal já é regra testada há três anos. A fraqueza estrutural é que o plano projeta muito pouco para frente: praticamente nenhuma das metas centrais (fiscal, industrial, salarial) vem acompanhada de número-alvo e prazo para o mandato 2027–2030 — o que a cobertura jornalística de diferentes linhas editoriais aponta de forma convergente como 'sem agenda clara de redução de despesas' e 'sem menção ao aumento da dívida pública'. Em termos de OKRs, isso equivale a Objetivos sem Key Results quantificados. Do ponto de vista de execução, o plano se apoia em mecanismos institucionais já existentes e testados (arcabouço fiscal, NIB, Bolsa Família, reforma tributária já sancionada), o que reduz risco de execução comparado a propostas que dependessem de reformas constitucionais inéditas — mas a tensão fiscal (dívida subindo cerca de 10 p.p. do PIB desde 2023, com déficit nominal em torno de 10% do PIB nos 12 meses até jun/2026) é reconhecida por instituições como a Instituição Fiscal Independente (IFI) como um risco relevante.",
+    "fontes": [
+      {
+        "titulo": "PT registra novo plano de governo de Lula no TSE; veja a íntegra",
+        "url": "https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Plano de governo de Lula mantém gastos e não prevê cortes",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-lula-economia/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Plano de governo de Lula foca em soberania e cita Trump",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/plano-de-governo-de-lula-foca-em-soberania-e-cita-trump/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Fim da 6x1, soberania e segurança: o plano de Lula para novo mandato",
+        "url": "https://www.congressoemfoco.com.br/noticia/121276/fim-da-6x1-soberania-e-seguranca-o-plano-de-lula-para-novo-mandato",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Lula promete continuidade econômica e não menciona redução de gastos em plano de governo",
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/lula-promete-continuidade-economica-e-nao-menciona-reducao-de-gastos-em-plano-de-governo/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Dívida pública em alta vai exigir negociação de medidas logo após as eleições",
+        "url": "https://jornaldebrasilia.com.br/noticias/economia/divida-publica-em-alta-vai-exigir-negociacao-de-medidas-logo-apos-as-eleicoes/",
+        "dataAcesso": "2026-08-17"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-17"
+  },
+  {
+    "candidatoId": "zema",
+    "setorId": "economia",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 2.5,
+      "clarezaMetrica": 3,
+      "viabilidadePolitica": 2.5
+    },
+    "northStar": "Não há North Star única com número e prazo. Há uma direção estratégica clara e coerente — Estado menor, equilíbrio fiscal via corte de gastos e privatizações, e redução da carga tributária — mas sem um indicador-síntese amarrando essas frentes a uma meta numérica e horizonte temporal.",
+    "okrs": [
+      "Reduzir o tamanho do Estado e equilibrar as contas públicas federais: privatizar Petrobras (com desmembramento em produção/refino/logística), Banco do Brasil, Caixa e Correios nos primeiros 12 meses de mandato (segundo assessor econômico); extinguir 'supersalários' no serviço público, sem quantificação de economia divulgada.",
+      "Reduzir a carga tributária condicionada ao corte de gastos: redução gradual do IRPJ sem alíquota-alvo nem prazo definidos; 'metas progressivas' de redução da carga tributária geral, termo do próprio plano sem número.",
+      "Reformar a Previdência para conter despesas obrigatórias: estender a reforma a estados, municípios, trabalhadores rurais e militares; ajuste automático da idade mínima conforme expectativa de vida, sem data de vigência nem impacto fiscal estimado.",
+      "Aplicar em nível federal o modelo fiscal testado em Minas Gerais: instituir teto de gastos atrelado ao IPCA (mecanismo idêntico ao decretado em MG em 2020) e buscar resultado primário positivo recorrente."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo federal privatizar Petrobras (com cisão em produção/refino/logística), Banco do Brasil, Caixa e Correios nos primeiros 12 meses de mandato",
+        "porque": "a receita da venda de ativos estatais reduziria a necessidade de rolagem de dívida nova",
+        "entao": "nenhuma meta declarada de valor arrecadado nem de pontos percentuais de redução na dívida/PIB — a proposta não apresenta avaliação de ativos, modelo de desestatização, cronograma nem estimativa de arrecadação",
+        "medicao": "não especificada no plano; métrica externa disponível: Dívida Bruta do Governo Geral (DBGG)/PIB, Banco Central, divulgação mensal"
+      },
+      {
+        "se": "for aplicado ao orçamento federal um teto de gastos atrelado ao IPCA, replicando o decreto editado em Minas Gerais em 2020 sob o Regime de Recuperação Fiscal",
+        "porque": "esse mecanismo, segundo o próprio governo estadual, teria contribuído para tirar MG do quase-default técnico",
+        "entao": "o resultado alegado por Zema é a migração de déficit de R$ 11 bi (herdado) para superávit de R$ 4 bi em 2024 — porém esse dado está em conflito direto com o fechamento fiscal de 2025, sob a mesma gestão, que registrou déficit de R$ 11,3 bi e dívida consolidada de R$ 187,1 bi (ante R$ 113,4 bi em 2019)",
+        "medicao": "resultado primário e dívida consolidada de MG, Secretaria de Fazenda de MG / Tesouro Nacional, divulgação anual"
+      },
+      {
+        "se": "for implementada reforma previdenciária com ajuste automático da idade mínima conforme expectativa de vida, estendida a estados, municípios, trabalhadores rurais e militares",
+        "porque": "o envelhecimento populacional pressiona estruturalmente as despesas obrigatórias",
+        "entao": "nenhuma estimativa de economia em R$/PIB ou prazo de vigência foi divulgada",
+        "medicao": "despesa previdenciária/PIB, Ministério da Previdência (RGPS) e Tesouro Nacional (RPPS), divulgação anual"
+      }
+    ],
+    "lacunas": [
+      "Ausência quase total de números-alvo e prazos no nível federal: 'choque fiscal', metas 'progressivas' de redução tributária, IRPJ 'gradual' — termos qualitativos sem quantificação.",
+      "Privatizações sem plano de execução: sem avaliação de ativos, modelo de desestatização, cronograma formal ou estimativa de receita, segundo especialista consultado pela imprensa.",
+      "Programa de transferência de R$ 1.000 ao nascer (investido em fundo de ações, sacável aos 18 anos): número específico, mas sem fonte de custeio nem estimativa de custo fiscal anual declarada.",
+      "Conflito entre discurso e resultado em Minas Gerais: alegação de superávit de R$ 4 bi em 2024 contrasta com déficit de R$ 11,3 bi em 2025 e dívida quase dobrando (R$ 113 bi → R$ 187 bi) sob a mesma gestão — relevante para credibilidade de execução, não apenas clareza."
+    ],
+    "analise": "Do ponto de vista de rigor de produto, a plataforma econômica de Zema tem uma característica pouco comum entre os candidatos: um histórico de execução real e auditável como governador de Minas Gerais desde 2019, o que permite testar promessas contra resultados. O problema é que esse próprio histórico produz sinais mistos: o teto de gastos atrelado ao IPCA e o corte de cargos comissionados são mecanismos concretos e mensuráveis, mas o resultado fiscal declarado (superávit de R$ 4 bi em 2024) não se sustenta no fechamento mais recente disponível (déficit de R$ 11,3 bi em 2025), com a dívida do estado crescendo de forma expressiva no período — um descompasso entre o rigor do mecanismo proposto e o rigor do resultado entregue. No nível federal, as propostas (privatização de Petrobras/BB/Caixa/Correios, reforma tributária 'gradual', nova reforma previdenciária) mantêm coerência direcional entre si, mas nenhuma vem acompanhada de número-alvo, cronograma formal ou mecanismo causal detalhado, o que torna a hipótese de maior impacto — venda de ativos estratégicos — impossível de testar antes da eleição, na ausência de avaliação prévia ou modelo de execução. A variável mais relevante para viabilidade é política: o Novo é um partido pequeno no Congresso, e mesmo a projeção mais otimista do próprio partido (15-25 deputados, 3-4 senadores) representa fração pequena das 513 cadeiras da Câmara e 81 do Senado, o que amplia a distância entre proposta e execução para reformas que exigem coalizão ampla.",
+    "fontes": [
+      {
+        "titulo": "Plano de governo de Romeu Zema propõe ajuste fiscal, endurecimento penal e reforma do Estado",
+        "url": "https://exame.com/brasil/plano-de-governo-de-romeu-zema-propoe-ajuste-fiscal-endurecimento-penal-e-reforma-do-estado/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "'Plano Implacável': veja as propostas de Zema na disputa pela presidência",
+        "url": "https://www.em.com.br/politica/2026/08/7475589-plano-implacavel-veja-as-propostas-de-zema-na-disputa-pela-presidencia.html",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Plano de Zema prevê 'choque fiscal', limitação ao STF e saída do Brics",
+        "url": "https://www.congressoemfoco.com.br/noticia/121274/plano-de-zema-preve-choque-fiscal--limitacao-ao-stf-e-saida-do-brics",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Zema defende 'privatizar tudo' para ajudar a quitar a dívida pública",
+        "url": "https://www.poder360.com.br/poder-economia/zema-defende-privatizar-tudo-para-ajudar-a-quitar-a-divida-publica/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Minas fecha 2025 com déficit de R$ 11,3 bilhões e dívida de R$ 187,1 bilhões no governo Zema",
+        "url": "https://ndmais.com.br/politica/minas-fecha-2025-com-deficit-de-r-113-bilhoes-e-divida-de-r-1871-bilhoes-no-governo-zema/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Privatizar Petrobras e Banco do Brasil? Especialista explica problemas da proposta de Zema",
+        "url": "https://www.brasildefato.com.br/2026/04/29/privatizar-petrobras-e-banco-do-brasil-especialista-explica-problemas-da-proposta-de-zema/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Novo projeta eleger até 20 deputados federais e 3 senadores em 2026",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/novo-projeta-eleger-ate-20-deputados-federais-e-3-senadores-em-2026/",
+        "dataAcesso": "2026-08-17"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-17"
+  },
+  {
+    "candidatoId": "caiado",
+    "setorId": "economia",
+    "scores": {
+      "rigorPO": 4.5,
+      "implementabilidade": 6,
+      "clarezaMetrica": 5,
+      "viabilidadePolitica": 5
+    },
+    "northStar": "Não há North Star único e explícito. Emerge de forma implícita e recorrente uma métrica-guia de estabilização fiscal como pré-condição para retomada do investimento privado: dívida pública controlada em 2-3 anos abrindo espaço para elevar a taxa de investimento da economia de cerca de 17% para 25% do PIB. Não há, nas fontes encontradas, qualquer menção a redução de desigualdade (Gini).",
+    "okrs": [
+      "Estabilizar a trajetória da dívida pública bruta: apresentar um 'Orçamento da Verdade' (diagnóstico de despesas obrigatórias, subsídios, benefícios tributários e riscos fiscais) nos primeiros meses de governo e estabilizar a dívida em até 2-3 anos (meta declarada pelo coordenador do plano, Roberto Brant), reduzindo o peso dos juros no endividamento.",
+      "Elevar a taxa de investimento da economia de cerca de 17% para 25% do PIB, sem prazo definido nas fontes, ampliando a participação do setor privado no investimento total.",
+      "Reduzir o tamanho e custo da máquina pública ('reforma administrativa'), com o mesmo padrão adotado em Goiás — sem meta numérica própria assumida formalmente por Caiado.",
+      "Diversificar mercados externos e agregar valor ao agronegócio, com prazo único de 180 dias para decisões administrativas de segurança jurídica fundiária, sem meta de participação de mercado ou volume."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo apresentar, nos primeiros meses, um 'Orçamento da Verdade' revisando despesas obrigatórias, subsídios, benefícios tributários e riscos fiscais",
+        "porque": "segundo o diagnóstico da equipe econômica coordenada por Roberto Brant, cerca de 95% do crescimento do endividamento público brasileiro decorre do pagamento de juros reais, não do principal",
+        "entao": "a dívida pública bruta será estabilizada em um horizonte de 2 a 3 anos — sem meta numérica final de dívida/PIB declarada",
+        "medicao": "Dívida Bruta do Governo Geral/PIB, Banco Central/Tesouro Nacional, divulgação trimestral; resultado primário, Tesouro Nacional, mensal"
+      },
+      {
+        "se": "a dívida for estabilizada e a carga de juros reais reduzida",
+        "porque": "isso libera espaço fiscal, reduz o risco-país e melhora as condições de crédito para o setor privado",
+        "entao": "a taxa de investimento da economia subirá de cerca de 17% para 25% do PIB, sem prazo declarado para atingir esse patamar",
+        "medicao": "Formação Bruta de Capital Fixo/PIB, IBGE (Contas Nacionais), divulgação trimestral"
+      },
+      {
+        "se": "for instituído um marco de segurança jurídica fundiária com prazo único de 180 dias para decisões administrativas, estabilidade do Código Florestal e licenciamento por adesão",
+        "porque": "a insegurança jurídica fundiária hoje trava investimento produtivo e acesso a crédito no campo",
+        "entao": "espera-se aumento do investimento produtivo agropecuário e maior competitividade agroexportadora — sem meta numérica (%) nem prazo de resultado declarado",
+        "medicao": "não declarada pelo candidato; medição possível: área com regularização fundiária concluída (Incra/Sigef) e saldo da balança comercial do agronegócio (Mapa), anual"
+      }
+    ],
+    "lacunas": [
+      "Sem número-alvo para dívida/PIB: fala-se em 'estabilizar em 2-3 anos', mas nenhuma fonte traz um percentual-alvo final.",
+      "Meta de investimento sem prazo: '17% → 25% do PIB' não vem acompanhada de data.",
+      "Reforma administrativa sem meta própria: a cifra de R$ 330 bi em 10 anos citada em evento (CNC-Sesc-Senac) veio de estudo externo apresentado a ele, não foi assumida como meta formal do seu plano.",
+      "Nenhuma menção a desigualdade/Gini nas fontes levantadas — dimensão central do North Star do setor simplesmente ausente do discurso econômico do candidato.",
+      "Sem metas explícitas de emprego, salário mínimo ou renda per capita nas fontes encontradas.",
+      "Detalhamento tributário incompleto: não foram encontradas propostas numéricas específicas de reforma do IR ou tributação de grandes fortunas/dividendos atribuídas ao plano de Caiado."
+    ],
+    "analise": "O posicionamento econômico de Caiado é organizado em torno de um diagnóstico ortodoxo convencional — dívida pública elevada, causada majoritariamente por juros reais altos, a ser resolvida por ajuste fiscal estruturado ('Orçamento da Verdade') somado a reforma administrativa e contenção de despesas obrigatórias. A presença de um coordenador técnico nomeado (Roberto Brant, ex-ministro de FHC, ex-secretário de Fazenda de MG) e a citação recorrente de Armínio Fraga como principal referência dão ao programa um verniz de credibilidade técnica acima da média, com mecanismo causal articulado (ex.: '95% da dívida vem de juros'). Sob a ótica estrita de Product Ownership, porém, o plano ainda funciona mais como diagnóstico e direção do que como conjunto de compromissos mensuráveis: os dois números mais citados (dívida estabilizada em '2-3 anos' e investimento subindo de '17% para 25% do PIB') carecem de metas numéricas finais e prazos de conclusão. A esse diagnóstico soma-se um histórico de execução relevante como governador de Goiás — entrou no Regime de Recuperação Fiscal federal em 2021 e terminou o mandato com contas equilibradas, PIB estadual recorde de 4,4% em 2023 e desemprego na mínima em 12 anos — que reforça a credibilidade de execução, sem ser garantia de resultado equivalente na escala federal. Do ponto de vista institucional, o vice Gilberto Kassab (articulador político histórico) e a bancada do PSD no Congresso (13 senadores, 49 deputados) dão à chapa capacidade de articulação real, ainda que a chapa seja registrada 'pura' (só PSD, sem coligação formal), o que pode limitar tempo de TV e recursos de fundo eleitoral em comparação a coligações amplas.",
+    "fontes": [
+      {
+        "titulo": "Leia a íntegra do plano de governo de Ronaldo Caiado",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Plano de governo de Caiado prevê estabilizar dívida pública em até 3 anos",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/plano-de-governo-de-caiado-preve-estabilizar-divida-publica-em-ate-3-anos/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Caiado cita Armínio Fraga como principal referência para a economia",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/caiado-cita-arminio-fraga-como-principal-referencia-para-a-economia/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Caiado convoca ex-ministro de FHC para elaborar plano de governo",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/04/7403378-caiado-convoca-ex-ministro-de-fhc-para-elaborar-plano-de-governo.html",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Com chapa pura, PSD oficializa Ronaldo Caiado como candidato à Presidência",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/com-chapa-pura-psd-oficializa-ronaldo-caiado-como-candidato-a-presidencia/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Congresso: PSD agora tem 13 senadores e 49 deputados",
+        "url": "https://psd.org.br/noticias/congresso-psd-agora-tem-13-senadores-e-49-deputados/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Caiado encerra gestão com legado na segurança pública, investimentos e contas equilibradas em Goiás",
+        "url": "https://www.jornalopcao.com.br/reportagens/caiado-encerra-gestao-com-legado-na-seguranca-publica-investimentos-e-contas-equilibradas-em-goias-801340/",
+        "dataAcesso": "2026-08-17"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-17"
+  },
+  {
+    "candidatoId": "flavio-bolsonaro",
+    "setorId": "economia",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 3,
+      "clarezaMetrica": 2.5,
+      "viabilidadePolitica": 3
+    },
+    "northStar": "Não há North Star explícito e articulado. Infere-se implicitamente, a partir do discurso de continuidade da gestão Bolsonaro 2019-2022 e do trabalho de Paulo Guedes, algo como 'reduzir o tamanho do Estado e a carga tributária para destravar crescimento, com trajetória decrescente da dívida pública e juros/inflação convergindo a padrões internacionais'. O componente de redução de desigualdade (Gini) do North Star do setor não aparece em nenhuma fonte consultada.",
+    "okrs": [
+      "Reduzir o tamanho e custo da máquina pública federal: cortar pelo menos 10 ministérios; reduzir cargos comissionados, 'supersalários' e privilégios, sem % ou valor-alvo declarado; fazer as despesas 'caberem no orçamento' sem elevar a dívida, sem meta numérica.",
+      "Reduzir e simplificar a carga tributária sobre produção e consumo: suspender por 1 ano a entrada em vigor da reforma tributária (EC 132/2023); reduzir a alíquota de referência do IVA dual (CBS/IBS) e cortar exceções setoriais; reduzir tributação sobre profissionais liberais.",
+      "Estabilizar e reverter a trajetória da dívida pública/PIB: criar nova regra fiscal substituindo o arcabouço fiscal atual, com limite de despesa mais restritivo quanto maior a dívida/PIB; gerar superávits primários 'duradouros', sem meta percentual ou prazo; aproximar a taxa de juros básica da média internacional, sem número-alvo."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo cortar ao menos 10 ministérios e reduzir cargos comissionados/supersalários",
+        "porque": "segundo o candidato, isso libera espaço fiscal sem precisar elevar impostos ('faremos nossos gastos caberem no orçamento')",
+        "entao": "esperar-se-ia queda da despesa discricionária da União como % do PIB, mas o plano não informa magnitude em R$ nem prazo",
+        "medicao": "não declarada; rigor de PO exigiria acompanhar despesa discricionária/PIB via Tesouro Nacional (RREO), divulgação bimestral"
+      },
+      {
+        "se": "o governo suspender por 1 ano a vigência da reforma tributária e reformular o IVA dual para reduzir cumulatividade e exceções",
+        "porque": "segundo o candidato, o texto foi 'capturado por lobbies' setoriais, projetando uma alíquota de referência próxima de 30%, uma das mais altas do mundo entre IVAs",
+        "entao": "esperar-se-ia redução da alíquota efetiva sobre setores sem regime especial, mas não há alíquota-alvo nem plano de compensação da arrecadação perdida durante a suspensão",
+        "medicao": "não declarada; medição rigorosa usaria a alíquota efetiva média por setor, Receita Federal, divulgação anual"
+      },
+      {
+        "se": "for criada uma nova regra fiscal que restrinja mais o crescimento das despesas quanto maior a dívida pública/PIB, substituindo o arcabouço fiscal",
+        "porque": "regras vinculadas ao endividamento, na linha do antigo teto de gastos, teriam mais credibilidade para conter a dívida do que o arcabouço vigente, segundo a equipe ligada a Paulo Guedes",
+        "entao": "esperar-se-ia estabilização e queda da dívida bruta/PIB, mas não há meta numérica nem cronograma de convergência divulgados",
+        "medicao": "não declarada; medição rigorosa usaria a série de Dívida Bruta do Governo Geral, Banco Central, divulgação mensal"
+      }
+    ],
+    "lacunas": [
+      "Nenhuma meta numérica com prazo para dívida/PIB, inflação, juros ou resultado primário — apenas direções ('reduzir', 'aproximar', 'convergir').",
+      "Contradição interna no próprio plano: promete 'tesouraço' mas amplia programas (voucher-creche, voucher-educacional, pontos de wi-fi, 'Trem do Nordeste', correção da tabela do SUS, manutenção de programas sociais) sem custo consolidado nem fonte de financiamento.",
+      "Referência a Javier Milei é majoritariamente simbólica/retórica — inspiração estética de campanha, sem mecanismo de política pública brasileira detalhado equivalente à dolarização ou ao déficit-zero argentino.",
+      "Equipe econômica não oficializada: cita-se 'consultar' Paulo Guedes e outros nomes, sem confirmação formal de gestão.",
+      "Ausência total de dimensão distributiva (desigualdade/Gini) no discurso econômico."
+    ],
+    "analise": "O plano econômico de Flávio Bolsonaro segue a lógica de um pacote de diretrizes de espectro liberal-fiscal — corte de ministérios, revisão da reforma tributária, nova regra fiscal vinculada à dívida, redução de subsídios — mas carece sistematicamente da estrutura SE/PORQUE/ENTÃO/MEDIÇÃO que o método de PO exige. As poucas metas com número associado ('pelo menos 10 ministérios', 'suspender por 1 ano') não vêm acompanhadas de estimativa de impacto fiscal, cronograma de implementação ou indicador de acompanhamento. Do ponto de vista de execução, o maior problema identificado nas fontes não é técnico, mas político: a campanha chega a agosto de 2026 isolada do Centrão — União Brasil, PP, Republicanos e Podemos recusaram aliança formal —, com chapa formada apenas dentro do PL (vice Rogério Marinho, também do PL). Como as propostas centrais exigem maioria qualificada no Congresso, a ausência de base aliada é uma limitação estrutural de implementabilidade. Há também uma tensão interna não resolvida entre o discurso de austeridade ('tesouraço') e a ampliação simultânea de programas sociais sem financiamento explícito, padrão já apontado por cobertura jornalística como contradição do próprio documento — exatamente o tipo de falha que a metodologia OKR foi desenhada para expor.",
+    "fontes": [
+      {
+        "titulo": "Leia a íntegra do plano de governo de Flávio Bolsonaro",
+        "url": "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Plano de governo de Flávio mira reforma no STF e 'tesouraço' na economia",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/plano-de-governo-de-flavio-mira-reforma-no-stf-e-tesouraco-na-economia/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Flávio promete 'tesouraço' e menos impostos, mas plano amplia programas sem detalhar custos",
+        "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/14/flavio-promete-tesouraco-e-menos-impostos-mas-plano-amplia-programas-sem-detalhar-custos",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "'Vamos suspender por um ano a entrada em vigor da reforma tributária', diz Flávio Bolsonaro",
+        "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/vamos-suspender-por-um-ano-a-entrada-em-vigor-da-reforma-tributaria-diz-flavio-bolsonaro/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "No Senado, Flávio Bolsonaro apoiou cortes de impostos, mas deixou rigor fiscal de lado",
+        "url": "https://www.jota.info/eleicoes/eleicoes-2026/no-senado-flavio-bolsonaro-apoiou-cortes-de-impostos-mas-deixou-rigor-fiscal-de-lado",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Isolado, Flávio Bolsonaro anuncia vice no último dia de prazo para convenções",
+        "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-anuncio-vice/",
+        "dataAcesso": "2026-08-17"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-17"
+  },
+  {
+    "candidatoId": "renan-santos",
+    "setorId": "economia",
+    "scores": {
+      "rigorPO": 5,
+      "implementabilidade": 2,
+      "clarezaMetrica": 6,
+      "viabilidadePolitica": 2
+    },
+    "northStar": "Parcialmente explícito: o plano organiza a agenda em torno de produtividade + equilíbrio fiscal — 'o principal obstáculo ao crescimento não é a falta de recursos, mas baixa produtividade, desequilíbrio das contas públicas, excesso de assistencialismo, infraestrutura deficiente e instituições que desestimulam investimento' — priorizando isso explicitamente sobre redistribuição de renda. Não há meta numérica de crescimento do PIB per capita nem menção ao Índice de Gini como variável de acompanhamento.",
+    "okrs": [
+      "Reequilibrar as contas públicas via ajuste fiscal estrutural: aprovar a 'PEC do Equilíbrio Fiscal' (baseada em proposta do deputado Kim Kataguiri) já na transição de governo, gerando R$ 212 bi/ano em economia recorrente (desindexação de benefícios previdenciários/BPC do salário mínimo, desvinculação dos pisos de saúde/educação da receita, revisão do abono salarial, redução de renúncias fiscais), acumulando R$ 1,1 trilhão em economia fiscal até 2031.",
+      "Desonerar e flexibilizar radicalmente o mercado de trabalho: extinguir a Justiça do Trabalho (orçamento anual de cerca de R$ 24 bi), redirecionando o valor para redução de encargos sobre folha de pagamento, e substituir a CLT por marco de negociação direta empregador-empregado — sem meta numérica declarada para informalidade ou geração de empregos.",
+      "Reduzir assistencialismo e redirecionar para trabalho/produtividade: substituir o Bolsa Família por 'frentes de trabalho remuneradas', sem meta de cobertura ou valor declarada.",
+      "Posicionar o Brasil como polo de inovação financeira e industrial nacionalista: criar reserva soberana de bitcoin e tornar o Rio de Janeiro 'cripto-friendly'; desenvolver processamento de terras-raras; privatizar estatais deficitárias mantendo a Petrobras estatal — nenhum desses itens com meta percentual ou prazo declarado."
+    ],
+    "hipoteses": [
+      {
+        "se": "aprovar a PEC do Equilíbrio Fiscal desindexando benefícios previdenciários/BPC do salário mínimo, desvinculando pisos de saúde/educação da receita e reduzindo renúncias fiscais",
+        "porque": "técnicos da Câmara calcularam essas 4 medidas em R$ 212 bilhões/ano de economia recorrente, base da PEC do deputado Kim Kataguiri adotada pelo plano",
+        "entao": "a economia acumulada chegaria a R$ 1,1 trilhão até 2031, mas o candidato não declara uma meta explícita de dívida bruta/PIB associada a esse resultado (hoje em 80,4% do PIB, com a IFI do Senado projetando cerca de 100% do PIB em 2030 sem reformas)",
+        "medicao": "dívida bruta do governo geral/PIB, Banco Central, divulgação mensal; resultado primário, Tesouro Nacional, mensal"
+      },
+      {
+        "se": "extinguir a Justiça do Trabalho e substituir a CLT por negociação direta patrão-empregado, redirecionando o orçamento anual (cerca de R$ 24 bi) para reduzir encargos sobre a folha",
+        "porque": "o plano argumenta que litígios resolvidos por arbitragem/acordo direto custam menos e que a redução de encargos estimula formalização e contratação",
+        "entao": "não há percentual esperado de redução de informalidade, prazo ou estimativa de geração de empregos — o mecanismo causal é declarado qualitativamente, sem número-alvo",
+        "medicao": "não declarada; medição possível: taxa de informalidade, PNAD Contínua/IBGE, trimestral; saldo de empregos formais, CAGED, mensal"
+      },
+      {
+        "se": "criar uma reserva soberana de bitcoin e desonerar/desregular o setor cripto, tornando o Rio de Janeiro 'cripto-friendly'",
+        "porque": "o candidato cita a experiência de El Salvador como referência de viabilidade macroeconômica de bitcoin como reserva soberana",
+        "entao": "não há percentual das reservas internacionais a alocar, prazo de implementação, nem meta de atração de investimento declarada",
+        "medicao": "não declarada; medição possível: composição das reservas internacionais, Banco Central, mensal"
+      }
+    ],
+    "lacunas": [
+      "North Star de desigualdade ausente: o plano prioriza explicitamente produtividade sobre redistribuição, deixando o componente de Gini do North Star do setor sem tratamento declarado.",
+      "Existe economia fiscal quantificada (R$ 212 bi/ano; R$ 1,1 tri até 2031), mas nenhuma meta final de dívida bruta/PIB ou de resultado fiscal é declarada explicitamente — a ligação com estabilização da dívida é uma inferência lógica, não uma promessa do candidato.",
+      "Reforma trabalhista: mecanismo causal (fim da Justiça do Trabalho → mais formalização) é qualitativo, sem número ou prazo.",
+      "Reserva de bitcoin, Rio 'cripto-friendly', terras-raras e polo industrial no Nordeste: proposições sem qualquer quantificação de % do PIB, prazo, meta de produção/exportação ou investimento.",
+      "'Desfavelização' em 10 anos tem prazo, mas não tem orçamento, fonte de financiamento nem meta numérica de unidades habitacionais ou famílias atendidas.",
+      "Tensão de coerência interna não resolvida: o programa combina liberalismo fiscal ortodoxo (ajuste, desregulamentação) com nacionalismo industrial (Petrobras estatal, terras-raras, polo industrial no Nordeste), sem hierarquia declarada de prioridades em caso de conflito orçamentário."
+    ],
+    "analise": "O programa econômico de Renan Santos é um dos que mais anexa números concretos a pelo menos uma parte central da proposta: a PEC do Equilíbrio Fiscal tem origem identificável (proposta do deputado Kim Kataguiri), valor calculado por terceiros técnicos (R$ 212 bi/ano, R$ 1,1 tri até 2031) e mecanismo específico (desindexação, desvinculação de pisos, revisão de renúncias) — um ponto forte de rigor de produto frente a propostas puramente qualitativas. Ao mesmo tempo, o restante da plataforma — reforma trabalhista, reserva de bitcoin, política industrial de terras-raras — permanece em nível de diagnóstico e intenção, sem OKRs mensuráveis equivalentes, revelando aplicação desigual de rigor dentro do próprio plano. Do ponto de vista de execução, o maior ponto fraco não é a qualidade das propostas em si, mas a capacidade de aprová-las: o partido Missão é uma legenda nova, sem bancada própria consolidada no Congresso, lançando cerca de 450 candidaturas a deputado federal/estadual como aposta eleitoral, não como base já constituída — e reportagens indicam que o candidato rejeita alianças, reduzindo ainda mais a formação de coalizão prévia. Isso pesa diretamente contra a aprovação de mudanças constitucionais (PEC exige 3/5 em dois turnos em ambas as Casas) e reformas disruptivas como extinguir um ramo do Judiciário ou substituir um programa social consolidado. Em pesquisa eleitoral de metodologia não-probabilística (Palver, 3-7/ago/2026), o candidato aparecia com 10% das intenções de voto, atrás de Lula (44%) e Flávio Bolsonaro (40%) em cenário de primeiro turno — o que, somado à ausência de bancada, sugere risco de implementação real mesmo com propostas fiscais tecnicamente bem estruturadas.",
+    "fontes": [
+      {
+        "titulo": "O que Renan Santos promete para a economia em seu plano de governo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-renan-santos-missao/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Renan promete PEC da Transição com ajuste fiscal de R$ 1,1 tri até 2031",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/renan-promete-pec-da-transicao-com-ajuste-fiscal-de-r-11-tri-ate-2031/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "'Livro Amarelo': a doutrina que Renan Santos diz ser a base do projeto do Missão",
+        "url": "https://www.infomoney.com.br/politica/livro-amarelo-a-doutrina-que-renan-santos-diz-ser-a-base-do-projeto-do-missao/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Renan Santos propõe criar reserva de bitcoin e tornar Rio 'cripto friendly'",
+        "url": "https://www.infomoney.com.br/politica/renan-santos-propoe-criar-reserva-de-bitcoin-e-tornar-rio-cripto-friendly/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Plano de Renan tem 'desfavelização', superpresídios e fim de cotas",
+        "url": "https://www.congressoemfoco.com.br/noticia/121275/plano-de-renan-tem-desfavelizacao--superpresidios-e-fim-de-cotas",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Pesquisa eleitoral 2026: Renan Santos aparece com 10% e desafia polarização",
+        "url": "https://www.em.com.br/nacional/2026/08/7477266-pesquisa-eleitoral-2026-renan-santos-aparece-com-10-e-desafia-polarizacao.html",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Renan Santos rejeita alianças e projeta palanques em todos os estados",
+        "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/renan-santos-rejeita-aliancas-e-projeta-palanques-em-todos-os-estados/",
+        "dataAcesso": "2026-08-17"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-17"
+  },
+  {
+    "candidatoId": "marcal",
+    "setorId": "economia",
+    "scores": {
+      "rigorPO": 1,
+      "implementabilidade": 1,
+      "clarezaMetrica": 3,
+      "viabilidadePolitica": 2
+    },
+    "northStar": "Lacuna: não há North Star Metric declarada. Infere-se implicitamente do conjunto das propostas (2022 e 2024) um norte qualitativo de 'geração massiva de emprego e renda via desburocratização radical e cultura empreendedora, com o Estado reduzindo seu tamanho/custeio e monetizando ativos públicos' — sem métrica agregada, trajetória ou prazo.",
+    "okrs": [
+      "Massificar a formalização e abertura de empresas: abrir 10 milhões de empresas via um 'Ministério da Empresarização' (meta do plano de 2022, com prazo 'até 2026' já vencido no calendário atual e sem republicação confirmada para o ciclo eleitoral corrente).",
+      "Simplificar radicalmente a carga tributária federal: substituir 11 tributos federais por um 'imposto inteligente único' (RAP – Retorno sobre a Administração Pública), sem estudo de alíquota, base de cálculo ou impacto de arrecadação divulgado.",
+      "Reduzir o endividamento de famílias e empresas negativadas: renegociar dívidas de cerca de 70 milhões de pessoas físicas negativadas (SPC) e mais de 30% das empresas negativadas (Serasa), sem mecanismo de renegociação detalhado.",
+      "Monetizar ativos públicos para equilibrar o caixa do Estado: privatizar empresas/participações públicas, proposta articulada no nível municipal em 2024 e extrapolada aqui como filosofia geral, sem avaliação de ativos ou cronograma de desinvestimento em nível federal."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo substituir 11 tributos federais por um 'imposto inteligente único' (RAP)",
+        "porque": "não especificado pelo candidato — nenhum estudo, simulação de alíquota, base de cálculo ou impacto na arrecadação foi divulgado",
+        "entao": "haveria redução de burocracia e sonegação e aumento de 'justiça social e empregabilidade', sem meta numérica nem prazo definidos",
+        "medicao": "não especificada; poderia ser aferida via arrecadação federal, Receita Federal, mas nenhuma fonte ou periodicidade é indicada pelo candidato"
+      },
+      {
+        "se": "for criado um 'Ministério da Empresarização' para fomentar abertura de empresas em todos os setores",
+        "porque": "não especificado — não há dado ou estudo ligando o mecanismo institucional ao resultado prometido",
+        "entao": "seriam abertas 10 milhões de empresas, gerando cerca de 50 milhões de empregos até 2026 — números e prazo do plano de 2022, cujo horizonte já se esgota neste mesmo ano eleitoral sem atualização encontrada",
+        "medicao": "não especificada pelo candidato; poderia usar CNPJ/Receita Federal e Novo Caged/Ministério do Trabalho"
+      },
+      {
+        "se": "forem vendidas participações e empresas públicas ('vender por alguns bilhões e colocar no caixa')",
+        "porque": "não especificado — sem avaliação de ativos, cronograma de desinvestimento ou análise de impacto fiscal",
+        "entao": "haveria geração imediata de caixa para o ente público, sem detalhamento de uso do recurso nem de efeito sobre a trajetória da dívida/PIB",
+        "medicao": "não especificada; poderia usar dados da Dívida Bruta do Governo Geral, Tesouro Nacional, mas não é mencionada pelo candidato"
+      }
+    ],
+    "lacunas": [
+      "Não há confirmação de plano de governo 2026 protocolado no TSE: um candidato rival (Novo) moveu ação no TSE em 16/ago/2026 pedindo anulação do registro de Marçal alegando ausência de propostas de governo entre os documentos apresentados — a análise aqui se baseia no plano presidencial de 2022 ('40 anos em 4') e em propostas da campanha municipal de SP em 2024, por falta de documento mais recente.",
+      "Números reciclados e desatualizados: as metas mais concretas (10 milhões de empresas, 50 milhões de empregos) vêm do ciclo de 2022, com prazo 'até 2026' que se esgota agora, sem republicação visível.",
+      "Nenhum mecanismo causal (PORQUE) documentado em qualquer proposta localizada — nenhuma vem acompanhada de estudo, simulação fiscal ou evidência empírica.",
+      "Nenhuma fonte de medição indicada em nenhuma proposta — sem menção a IBGE, Tesouro Nacional, Banco Central ou qualquer órgão de referência.",
+      "Termos vagos recorrentes: 'melhor salário mínimo da América do Sul' sem valor numérico; 'justiça social e empregabilidade' sem indicador; 'modernização' sem cronograma ou orçamento.",
+      "Nenhuma menção a dívida/PIB, Gini ou renda real per capita nas fontes localizadas."
+    ],
+    "analise": "Do ponto de vista estritamente de rigor de produto, o posicionamento econômico de Pablo Marçal disponível publicamente é anterior ao ciclo eleitoral atual e não foi, até a data da pesquisa, substituído por um documento novo e específico para 2026 — agravado pelo fato de que a própria existência de um plano de governo protocolado está sendo contestada judicialmente por um candidato rival. As propostas mais citadas (Ministério da Empresarização, imposto único 'RAP', renegociação de dívidas de negativados) originam-se do plano presidencial de 2022 e carregam ao menos alguns números e um prazo (10 milhões de empresas, 50 milhões de empregos, substituição de 11 tributos), o que as diferencia de um discurso puramente qualitativo — mas nenhuma vem acompanhada de evidência causal, custo estimado ou fonte de verificação, e o prazo original já expirou sem atualização visível. No nível municipal (candidatura a prefeito de SP em 2024), o padrão se repete: propostas de privatização e corte de gastos são anunciadas em termos de resultado desejado, sem cronograma de desinvestimento, avaliação de ativos ou modelagem de impacto fiscal. Em suma: há um núcleo de ideias econômicas reconhecível e consistente ao longo do tempo (desburocratização tributária, incentivo à abertura de empresas, redução do tamanho do Estado, privatização de ativos), mas falta a estrutura de OKR/hipótese testável que a metodologia do produto busca — não há North Star explícito, os números existentes são datados e não conectados a indicadores agregados, e o próprio cumprimento do requisito legal de apresentar plano de governo está, neste momento, em disputa judicial. Esta análise trata exclusivamente do conteúdo econômico das propostas; a situação jurídica de inelegibilidade do candidato é tratada separadamente no card, conforme a metodologia do produto.",
+    "fontes": [
+      {
+        "titulo": "Inelegível, Pablo Marçal registra candidatura a presidente pelo PRTB",
+        "url": "https://www.poder360.com.br/poder-eleicoes/inelegivel-pablo-marcal-registra-candidatura-a-presidente-pelo-prtb/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Novo aciona Justiça para barrar candidatura de Marçal à Presidência",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/novo-aciona-justica-para-barrar-candidatura-de-marcal-a-presidencia/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Marçal registra candidatura à Presidência no TSE e declara patrimônio R$ 7,4 bilhões",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/marcal-registra-candidatura-a-presidencia-no-tse-e-declara-patrimonio-r-74-bilhoes/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Com 'empresídios', Pablo Marçal divulga plano de governo",
+        "url": "https://www.poder360.com.br/eleicoes/com-empresidios-pablo-marcal-divulga-plano-de-governo/",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Em sabatina, Pablo Marçal propõe privatizações, GCMs 'até o limite da lei' e vias expressas",
+        "url": "https://www.dgabc.com.br/Noticia/4156406/em-sabatina-pablo-marcal-propoe-privatizacoes-gcms-ate-o-limite-da-lei-e-vias-expressas",
+        "dataAcesso": "2026-08-17"
+      },
+      {
+        "titulo": "Veja quais são as propostas de Pablo Marçal para a economia",
+        "url": "https://www.moneytimes.com.br/veja-quais-sao-as-propostas-de-pablo-marcal-para-a-economia/",
+        "dataAcesso": "2026-08-17"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-17"
+  }
+]

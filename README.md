@@ -4,11 +4,26 @@ Ferramenta web que aplica metodologia de **Product Ownership** (North Star Metri
 
 ## Status
 
-📋 Discovery concluído — ver [`docs/DISCOVERY.md`](docs/DISCOVERY.md) para o mapeamento completo de problema, usuários, framework de avaliação, escopo do MVP, arquitetura, modelo de dados, fontes e decisões em aberto.
+🚧 MVP em desenvolvimento — setor Economia, 6 candidatos, com research e scoring reais publicados. Ver [`docs/DISCOVERY.md`](docs/DISCOVERY.md) para o mapeamento completo de problema, usuários, framework de avaliação, escopo do MVP, arquitetura, modelo de dados, fontes e decisões em aberto.
 
-## Stack (planejada)
+## Stack
 
-React 18 + Vite + Recharts, deploy contínuo via GitHub Actions → Vercel. Dados do MVP em JSON estático versionado no Git.
+React 19 + Vite + TypeScript + React Router + Recharts. Dados do MVP em JSON estático versionado no Git (`src/data/`). CI via GitHub Actions (lint + build), deploy contínuo na Vercel.
+
+## Rodando localmente
+
+```bash
+npm install
+npm run dev      # servidor de desenvolvimento
+npm run lint      # oxlint
+npm run build     # build de produção (tsc + vite build)
+```
+
+## Estrutura de dados
+
+- `src/data/candidatos.json` — dados factuais dos 6 candidatos (partido, vice, status de candidatura)
+- `src/data/setores.json` — setores avaliados (Economia no MVP) e a definição de North Star de cada um
+- `src/data/propostas-economia.json` — o research real por candidato: scores, North Star, OKRs, hipóteses SE/PORQUE/ENTÃO/MEDIÇÃO, lacunas, análise e fontes
 
 ## Princípios
 
