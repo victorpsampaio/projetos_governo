@@ -1,0 +1,4 @@
+# Arquivo exigido pelo Google AdSense para verificação do publisher.
+# Troque "pub-0000000000000000" pelo Publisher ID real depois da aprovação
+# da conta em https://www.google.com/adsense.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

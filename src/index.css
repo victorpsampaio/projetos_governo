@@ -909,6 +909,145 @@ h3 {
   text-align: center;
 }
 
+/* ---------- Anúncio ---------- */
+
+.ad-slot {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.ad-slot-rotulo {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-soft);
+  margin-bottom: 0.6rem;
+}
+
+/* ---------- Banner de cookies ---------- */
+
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 50;
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--text);
+  color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 1.1rem 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.consent-banner p {
+  flex: 1;
+  min-width: 220px;
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.consent-banner a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.consent-banner-acoes {
+  display: flex;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.consent-banner-acoes button {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.consent-recusar {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.consent-aceitar {
+  background: var(--brand);
+  color: #fff;
+}
+
+/* ---------- Apoie o projeto ---------- */
+
+.apoio-projeto {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1.75rem 2rem;
+  margin: 2.5rem 0;
+}
+
+.apoio-projeto h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+}
+
+.apoio-projeto p {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 60ch;
+  margin: 0 0 1.25rem;
+}
+
+.apoio-projeto-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.apoio-projeto-acoes button,
+.apoio-projeto-acoes a {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.92rem;
+  border-radius: 999px;
+  padding: 0.6rem 1.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.apoio-projeto-acoes button {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+}
+
+.apoio-projeto-acoes a {
+  background: var(--brand-soft);
+  color: var(--brand);
+}
+
+.apoio-projeto-acoes button:hover,
+.apoio-projeto-acoes a:hover {
+  transform: translateY(-2px);
+}
+
 @media (max-width: 480px) {
   .hipotese strong {
     width: 100%;
@@ -922,5 +1061,13 @@ h3 {
   }
   .secao-neutralidade {
     padding: 1.25rem 1.4rem;
+  }
+  .consent-banner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .consent-banner-acoes {
+    justify-content: center;
   }
 }

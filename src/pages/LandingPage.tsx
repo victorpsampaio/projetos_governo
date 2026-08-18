@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ApoioProjeto from "../components/ApoioProjeto";
 import { DIMENSOES_SCORE } from "../types";
 
 const CONCEITOS = [
@@ -83,6 +84,15 @@ export default function LandingPage() {
         </div>
       </section>
 
+      <section className="secao-problema">
+        <h2>Quem faz isso</h2>
+        <p>
+          Este site é feito por mim, Victor Sampaio, Product Owner — e os
+          scores são neutros, mas eu não sou.{" "}
+          <Link to="/sobre">Conheça quem está por trás do projeto →</Link>
+        </p>
+      </section>
+
       <section className="secao-neutralidade">
         <h2>O que este site não é</h2>
         <p>
@@ -94,6 +104,8 @@ export default function LandingPage() {
           espectro político.
         </p>
       </section>
+
+      <ApoioProjeto />
 
       <footer className="cta-final">
         <Link to="/economia" className="cta-grande">
