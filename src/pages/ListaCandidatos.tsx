@@ -14,6 +14,7 @@ import {
   mediaScore,
   setores,
 } from "../lib/dados";
+import { useSeo } from "../lib/seo";
 import { DIMENSOES_SCORE, type Scores } from "../types";
 
 interface ListaCandidatosProps {
@@ -36,6 +37,12 @@ export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
     () => getPropostasPorSetor(setorId),
     [setorId],
   );
+
+  useSeo({
+    title: `Candidatos 2026 — ${setor?.nome ?? setorId}`,
+    description: `Propostas de ${setor?.nome.toLowerCase() ?? setorId} dos 7 candidatos à Presidência do Brasil em 2026, avaliadas com metodologia de Product Ownership: North Star, OKRs, hipóteses testáveis e 4 scores neutros.`,
+    path: `/${setorId}`,
+  });
 
   const candidatosOrdenados = useMemo(() => {
     return [...candidatos].sort((a, b) => {

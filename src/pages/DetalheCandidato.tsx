@@ -5,6 +5,7 @@ import ScoreFingerprint from "../components/ScoreFingerprint";
 import Selo from "../components/Selo";
 import ApoioProjeto from "../components/ApoioProjeto";
 import { getCandidato, getProposta, getSetor } from "../lib/dados";
+import { useSeo } from "../lib/seo";
 import { DIMENSOES_SCORE } from "../types";
 
 export default function DetalheCandidato() {
@@ -17,6 +18,17 @@ export default function DetalheCandidato() {
     candidatoId && setorId ? getProposta(candidatoId, setorId) : undefined;
   const setor = setorId ? getSetor(setorId) : undefined;
   const linkLista = setorId ? `/${setorId}` : "/economia";
+
+  useSeo({
+    title: candidato
+      ? `${candidato.nome} — ${setor?.nome ?? setorId}`
+      : "Candidato não encontrado",
+    description: candidato
+      ? `Análise das propostas de ${setor?.nome.toLowerCase() ?? setorId} de ${candidato.nome} (${candidato.partido}): North Star, OKRs, hipóteses testáveis e 4 scores neutros de Product Ownership.`
+      : "Candidato não encontrado.",
+    path: `/candidato/${setorId}/${candidatoId}`,
+    image: candidato?.foto?.url,
+  });
 
   if (!candidato) {
     return (

@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import { NOME_BENEFICIARIO } from "../lib/apoio";
+import { useSeo } from "../lib/seo";
 
 export default function Privacidade() {
+  useSeo({
+    title: "Privacidade e cookies",
+    description:
+      "Como este site usa cookies de anúncio (Google AdSense) e por que os anúncios existem — sem afetar o acesso às análises, scores ou fontes.",
+    path: "/privacidade",
+  });
+
   return (
     <div className="pagina-landing">
       <Link to="/" className="link-voltar">

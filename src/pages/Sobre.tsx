@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import ApoioProjeto from "../components/ApoioProjeto";
+import { useSeo } from "../lib/seo";
 
 export default function Sobre() {
+  useSeo({
+    title: "Sobre",
+    description:
+      "Victor Sampaio, Product Owner, explica por que criou este site, como os 4 scores neutros funcionam e onde entra sua opinião pessoal declarada.",
+    path: "/sobre",
+  });
+
   return (
     <div className="pagina-landing">
       <Link to="/" className="link-voltar">

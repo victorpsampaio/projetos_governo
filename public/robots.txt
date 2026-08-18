@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://projetosgoverno.vercel.app/sitemap.xml

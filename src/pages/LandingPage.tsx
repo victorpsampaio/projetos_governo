@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ApoioProjeto from "../components/ApoioProjeto";
+import { useSeo } from "../lib/seo";
 import { DIMENSOES_SCORE } from "../types";
 
 const CONCEITOS = [
@@ -31,6 +32,13 @@ const CONCEITOS = [
 ];
 
 export default function LandingPage() {
+  useSeo({
+    title: "Auditoria de propostas de governo com Product Ownership",
+    description:
+      "Compare as propostas de governo dos 7 candidatos à Presidência do Brasil em 2026 com o rigor de Product Ownership: North Star, OKRs, hipóteses testáveis e 4 scores neutros.",
+    path: "/",
+  });
+
   return (
     <div className="pagina-landing">
       <header className="hero-landing">
