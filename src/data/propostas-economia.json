@@ -508,71 +508,65 @@
     "candidatoId": "samara-martins",
     "setorId": "economia",
     "scores": {
-      "rigorPO": 2,
+      "rigorPO": 4,
       "implementabilidade": 1,
-      "clarezaMetrica": 2,
+      "clarezaMetrica": 6,
       "viabilidadePolitica": 1
     },
-    "northStar": "Lacuna: a candidata não articula uma métrica-norte mensurável de resultado (renda, desigualdade, estabilidade fiscal). O discurso é orientado a um objetivo estrutural/de regime — construir uma sociedade socialista via controle estatal/popular dos meios de produção, do sistema financeiro e da terra — não a uma meta de resultado com horizonte temporal e indicador de acompanhamento.",
+    "northStar": "Lacuna parcial: o novo Programa de Governo da UP (2026) é explícito ao definir seu objetivo como 'planificação democrática e popular da economia' e superação do capitalismo — mas isso é um objetivo de mudança de regime econômico, não uma métrica de resultado mensurável com horizonte temporal (não há meta numérica de renda, desigualdade ou estabilidade fiscal a ser atingida e monitorada).",
     "okrs": [
-      "Reduzir o peso da dívida pública sobre o orçamento: suspender pagamento de juros/amortizações e realizar auditoria pública da dívida, liberando cerca de R$ 2 trilhões (1/3 do PIB) para investimento social, sem prazo definido.",
-      "Elevar a renda do trabalho sem perda proporcional de tempo livre: reajuste de 100% do salário mínimo e redução da jornada semanal (fontes divergem entre 30h e 36h) mantendo o nível salarial.",
-      "Reverter privatizações em setores estratégicos: reestatizar empresas privatizadas, encerrar leilões do petróleo e rever concessões de portos/aeroportos/estradas, sem cronograma nem estimativa de custo.",
-      "Tornar a tributação progressiva: criar/ampliar imposto sobre grandes fortunas, tornar o IR progressivo com faixa de isenção ampliada e rever o ICMS, sem alíquotas nem impacto de arrecadação estimados."
+      "Elevar a renda mínima real dos trabalhadores: aumento imediato de 100% do salário mínimo (referência ao valor calculado pelo DIEESE, R$ 7.892,55 em maio/2026, ante os R$ 1.621,00 atuais), sem prazo definido para atingir o valor integral do DIEESE.",
+      "Reduzir a jornada de trabalho sem perda salarial: fim da escala 6x1 e implementação da escala 4x3 (30 horas semanais) sem redução de salário, com a luta declarada por 36 horas como patamar seguinte.",
+      "Romper com o sistema de financiamento da dívida pública: suspensão imediata do pagamento de juros e amortizações da dívida, seguida de auditoria cidadã, liberando cerca de R$ 2 trilhões (1/3 do PIB) para investimento social; nacionalização do sistema bancário sob controle estatal e dos trabalhadores.",
+      "Tornar a tributação progressiva: isenção total de Imposto de Renda para trabalhadores, criação de imposto progressivo sobre grandes fortunas, lucros, dividendos e heranças, e revisão do ICMS/IVA com isenção para itens de higiene pessoal, medicamentos e vestuário."
     ],
     "hipoteses": [
       {
-        "se": "o governo suspender o pagamento de juros/amortizações da dívida pública e realizar auditoria da dívida",
-        "porque": "segundo a campanha (citando a Auditoria Cidadã da Dívida), o gasto com a dívida 'quase dobrou de 2019 a 2021' sem contrapartida social",
-        "entao": "seriam liberados cerca de R$ 2 trilhões (1/3 do PIB) para investimento social — sem meta numérica de dívida/PIB resultante nem tratamento do risco de reação de credores/câmbio",
-        "medicao": "não especificada pela candidata — nenhuma fonte ou frequência de acompanhamento definida no documento"
+        "se": "o governo suspender imediatamente o pagamento de juros e amortizações da dívida pública e realizar uma auditoria cidadã da dívida",
+        "porque": "segundo dados do Banco Central citados no documento, bancos e fundos de investimento (nacionais e estrangeiros) detêm 76,2% dos títulos da dívida interna, e a cada 1 ponto percentual de alta na Selic (hoje 14% ao ano) o gasto com a dívida pública cresce R$ 55 bilhões",
+        "entao": "seriam liberados cerca de R$ 2 trilhões (1/3 do PIB) para investimento social — mas o documento não declara meta numérica de dívida/PIB resultante, cronograma de execução, nem como seria tratado o risco de reação de credores e mercado cambial",
+        "medicao": "não especificada pela candidata; métrica externa disponível: Dívida Bruta do Governo Geral/PIB, Banco Central, divulgação mensal"
       },
       {
-        "se": "forem reestatizadas empresas privatizadas e criados monopólios públicos em energia, telecomunicações e combustíveis",
-        "porque": "a privatização, segundo a candidata, causou 'desindustrialização e reprimarização' da economia",
-        "entao": "haveria maior soberania produtiva — sem indicador nem prazo declarados",
-        "medicao": "não especificada"
+        "se": "o salário mínimo for elevado em 100% rumo ao valor calculado pelo DIEESE (R$ 7.892,55 em maio/2026)",
+        "porque": "segundo o DIEESE, citado no documento, esse é o valor necessário para uma família de quatro pessoas viver com dignidade — cerca de 4,8 vezes o salário mínimo atual (R$ 1.621,00)",
+        "entao": "seria garantida a subsistência básica da classe trabalhadora — mas não há prazo definido para atingir o valor integral do DIEESE nem estimativa do impacto inflacionário ou fiscal da medida",
+        "medicao": "não especificada pela candidata; métrica externa disponível: salário mínimo necessário, DIEESE, divulgação mensal; IPCA, IBGE, mensal"
       },
       {
-        "se": "o salário mínimo for reajustado em 100% e a jornada reduzida para 30-36h semanais sem corte salarial",
-        "porque": "isso elevaria o poder de compra da população mais pobre, segundo a candidata",
-        "entao": "haveria redução da pobreza — sem estimativa de efeito inflacionário ou fiscal, sem indicador declarado",
-        "medicao": "não especificada"
+        "se": "for implementado o fim da escala 6x1 com jornada de 30 horas semanais (escala 4x3) sem redução salarial",
+        "porque": "o documento argumenta que o avanço tecnológico tornaria possível reduzir o tempo de trabalho sem perda de produção, e que a criação de múltiplos turnos geraria novos postos formais",
+        "entao": "haveria mais tempo para descanso, família, estudo e lazer, e mais empregos formais — mas não há estimativa do efeito sobre o custo da folha de pagamento das empresas, produtividade ou emprego líquido",
+        "medicao": "não especificada pela candidata; métrica externa disponível: PNAD Contínua/IBGE, taxa de ocupação e rendimento médio, divulgação trimestral"
       }
     ],
     "lacunas": [
-      "O plano de governo protocolado no TSE em 06/ago/2026 é, por falha administrativa da campanha, a versão de 2022 (da chapa Leonardo Péricles/Samara Martins como vice) — o texto se refere a 'a candidatura Leonardo Péricles e Samara Martins' e a 'o Brasil de 2022'. A campanha alegou ter pedido correção ao TSE.",
-      "Nenhum prazo é definido para qualquer proposta (curto/médio/longo prazo).",
-      "Nenhuma estimativa de custo fiscal ou fonte de financiamento detalhada, exceto o valor de R$ 2 tri liberado pela suspensão da dívida — sem tratamento de riscos (câmbio, custo de capital, reação de credores).",
-      "Nenhum indicador ou fonte de medição é citado para as metas (sem menção a IBGE, Tesouro Nacional, Banco Central ou INEP como fontes de acompanhamento).",
-      "Inconsistência numérica entre o documento-base (jornada de 30h semanais) e a cobertura de imprensa de 2026 (36h semanais).",
-      "O plano é extremamente conciso frente aos concorrentes: a versão condensada de 2026 tem 16 propostas em menos de 1,5 página, contra 84 páginas de Lula, 81 de Zema e 51 de Renan Santos.",
-      "Nenhuma menção a estratégia de base parlamentar/coalizão para viabilizar medidas que exigiriam emenda constitucional (suspensão de dívida, nacionalização bancária, reforma agrária ampla)."
+      "Nenhuma das propostas de maior impacto (suspensão do pagamento da dívida, nacionalização do sistema bancário) vem acompanhada de prazo dentro do mandato ou cronograma de transição institucional.",
+      "Nenhuma estimativa de impacto fiscal ou inflacionário do aumento de 100% do salário mínimo, nem tratamento do risco cambial/reação de credores frente à suspensão do pagamento da dívida.",
+      "Apesar de os números-base virem de fontes reais (DIEESE, Banco Central, IBGE), nenhuma proposta é amarrada a um indicador formal de acompanhamento pós-implementação (não há menção a qual índice, órgão ou frequência seria usado para medir sucesso).",
+      "North Star ausente: o documento declara um objetivo de mudança de regime econômico ('planificação democrática e popular da economia'), não uma meta de resultado mensurável e datada.",
+      "Nenhuma menção a estratégia de base parlamentar/coalizão para viabilizar medidas que provavelmente exigiriam ruptura constitucional (suspensão do pagamento da dívida, nacionalização bancária).",
+      "Histórico de instabilidade documental: o plano de governo protocolado no TSE em 06/ago/2026 era, por falha administrativa da campanha, a versão de 2022 (chapa Leonardo Péricles/Samara Martins como vice); depois disso, uma versão condensada de cerca de 1,5 página circulou na imprensa; este documento de ~66 páginas, mais recente e substancialmente mais detalhado, foi divulgado publicamente pela campanha em 2026, mas não confirmei se já foi reprotocolado formalmente no TSE substituindo a versão anterior."
     ],
-    "analise": "O programa econômico de Samara Martins (UP) é de ruptura estrutural, identificado com a tradição socialista: nacionalização de setores estratégicos (bancos, energia, telecomunicações, combustíveis), suspensão do pagamento da dívida pública com auditoria, reforma agrária com nacionalização da terra, redução de jornada com elevação salarial e tributação progressiva sobre grandes fortunas. O eixo lógico declarado é transferir o controle sobre meios de produção e sistema financeiro do capital privado para o Estado/controle popular. Do ponto de vista de rigor de produto, o documento tem amplitude temática notável e ao menos algumas propostas trazem números verificáveis (R$ 2 tri/⅓ do PIB liberado pela suspensão da dívida; meta de 10% do PIB para educação; merenda escolar de R$ 0,30 para R$ 3,00 por aluno; R$ 10,2 bi adicionais ao FUNDEB) — acima da média de promessas puramente qualitativas observadas em programas de partidos pequenos. Ainda assim, praticamente nenhuma proposta tem prazo, mecanismo de transição, fonte de financiamento detalhada ou indicador de acompanhamento, o que impede reconstruir hipóteses SE/PORQUE/ENTÃO/MEDIÇÃO sem inferência substancial do pesquisador. Do ponto de vista de execução, mesmo em cenário de vitória eleitoral, as medidas de maior impacto (suspensão do pagamento da dívida, nacionalização de bancos e empresas, fim de leilões do petróleo) exigiriam alterações constitucionais/legais profundas e capacidade de resistir a reações de mercado (risco cambial, custo de crédito, fuga de capital) não endereçadas no texto. A ausência de bancada relevante da UP no Congresso e de qualquer aliança formal com partidos maiores reduz de forma objetiva e institucional — não ideológica — a probabilidade de aprovação dessas medidas, pelo mesmo critério aplicado aos demais candidatos de partidos pequenos (Novo, Missão).",
+    "analise": "O novo Programa de Governo da Unidade Popular (documento de cerca de 66 páginas de conteúdo, divulgado publicamente pela campanha em 2026) é estruturado de forma explicitamente ancorada na teoria econômica marxista: o texto abre com uma citação de Marx e Engels, dedica uma seção a explicar o conceito de mais-valia — citando diretamente o capítulo 8 de 'Salário, Preço e Lucro' (1865) — como justificativa teórica para a proposta de valorização do trabalho, e enquadra a dívida pública, o sistema bancário e a tributação como mecanismos de captura do excedente social pelo capital financeiro. Esse vocabulário e essa estrutura analítica são próprios da tradição marxista e estão no próprio documento, não são uma interpretação externa aplicada por este produto. Sob a ótica de rigor de PO, esse enquadramento teórico dá ao texto uma coerência interna e uma base numérica superiores à média de programas de partidos pequenos: cada proposta central vem acompanhada de um mecanismo causal explícito e de dados reais (Banco Central, DIEESE, IBGE) — por exemplo, a proposta de suspensão da dívida é justificada com a estatística de que 76,2% da dívida interna está concentrada em bancos e fundos de investimento, e que cada ponto percentual de Selic adiciona R$ 55 bilhões ao custo da dívida. Isso representa uma melhora real de Rigor PO e Clareza de Métrica frente à versão anterior avaliada neste site (que, por erro administrativo da própria campanha, era na verdade o programa de 2022). A limitação estrutural, porém, permanece: nenhuma das propostas de maior impacto vem acompanhada de prazo, cronograma de transição institucional ou indicador formal de acompanhamento pós-implementação, e o North Star do documento é um objetivo de mudança de regime econômico — planificação democrática e popular da economia, superação do capitalismo —, não uma métrica de resultado mensurável e datada. Do ponto de vista de execução, a avaliação não muda: a UP segue sendo um partido pequeno sem bancada relevante no Congresso e sem qualquer aliança formal, e as medidas de maior impacto (suspensão do pagamento da dívida, nacionalização do sistema bancário) exigiriam ruptura institucional profunda e capacidade de resistir a reações de mercado (risco cambial, custo de crédito, fuga de capital) não endereçadas no texto — o mesmo critério objetivo aplicado a qualquer outro candidato de partido pequeno sem coalizão formal (Novo, Missão).",
     "documentoOficial": {
-      "titulo": "Proposta de Governo protocolada no TSE (nota: o texto corresponde à candidatura de 2022, por falha administrativa da campanha — ver lacunas)",
-      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280010871023"
+      "titulo": "Programa da Unidade Popular pelo Socialismo — documento divulgado pela campanha em 2026 (mais completo que a versão protocolada no TSE em 06/ago; reprotocolo oficial não confirmado)",
+      "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg"
     },
     "fontes": [
+      {
+        "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026)",
+        "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+        "dataAcesso": "2026-08-18"
+      },
       {
         "titulo": "Quem é Samara Martins, candidata à Presidência da República",
         "url": "https://almapreta.com.br/sessao/politica/quem-e-samara-martins-candidata-a-presidencia-da-republica/",
         "dataAcesso": "2026-08-18"
       },
       {
-        "titulo": "Quem é Samara Martins, única pré-candidata mulher à Presidência",
-        "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/",
-        "dataAcesso": "2026-08-18"
-      },
-      {
         "titulo": "UP oficializa candidatura de Samara Martins à Presidência",
         "url": "https://www.cnnbrasil.com.br/eleicoes/up-oficializa-candidatura-de-samara-martins-a-presidencia/",
-        "dataAcesso": "2026-08-18"
-      },
-      {
-        "titulo": "Samara é a pré-candidata da Unidade Popular à Presidência do Brasil",
-        "url": "https://unidadepopular.org.br/blog/samara-e-a-pre-candidata-da-unidade-popular-a-presidencia-do-brasil",
         "dataAcesso": "2026-08-18"
       },
       {
