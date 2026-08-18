@@ -3,7 +3,7 @@ import Selo from "./Selo";
 export default function AvisoMetodologico() {
   return (
     <div className="aviso-metodologico" role="note">
-      <Selo texto="Não é pesquisa eleitoral" variante="carimbo" rotacao={-4} />
+      <Selo texto="Não é pesquisa eleitoral" variante="carimbo" />
       <strong>O que este site é — e o que não é:</strong> esta é uma análise
       técnica do conteúdo programático dos candidatos, aplicando um framework
       público de Product Ownership (North Star, OKRs, hipóteses testáveis).

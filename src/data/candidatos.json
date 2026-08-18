@@ -5,13 +5,25 @@
     "partido": "PT",
     "vice": "Geraldo Alckmin (PSB)",
     "coligacao": ["PT", "PSB", "PCdoB", "PV", "PDT", "PSOL", "Rede"],
-    "statusCandidatura": "oficializada"
+    "statusCandidatura": "oficializada",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28rosto%29.jpg",
+      "credito": "Ricardo Stuckert/PR",
+      "licenca": "CC BY 2.0",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(rosto).jpg"
+    }
   },
   {
     "id": "zema",
     "nome": "Romeu Zema",
     "partido": "Novo",
-    "statusCandidatura": "homologada"
+    "statusCandidatura": "homologada",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/17.12.2024-_Entrevistas_Diversas-_Romeu_Zema.jpg",
+      "credito": "Andressa Anholete/Agência Senado",
+      "licenca": "CC BY 2.0",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:17.12.2024-_Entrevistas_Diversas-_Romeu_Zema.jpg"
+    }
   },
   {
     "id": "flavio-bolsonaro",
@@ -19,26 +31,63 @@
     "partido": "PL",
     "vice": "Rogério Marinho (PL-RN)",
     "statusCandidatura": "oficializada",
-    "observacaoStatus": "Vice definido em 05/ago/2026 (Rogério Marinho, também do PL), mas a chapa segue isolada: União Brasil, PP, Republicanos e Podemos recusaram aliança formal — candidatura sem coligação, chapa 'pura' dentro do PL."
+    "observacaoStatus": "Vice definido em 05/ago/2026 (Rogério Marinho, também do PL), mas a chapa segue isolada: União Brasil, PP, Republicanos e Podemos recusaram aliança formal — candidatura sem coligação, chapa 'pura' dentro do PL.",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_(v._AgSen)_(3x4).jpg",
+      "credito": "Agência Senado",
+      "licenca": "Uso livre com atribuição (licença própria da Agência Senado)",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_(v._AgSen)_(3x4).jpg"
+    }
   },
   {
     "id": "caiado",
     "nome": "Ronaldo Caiado",
     "partido": "PSD",
     "vice": "Gilberto Kassab",
-    "statusCandidatura": "oficializada"
+    "statusCandidatura": "oficializada",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2026_RONALDO_CAIADO_CANDIDATO_PRESIDENTE_TSE_%28280002551932%29.jpg",
+      "credito": "Tribunal Superior Eleitoral (TSE)",
+      "licenca": "CC BY 4.0",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:2026_RONALDO_CAIADO_CANDIDATO_PRESIDENTE_TSE_(280002551932).jpg"
+    }
   },
   {
     "id": "renan-santos",
     "nome": "Renan Santos",
     "partido": "Missão",
-    "statusCandidatura": "oficializada"
+    "statusCandidatura": "oficializada",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/2026_RENAN_SANTOS_CANDIDATO_PRESIDENTE_TSE_%28280002540694%29.jpg",
+      "credito": "Tribunal Superior Eleitoral (TSE)",
+      "licenca": "CC BY 4.0",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:2026_RENAN_SANTOS_CANDIDATO_PRESIDENTE_TSE_(280002540694).jpg"
+    }
   },
   {
     "id": "marcal",
     "nome": "Pablo Marçal",
     "partido": "PRTB",
     "statusCandidatura": "sub-judice",
-    "observacaoStatus": "Candidatura sub judice — inelegível até 2032 por abuso de poder econômico/político na eleição municipal de São Paulo de 2024. As propostas são avaliadas normalmente pelas 4 dimensões, como qualquer outro candidato."
+    "observacaoStatus": "Candidatura sub judice — inelegível até 2032 por abuso de poder econômico/político na eleição municipal de São Paulo de 2024. As propostas são avaliadas normalmente pelas 4 dimensões, como qualquer outro candidato.",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2026_PABLO_MAR%C3%87AL_CANDIDATO_PRESIDENTE_TSE_%28280002553884%29.jpg",
+      "credito": "Tribunal Superior Eleitoral (TSE)",
+      "licenca": "CC BY 4.0",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:2026_PABLO_MAR%C3%87AL_CANDIDATO_PRESIDENTE_TSE_(280002553884).jpg"
+    }
+  },
+  {
+    "id": "samara-martins",
+    "nome": "Samara Martins",
+    "partido": "UP",
+    "vice": "Raquel Brício",
+    "statusCandidatura": "oficializada",
+    "foto": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Samara_Martins_UP.jpg",
+      "credito": "Reprodução/Jornal A Verdade",
+      "licenca": "Uso livre com atribuição de autor e fonte",
+      "paginaOrigem": "https://commons.wikimedia.org/wiki/File:Samara_Martins_UP.jpg"
+    }
   }
 ]

@@ -15,16 +15,17 @@ interface RadarComparativoProps {
   propostas: PropostaSetor[];
 }
 
-const INK = "#5b584c";
-const BORDA = "#d9d4c4";
+const TEXTO = "#64607a";
+const BORDA = "#e4e3ee";
 
 const CORES = [
-  "#4a3172", // carimbo
-  "#2f6b3f", // verde-tinta
-  "#96601a", // âmbar-tinta
-  "#9b2c2c", // vermelho-tinta
-  "#2b5b6b", // azul-petróleo-tinta
-  "#6b4226", // marrom-tinta
+  "#6d28d9", // brand
+  "#16a34a", // verde
+  "#d97706", // âmbar
+  "#dc2626", // vermelho
+  "#0891b2", // teal
+  "#db2777", // magenta
+  "#2563eb", // azul
 ];
 
 export default function RadarComparativo({
@@ -43,7 +44,7 @@ export default function RadarComparativo({
   });
 
   return (
-    <ResponsiveContainer width="100%" height={420}>
+    <ResponsiveContainer width="100%" height={440}>
       <RadarChart
         data={dados}
         outerRadius="52%"
@@ -52,12 +53,12 @@ export default function RadarComparativo({
         <PolarGrid stroke={BORDA} />
         <PolarAngleAxis
           dataKey="dimensao"
-          tick={{ fill: INK, fontSize: 11, fontFamily: "Public Sans, sans-serif" }}
+          tick={{ fill: TEXTO, fontSize: 11, fontFamily: "Public Sans, sans-serif" }}
         />
         <PolarRadiusAxis
           angle={30}
           domain={[0, 10]}
-          tick={{ fill: INK, fontSize: 10, fontFamily: "IBM Plex Mono, monospace" }}
+          tick={{ fill: TEXTO, fontSize: 10, fontFamily: "IBM Plex Mono, monospace" }}
         />
         {candidatos.map((candidato, i) => (
           <Radar
@@ -66,21 +67,22 @@ export default function RadarComparativo({
             dataKey={candidato.nome}
             stroke={CORES[i % CORES.length]}
             fill={CORES[i % CORES.length]}
-            fillOpacity={0.13}
+            fillOpacity={0.12}
             strokeWidth={2}
           />
         ))}
         <Legend
           wrapperStyle={{
             fontFamily: "IBM Plex Mono, monospace",
-            fontSize: "0.78rem",
+            fontSize: "0.76rem",
           }}
         />
         <Tooltip
           contentStyle={{
-            background: "#faf8f1",
-            border: "1px solid #201e1a",
-            borderRadius: 4,
+            background: "#ffffff",
+            border: "1px solid #e4e3ee",
+            borderRadius: 12,
+            boxShadow: "0 8px 24px rgba(20,18,31,0.1)",
             fontFamily: "Public Sans, sans-serif",
             fontSize: "0.85rem",
           }}
@@ -89,7 +91,7 @@ export default function RadarComparativo({
             fontSize: "0.72rem",
             textTransform: "uppercase",
             letterSpacing: "0.04em",
-            color: INK,
+            color: TEXTO,
           }}
         />
       </RadarChart>

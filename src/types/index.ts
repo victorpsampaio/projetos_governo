@@ -2,6 +2,13 @@
 
 export type StatusCandidatura = "oficializada" | "homologada" | "sub-judice";
 
+export interface Foto {
+  url: string;
+  credito: string; // ex: "Ricardo Stuckert/PR"
+  licenca: string; // ex: "CC BY 3.0 BR"
+  paginaOrigem: string; // URL da página de descrição no Wikimedia Commons
+}
+
 export interface Candidato {
   id: string; // slug, ex: "romeu-zema"
   nome: string;
@@ -10,6 +17,7 @@ export interface Candidato {
   coligacao?: string[];
   statusCandidatura: StatusCandidatura;
   observacaoStatus?: string; // ex: texto do disclaimer de inelegibilidade
+  foto?: Foto; // ausência = fallback de iniciais no avatar
 }
 
 export interface Scores {
@@ -42,6 +50,7 @@ export interface PropostaSetor {
   lacunas: string[];
   analise: string; // gerado por IA + revisado por humano contra a rubrica, sem viés partidário
   opiniaoCurador?: string; // opinião pessoal do curador — sempre exibida separada e rotulada
+  documentoOficial?: { titulo: string; url: string }; // link/PDF do plano de governo, quando localizado
   fontes: Fonte[]; // obrigatório por dado
   ultimaAtualizacao: string; // ISO date
 }

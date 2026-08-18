@@ -1,5 +1,7 @@
 import { Link, useParams } from "react-router-dom";
+import AvatarCandidato from "../components/AvatarCandidato";
 import ScoreBadge from "../components/ScoreBadge";
+import ScoreFingerprint from "../components/ScoreFingerprint";
 import Selo from "../components/Selo";
 import { getCandidato, getProposta, getSetor } from "../lib/dados";
 import { DIMENSOES_SCORE } from "../types";
@@ -28,17 +30,25 @@ export default function DetalheCandidato() {
       </Link>
 
       <header className="cabecalho-detalhe">
-        <span className="eyebrow">Ficha de auditoria — Economia</span>
-        <h1>{candidato.nome}</h1>
-        <p className="candidato-card-partido">
-          {candidato.partido}
-          {candidato.vice ? ` · vice: ${candidato.vice}` : ""}
-        </p>
-        {candidato.statusCandidatura === "sub-judice" && (
-          <Selo texto="Sub judice" variante="alerta" rotacao={-4} />
-        )}
-        {candidato.observacaoStatus && (
-          <div className="aviso-status">{candidato.observacaoStatus}</div>
+        <AvatarCandidato candidato={candidato} tamanho={128} mostrarCredito />
+        <div className="cabecalho-detalhe-info">
+          <span className="eyebrow">Ficha de auditoria — Economia</span>
+          <h1>{candidato.nome}</h1>
+          <p className="candidato-card-partido">
+            {candidato.partido}
+            {candidato.vice ? ` · vice: ${candidato.vice}` : ""}
+          </p>
+          {candidato.statusCandidatura === "sub-judice" && (
+            <Selo texto="Sub judice" variante="alerta" />
+          )}
+          {candidato.observacaoStatus && (
+            <div className="aviso-status">{candidato.observacaoStatus}</div>
+          )}
+        </div>
+        {proposta && (
+          <div className="cabecalho-detalhe-fingerprint">
+            <ScoreFingerprint scores={proposta.scores} tamanho={72} />
+          </div>
         )}
       </header>
 
@@ -58,6 +68,44 @@ export default function DetalheCandidato() {
               ))}
             </div>
           </section>
+
+          {proposta.documentoOficial && (
+            <section className="secao-documento">
+              <a
+                href={proposta.documentoOficial.url}
+                target="_blank"
+                rel="noreferrer"
+                className="documento-oficial"
+              >
+                <svg
+                  className="documento-oficial-icone"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6 2h9l5 5v15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Z"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M15 2v5h5M8 12h8M8 16h8M8 8h3"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                  />
+                </svg>
+                <span>
+                  <strong>Documento oficial</strong>
+                  <br />
+                  {proposta.documentoOficial.titulo}
+                </span>
+              </a>
+            </section>
+          )}
 
           <section className="secao-north-star">
             <h2>North Star do setor (Economia)</h2>

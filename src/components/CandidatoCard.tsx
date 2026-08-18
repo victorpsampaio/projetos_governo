@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import type { Candidato, PropostaSetor } from "../types";
 import { mediaScore } from "../lib/dados";
+import AvatarCandidato from "./AvatarCandidato";
 import Selo from "./Selo";
+import ScoreFingerprint from "./ScoreFingerprint";
 
 interface CandidatoCardProps {
   candidato: Candidato;
@@ -23,6 +25,12 @@ export default function CandidatoCard({
           <Selo texto="Sub judice" variante="alerta" tamanho="sm" />
         </div>
       )}
+      <div className="candidato-card-topo">
+        <AvatarCandidato candidato={candidato} tamanho={52} />
+        {proposta && (
+          <ScoreFingerprint scores={proposta.scores} tamanho={36} />
+        )}
+      </div>
       <h2>{candidato.nome}</h2>
       <p className="candidato-card-partido">
         {candidato.vice ? `vice: ${candidato.vice}` : "sem vice definido"}

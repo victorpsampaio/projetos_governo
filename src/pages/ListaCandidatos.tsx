@@ -54,8 +54,8 @@ export default function ListaCandidatos() {
         </span>
         <h1>Candidatos 2026</h1>
         <p className="subtitulo">
-          Propostas econômicas dos 6 principais candidatos à Presidência,
-          avaliadas com metodologia de Product Ownership.
+          Propostas econômicas dos 7 candidatos à Presidência, avaliadas com
+          metodologia de Product Ownership.
         </p>
       </header>
 
