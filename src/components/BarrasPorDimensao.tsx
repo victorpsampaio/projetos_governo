@@ -1,9 +1,9 @@
 import {
-  Radar,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis,
+  Bar,
+  BarChart,
+  CartesianGrid,
+  XAxis,
+  YAxis,
   Legend,
   Tooltip,
   ResponsiveContainer,
@@ -11,19 +11,15 @@ import {
 import { DIMENSOES_SCORE, type Candidato, type PropostaSetor } from "../types";
 import { CORES_CANDIDATOS, TEXTO_GRAFICO, BORDA_GRAFICO } from "../lib/paleta";
 
-interface RadarComparativoProps {
+interface BarrasPorDimensaoProps {
   candidatos: Candidato[];
   propostas: PropostaSetor[];
 }
 
-const TEXTO = TEXTO_GRAFICO;
-const BORDA = BORDA_GRAFICO;
-const CORES = CORES_CANDIDATOS;
-
-export default function RadarComparativo({
+export default function BarrasPorDimensao({
   candidatos,
   propostas,
-}: RadarComparativoProps) {
+}: BarrasPorDimensaoProps) {
   const dados = DIMENSOES_SCORE.map((dimensao) => {
     const linha: Record<string, string | number> = {
       dimensao: dimensao.label,
@@ -36,31 +32,23 @@ export default function RadarComparativo({
   });
 
   return (
-    <ResponsiveContainer width="100%" height={440}>
-      <RadarChart
-        data={dados}
-        outerRadius="52%"
-        margin={{ top: 10, right: 55, bottom: 10, left: 55 }}
-      >
-        <PolarGrid stroke={BORDA} />
-        <PolarAngleAxis
+    <ResponsiveContainer width="100%" height={420}>
+      <BarChart data={dados} margin={{ top: 10, right: 10, bottom: 10, left: 0 }}>
+        <CartesianGrid stroke={BORDA_GRAFICO} vertical={false} />
+        <XAxis
           dataKey="dimensao"
-          tick={{ fill: TEXTO, fontSize: 11, fontFamily: "Public Sans, sans-serif" }}
+          tick={{ fill: TEXTO_GRAFICO, fontSize: 11, fontFamily: "Public Sans, sans-serif" }}
         />
-        <PolarRadiusAxis
-          angle={30}
+        <YAxis
           domain={[0, 10]}
-          tick={{ fill: TEXTO, fontSize: 10, fontFamily: "IBM Plex Mono, monospace" }}
+          tick={{ fill: TEXTO_GRAFICO, fontSize: 10, fontFamily: "IBM Plex Mono, monospace" }}
         />
         {candidatos.map((candidato, i) => (
-          <Radar
+          <Bar
             key={candidato.id}
-            name={candidato.nome}
             dataKey={candidato.nome}
-            stroke={CORES[i % CORES.length]}
-            fill={CORES[i % CORES.length]}
-            fillOpacity={0.12}
-            strokeWidth={2}
+            fill={CORES_CANDIDATOS[i % CORES_CANDIDATOS.length]}
+            radius={[4, 4, 0, 0]}
           />
         ))}
         <Legend
@@ -70,6 +58,7 @@ export default function RadarComparativo({
           }}
         />
         <Tooltip
+          cursor={{ fill: "rgba(109, 40, 217, 0.05)" }}
           contentStyle={{
             background: "#ffffff",
             border: "1px solid #e4e3ee",
@@ -83,10 +72,10 @@ export default function RadarComparativo({
             fontSize: "0.72rem",
             textTransform: "uppercase",
             letterSpacing: "0.04em",
-            color: TEXTO,
+            color: TEXTO_GRAFICO,
           }}
         />
-      </RadarChart>
+      </BarChart>
     </ResponsiveContainer>
   );
 }

@@ -18,14 +18,14 @@ export default function DetalheCandidato() {
     return (
       <div className="pagina-detalhe">
         <p>Candidato não encontrado.</p>
-        <Link to="/">Voltar</Link>
+        <Link to="/economia">Voltar</Link>
       </div>
     );
   }
 
   return (
     <div className="pagina-detalhe">
-      <Link to="/" className="link-voltar">
+      <Link to="/economia" className="link-voltar">
         ← Voltar para a lista
       </Link>
 

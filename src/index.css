@@ -751,6 +751,164 @@ h3 {
   margin: 0;
 }
 
+/* ---------- Contexto de gráfico (página de Economia) ---------- */
+
+.secao-contexto {
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  max-width: 62ch;
+  margin: -0.5rem 0 1.25rem;
+}
+
+/* ---------- Landing page ---------- */
+
+.pagina-landing {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 5rem;
+}
+
+.hero-landing {
+  animation: surgir 0.5s ease-out both;
+  text-align: center;
+  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-landing h1 {
+  font-size: clamp(2.4rem, 7vw, 3.5rem);
+  margin: 0 0 1.25rem;
+}
+
+.hero-subtitulo {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.65;
+  max-width: 60ch;
+  margin: 0 auto 2rem;
+}
+
+.cta-grande {
+  display: inline-block;
+  background: var(--brand);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-md);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.cta-grande:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.secao-problema {
+  margin-bottom: 3rem;
+}
+
+.secao-problema h2,
+.secao-metodologia h2,
+.secao-neutralidade h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.secao-problema p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text);
+  max-width: 70ch;
+}
+
+.secao-metodologia {
+  margin-bottom: 3rem;
+}
+
+.grid-metodologia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.card-metodologia {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1.5rem;
+}
+
+.card-metodologia h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-metodologia-resumo {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brand);
+  margin: 0 0 0.85rem;
+}
+
+.card-metodologia p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-soft);
+  margin: 0;
+}
+
+.lista-dimensoes {
+  margin: 1rem 0 0;
+}
+
+.lista-dimensoes div {
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.lista-dimensoes div:first-child {
+  border-top: none;
+}
+
+.lista-dimensoes dt {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.lista-dimensoes dd {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-soft);
+}
+
+.secao-neutralidade {
+  background: var(--brand-soft);
+  border-radius: var(--radius);
+  padding: 1.75rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.secao-neutralidade p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cta-final {
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   .hipotese strong {
     width: 100%;
@@ -761,5 +919,8 @@ h3 {
   }
   .cabecalho-detalhe-fingerprint {
     margin-left: 0;
+  }
+  .secao-neutralidade {
+    padding: 1.25rem 1.4rem;
   }
 }

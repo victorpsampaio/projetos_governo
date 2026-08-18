@@ -1,7 +1,11 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import AvisoMetodologico from "../components/AvisoMetodologico";
 import CandidatoCard from "../components/CandidatoCard";
 import RadarComparativo from "../components/RadarComparativo";
+import BarrasPorDimensao from "../components/BarrasPorDimensao";
+import MatrizIdeiaExecucao from "../components/MatrizIdeiaExecucao";
+import TransparenciaCandidatos from "../components/TransparenciaCandidatos";
 import { candidatos, propostas, mediaScore } from "../lib/dados";
 import { DIMENSOES_SCORE, type Scores } from "../types";
 
@@ -48,6 +52,10 @@ export default function ListaCandidatos() {
 
   return (
     <div className="pagina-lista">
+      <Link to="/" className="link-voltar">
+        ← Início
+      </Link>
+
       <header className="cabecalho">
         <span className="eyebrow">
           Auditoria de programas de governo — Setor Economia
@@ -62,13 +70,58 @@ export default function ListaCandidatos() {
       <AvisoMetodologico />
 
       {candidatosComProposta.length >= 2 && (
-        <section className="secao-radar">
-          <h2>Comparativo por dimensão</h2>
-          <RadarComparativo
-            candidatos={candidatosComProposta}
-            propostas={propostas}
-          />
-        </section>
+        <>
+          <section className="secao-radar">
+            <h2>Comparativo por dimensão</h2>
+            <p className="secao-contexto">
+              O "formato" de cada candidato nas 4 dimensões — quanto mais
+              área preenchida, mais forte o desempenho geral.
+            </p>
+            <RadarComparativo
+              candidatos={candidatosComProposta}
+              propostas={propostas}
+            />
+          </section>
+
+          <section className="secao-radar">
+            <h2>Nota por dimensão</h2>
+            <p className="secao-contexto">
+              O mesmo comparativo, mas em barras — melhor para ler o valor
+              exato de cada candidato em cada dimensão.
+            </p>
+            <BarrasPorDimensao
+              candidatos={candidatosComProposta}
+              propostas={propostas}
+            />
+          </section>
+
+          <section className="secao-radar">
+            <h2>Matriz ideia vs. execução</h2>
+            <p className="secao-contexto">
+              Eixo horizontal: qualidade da proposta em si (Rigor PO +
+              Clareza de Métrica). Eixo vertical: capacidade real de tirar do
+              papel (Implementabilidade + Viabilidade Política). Canto
+              superior direito = proposta rigorosa e executável; inferior
+              esquerdo = nem bem formulada, nem viável.
+            </p>
+            <MatrizIdeiaExecucao
+              candidatos={candidatosComProposta}
+              propostas={propostas}
+            />
+          </section>
+
+          <section className="secao-radar">
+            <h2>Transparência da análise</h2>
+            <p className="secao-contexto">
+              Quantas fontes públicas embasam a análise de cada candidato e
+              quantas lacunas foram identificadas nas propostas dele.
+            </p>
+            <TransparenciaCandidatos
+              candidatos={candidatosComProposta}
+              propostas={propostas}
+            />
+          </section>
+        </>
       )}
 
       <section className="secao-lista">
