@@ -342,6 +342,45 @@ h3 {
   font-size: 0.8rem;
 }
 
+.nav-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.nav-topo .link-voltar {
+  margin-bottom: 0;
+}
+
+.nav-setores {
+  display: flex;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.nav-setores a {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  color: var(--text-soft);
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.nav-setores a:hover {
+  color: var(--text);
+}
+
+.nav-setores a.nav-setor-ativo {
+  color: var(--brand);
+  border-color: var(--brand);
+  background: var(--brand-soft);
+  font-weight: 600;
+}
+
 .cabecalho-detalhe {
   display: flex;
   align-items: flex-start;
@@ -807,6 +846,20 @@ h3 {
 
 .cta-grande:hover {
   transform: translateY(-2px) scale(1.02);
+}
+
+.cta-grupo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta-secundaria {
+  background: transparent;
+  color: var(--brand);
+  border: 1.5px solid var(--brand);
+  box-shadow: none;
 }
 
 .secao-problema {

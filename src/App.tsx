@@ -13,8 +13,15 @@ export default function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/privacidade" element={<Privacidade />} />
-        <Route path="/economia" element={<ListaCandidatos />} />
-        <Route path="/candidato/:candidatoId" element={<DetalheCandidato />} />
+        <Route
+          path="/economia"
+          element={<ListaCandidatos setorId="economia" />}
+        />
+        <Route path="/saude" element={<ListaCandidatos setorId="saude" />} />
+        <Route
+          path="/candidato/:setorId/:candidatoId"
+          element={<DetalheCandidato />}
+        />
       </Routes>
       <ConsentBanner />
     </>

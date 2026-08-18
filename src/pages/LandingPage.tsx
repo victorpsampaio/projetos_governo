@@ -44,9 +44,14 @@ export default function LandingPage() {
           para comparar, de forma sistemática e auditável, o que os
           candidatos à Presidência do Brasil em 2026 realmente propõem.
         </p>
-        <Link to="/economia" className="cta-grande">
-          Ver análise de Economia →
-        </Link>
+        <div className="cta-grupo">
+          <Link to="/economia" className="cta-grande">
+            Ver análise de Economia →
+          </Link>
+          <Link to="/saude" className="cta-grande cta-secundaria">
+            Ver análise de Saúde →
+          </Link>
+        </div>
       </header>
 
       <section className="secao-problema">
@@ -108,9 +113,14 @@ export default function LandingPage() {
       <ApoioProjeto />
 
       <footer className="cta-final">
-        <Link to="/economia" className="cta-grande">
-          Ver análise de Economia →
-        </Link>
+        <div className="cta-grupo">
+          <Link to="/economia" className="cta-grande">
+            Ver análise de Economia →
+          </Link>
+          <Link to="/saude" className="cta-grande cta-secundaria">
+            Ver análise de Saúde →
+          </Link>
+        </div>
       </footer>
     </div>
   );

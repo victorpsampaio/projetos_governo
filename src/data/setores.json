@@ -3,5 +3,10 @@
     "id": "economia",
     "nome": "Economia",
     "northStarDefinicao": "Crescimento sustentado da renda real per capita, com estabilidade fiscal (trajetória decrescente da razão Dívida Bruta do Governo Geral / PIB) e redução da desigualdade (Índice de Gini)."
+  },
+  {
+    "id": "saude",
+    "nome": "Saúde",
+    "northStarDefinicao": "Expectativa de vida saudável crescente, com redução da mortalidade evitável e ampliação do acesso universal e gratuito à saúde."
   }
 ]

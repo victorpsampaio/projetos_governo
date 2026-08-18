@@ -7,8 +7,18 @@ import BarrasPorDimensao from "../components/BarrasPorDimensao";
 import MatrizIdeiaExecucao from "../components/MatrizIdeiaExecucao";
 import TransparenciaCandidatos from "../components/TransparenciaCandidatos";
 import ApoioProjeto from "../components/ApoioProjeto";
-import { candidatos, propostas, mediaScore } from "../lib/dados";
+import {
+  candidatos,
+  getPropostasPorSetor,
+  getSetor,
+  mediaScore,
+  setores,
+} from "../lib/dados";
 import { DIMENSOES_SCORE, type Scores } from "../types";
+
+interface ListaCandidatosProps {
+  setorId: string;
+}
 
 type CriterioOrdenacao = "nome" | "media" | keyof Scores;
 
@@ -18,15 +28,21 @@ const OPCOES_ORDENACAO: { valor: CriterioOrdenacao; label: string }[] = [
   ...DIMENSOES_SCORE.map((d) => ({ valor: d.key, label: d.label })),
 ];
 
-export default function ListaCandidatos() {
+export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
   const [ordenacao, setOrdenacao] = useState<CriterioOrdenacao>("media");
+
+  const setor = getSetor(setorId);
+  const propostasDoSetor = useMemo(
+    () => getPropostasPorSetor(setorId),
+    [setorId],
+  );
 
   const candidatosOrdenados = useMemo(() => {
     return [...candidatos].sort((a, b) => {
       if (ordenacao === "nome") return a.nome.localeCompare(b.nome);
 
-      const propostaA = propostas.find((p) => p.candidatoId === a.id);
-      const propostaB = propostas.find((p) => p.candidatoId === b.id);
+      const propostaA = propostasDoSetor.find((p) => p.candidatoId === a.id);
+      const propostaB = propostasDoSetor.find((p) => p.candidatoId === b.id);
       const valorA =
         ordenacao === "media"
           ? propostaA
@@ -45,26 +61,40 @@ export default function ListaCandidatos() {
             : -1;
       return valorB - valorA;
     });
-  }, [ordenacao]);
+  }, [ordenacao, propostasDoSetor]);
 
   const candidatosComProposta = candidatos.filter((c) =>
-    propostas.some((p) => p.candidatoId === c.id),
+    propostasDoSetor.some((p) => p.candidatoId === c.id),
   );
 
   return (
     <div className="pagina-lista">
-      <Link to="/" className="link-voltar">
-        ← Início
-      </Link>
+      <div className="nav-topo">
+        <Link to="/" className="link-voltar">
+          ← Início
+        </Link>
+        <nav className="nav-setores">
+          {setores.map((s) => (
+            <Link
+              key={s.id}
+              to={`/${s.id}`}
+              className={s.id === setorId ? "nav-setor-ativo" : ""}
+            >
+              {s.nome}
+            </Link>
+          ))}
+        </nav>
+      </div>
 
       <header className="cabecalho">
         <span className="eyebrow">
-          Auditoria de programas de governo — Setor Economia
+          Auditoria de programas de governo — Setor {setor?.nome ?? setorId}
         </span>
         <h1>Candidatos 2026</h1>
         <p className="subtitulo">
-          Propostas econômicas dos 7 candidatos à Presidência, avaliadas com
-          metodologia de Product Ownership.
+          Propostas de {setor?.nome.toLowerCase() ?? setorId} dos 7
+          candidatos à Presidência, avaliadas com metodologia de Product
+          Ownership.
         </p>
       </header>
 
@@ -80,7 +110,7 @@ export default function ListaCandidatos() {
             </p>
             <RadarComparativo
               candidatos={candidatosComProposta}
-              propostas={propostas}
+              propostas={propostasDoSetor}
             />
           </section>
 
@@ -92,7 +122,7 @@ export default function ListaCandidatos() {
             </p>
             <BarrasPorDimensao
               candidatos={candidatosComProposta}
-              propostas={propostas}
+              propostas={propostasDoSetor}
             />
           </section>
 
@@ -107,7 +137,7 @@ export default function ListaCandidatos() {
             </p>
             <MatrizIdeiaExecucao
               candidatos={candidatosComProposta}
-              propostas={propostas}
+              propostas={propostasDoSetor}
             />
           </section>
 
@@ -119,7 +149,7 @@ export default function ListaCandidatos() {
             </p>
             <TransparenciaCandidatos
               candidatos={candidatosComProposta}
-              propostas={propostas}
+              propostas={propostasDoSetor}
             />
           </section>
         </>
@@ -148,7 +178,10 @@ export default function ListaCandidatos() {
             <CandidatoCard
               key={candidato.id}
               candidato={candidato}
-              proposta={propostas.find((p) => p.candidatoId === candidato.id)}
+              setorId={setorId}
+              proposta={propostasDoSetor.find(
+                (p) => p.candidatoId === candidato.id,
+              )}
             />
           ))}
         </div>

@@ -8,32 +8,37 @@ import { getCandidato, getProposta, getSetor } from "../lib/dados";
 import { DIMENSOES_SCORE } from "../types";
 
 export default function DetalheCandidato() {
-  const { candidatoId } = useParams<{ candidatoId: string }>();
+  const { candidatoId, setorId } = useParams<{
+    candidatoId: string;
+    setorId: string;
+  }>();
   const candidato = candidatoId ? getCandidato(candidatoId) : undefined;
-  const proposta = candidatoId
-    ? getProposta(candidatoId, "economia")
-    : undefined;
-  const setor = getSetor("economia");
+  const proposta =
+    candidatoId && setorId ? getProposta(candidatoId, setorId) : undefined;
+  const setor = setorId ? getSetor(setorId) : undefined;
+  const linkLista = setorId ? `/${setorId}` : "/economia";
 
   if (!candidato) {
     return (
       <div className="pagina-detalhe">
         <p>Candidato não encontrado.</p>
-        <Link to="/economia">Voltar</Link>
+        <Link to={linkLista}>Voltar</Link>
       </div>
     );
   }
 
   return (
     <div className="pagina-detalhe">
-      <Link to="/economia" className="link-voltar">
+      <Link to={linkLista} className="link-voltar">
         ← Voltar para a lista
       </Link>
 
       <header className="cabecalho-detalhe">
         <AvatarCandidato candidato={candidato} tamanho={128} mostrarCredito />
         <div className="cabecalho-detalhe-info">
-          <span className="eyebrow">Ficha de auditoria — Economia</span>
+          <span className="eyebrow">
+            Ficha de auditoria — {setor?.nome ?? setorId}
+          </span>
           <h1>{candidato.nome}</h1>
           <p className="candidato-card-partido">
             {candidato.partido}
@@ -54,7 +59,10 @@ export default function DetalheCandidato() {
       </header>
 
       {!proposta ? (
-        <p>Análise de Economia ainda não publicada para este candidato.</p>
+        <p>
+          Análise de {setor?.nome ?? setorId} ainda não publicada para este
+          candidato.
+        </p>
       ) : (
         <>
           <section className="secao-scores">
@@ -109,15 +117,15 @@ export default function DetalheCandidato() {
           )}
 
           <section className="secao-north-star">
-            <h2>North Star do setor (Economia)</h2>
+            <h2>North Star do setor ({setor?.nome ?? setorId})</h2>
             <p className="north-star-definicao">{setor?.northStarDefinicao}</p>
             <h3>North Star do candidato</h3>
             {proposta.northStar ? (
               <p>{proposta.northStar}</p>
             ) : (
               <p className="lacuna">
-                Lacuna: o candidato não articula um North Star claro para
-                economia.
+                Lacuna: o candidato não articula um North Star claro para{" "}
+                {setor?.nome.toLowerCase() ?? setorId}.
               </p>
             )}
           </section>

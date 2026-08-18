@@ -1,0 +1,489 @@
+[
+  {
+    "candidatoId": "samara-martins",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 1,
+      "clarezaMetrica": 4,
+      "viabilidadePolitica": 1
+    },
+    "northStar": "Lacuna: o documento não define uma meta numérica de investimento em saúde (% do PIB) nem indicador de resultado (mortalidade evitável, tempo de espera). O norte é qualitativo e de regime: 'SUS 100% estatal e gratuito, sem lucro privado, como direito universal' — diferente do capítulo de Educação do mesmo programa, que traz meta explícita de 10% do PIB.",
+    "okrs": [
+      "Universalizar e estatizar a gestão do SUS: fim da entrega de gestão hospitalar e de postos de saúde a Organizações Sociais (OSs), fundações privadas e cooperativas empresariais — toda a rede sanitária sob gestão direta e pública, sem prazo declarado.",
+      "Acabar com a exploração dos planos de saúde privados, sem mecanismo de transição detalhado para quem depende hoje desses planos.",
+      "Alcançar soberania farmacêutica: fortalecer laboratórios oficiais do Estado para produção massiva de medicamentos, vacinas, equipamentos e insumos, distribuídos gratuitamente à população — sem meta de % de nacionalização da produção nem prazo.",
+      "Valorizar trabalhadores da saúde: concursos públicos com regime estatutário, fim da precarização e aplicação integral dos pisos salariais nacionais das categorias — sem número de vagas ou cronograma."
+    ],
+    "hipoteses": [
+      {
+        "se": "for extinta a gestão de hospitais e postos de saúde por Organizações Sociais (OSs) e fundações privadas, passando toda a rede para gestão direta e pública",
+        "porque": "segundo o documento, essas entidades administram os serviços visando lucro à custa da precarização da saúde pública",
+        "entao": "haveria melhoria na qualidade do atendimento — sem meta numérica de redução de filas/tempo de espera, nem detalhamento de como seria feita a transição de milhares de contratos de gestão hoje vigentes",
+        "medicao": "não especificada pela candidata; métrica externa disponível: tempo médio de espera no SUS, Ministério da Saúde/DATASUS"
+      },
+      {
+        "se": "for fortalecida a produção farmacêutica estatal (laboratórios oficiais do Estado)",
+        "porque": "isso reduziria a dependência de importação e permitiria distribuição gratuita de medicamentos, vacinas e insumos, segundo o documento",
+        "entao": "haveria soberania farmacêutica — sem meta de % de medicamentos nacionalizados nem prazo declarado",
+        "medicao": "não especificada; métrica externa disponível: participação de laboratórios públicos na produção farmacêutica nacional, Anvisa/Ministério da Saúde"
+      },
+      {
+        "se": "for extinta a exploração dos planos de saúde privados",
+        "porque": "as operadoras tiveram lucro líquido de R$ 17,9 bilhões entre janeiro e setembro de 2025 (ANS, dado citado no documento), enquanto o investimento público em saúde caiu — o documento cita redução de 64% no investimento em saúde entre 2013 e 2023, segundo o Instituto de Estudos para Políticas de Saúde (IEPS)",
+        "entao": "haveria redirecionamento de recursos para a saúde pública — sem mecanismo de transição para os beneficiários atuais de planos privados nem cronograma de implementação",
+        "medicao": "não especificada; métrica externa disponível: lucro líquido das operadoras de planos de saúde, ANS, divulgação trimestral"
+      }
+    ],
+    "lacunas": [
+      "Nenhum prazo definido para a estatização completa da gestão hospitalar nem para o fim dos planos de saúde privados.",
+      "Nenhum mecanismo de transição detalhado para os beneficiários atuais de planos privados — o documento não trata do que aconteceria com esses contratos e com a rede de saúde suplementar existente.",
+      "Nenhuma meta numérica de investimento em saúde (% do PIB), ao contrário do capítulo de Educação do mesmo programa, que tem meta explícita de 10% do PIB.",
+      "Nenhum indicador formal de acompanhamento (tempo de espera, mortalidade evitável, cobertura de atenção básica) é definido para medir o sucesso das medidas."
+    ],
+    "analise": "Sob o mesmo enquadramento teórico explicitamente marxista do restante do programa (capital financeiro capturando serviços essenciais), a proposta de Saúde de Samara Martins segue o padrão observado em Economia: diagnóstico bem fundamentado com dados reais e verificáveis (lucro das operadoras de planos de saúde, número de hospitais privados no país, queda de investimento público citada com fonte), mas mecanismo de execução pouco detalhado — sem prazo, cronograma de transição ou indicador formal de sucesso. A proposta central (estatização total da gestão do SUS e fim dos planos de saúde privados) é uma ruptura profunda em um setor que hoje envolve milhões de empregos, contratos e beneficiários no sistema de saúde suplementar privado, e que exigiria capacidade de execução e apoio legislativo muito além da estrutura partidária atual da candidata. Assim como em Economia, há uma diferença de rigor dentro do próprio documento: a meta de Educação tem número (10% do PIB) enquanto a de Saúde não tem equivalente, o que é uma inconsistência interna de aplicação do próprio padrão que o documento estabelece em outros capítulos.",
+    "opiniaoCurador": "Concordo com o diagnóstico — plano de saúde lucrando R$ 17,9 bilhões enquanto o SUS perde investimento é prioridade errada, não importa de que ângulo se olhe. Mas 'estatizar tudo' sem dizer o que acontece com quem depende de plano privado hoje, nem um prazo pra transição, não é uma proposta executável — é uma direção. Concordar com o horizonte não me isenta de cobrar o caminho até lá.",
+    "fontes": [
+      {
+        "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026) — capítulo Saúde Pública e Valorização do SUS",
+        "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  },
+  {
+    "candidatoId": "zema",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 3,
+      "clarezaMetrica": 1,
+      "viabilidadePolitica": 3
+    },
+    "northStar": "Lacuna: o plano não define uma North Star de saúde no sentido de resultado populacional (expectativa de vida, mortalidade evitável). As propostas mapeadas são todas de natureza operacional/gerencial (filas, telemedicina, gestão hospitalar), não de desfecho em saúde.",
+    "okrs": [
+      "Reduzir filas do SUS via contratação da rede privada para mutirões e procedimentos eletivos — sem meta numérica de redução nem prazo no plano nacional.",
+      "Modernizar a gestão hospitalar ampliando a gestão de hospitais por Organizações Sociais (OS) e PPPs — sem meta de número de hospitais ou prazo nacional.",
+      "Ampliar acesso via tecnologia: expandir telemedicina e criar registro/prontuário eletrônico nacional unificado, integrando sistemas público e privado — sem meta de cobertura, prazo ou orçamento.",
+      "Fortalecer atenção primária e prevenção: ampliar cobertura da Estratégia Saúde da Família, acompanhamento de doenças crônicas, pré-natal e vacinação — sem metas numéricas nem cronograma."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo federal contratar a rede privada de clínicas e hospitais para reduzir filas do SUS",
+        "porque": "um programa estadual similar em Minas Gerais sob a gestão de Zema, o 'Opera Mais Minas', ampliou o volume de cirurgias eletivas em 46% frente a 2019, segundo dado divulgado pelo partido Novo (não auditado de forma independente)",
+        "entao": "haveria redução de filas — sem percentual-alvo nem prazo nacional definidos no plano",
+        "medicao": "não especificada; nenhum indicador, fonte de dado ou periodicidade definidos no plano nacional"
+      },
+      {
+        "se": "hospitais federais e parcerias forem geridos por Organizações Sociais e PPPs",
+        "porque": "em Minas Gerais, sob esse modelo, houve investimento em saúde de R$ 5 bi para R$ 11 bi entre 2018–2024 segundo o Novo (fonte partidária) — mas fontes críticas (Brasil de Fato/CUT-MG) relatam fechamento/redução de leitos em unidades da rede Fhemig (Hospital Maria Amélia Lins e Hospital Alberto Cavalcanti) sob justificativa de 'modernização'",
+        "entao": "haveria ganho de eficiência na gestão hospitalar — sem quantificação de quantos hospitais, qual investimento ou prazo no plano nacional",
+        "medicao": "não especificada; nenhum indicador de qualidade assistencial, leitos ou tempo de espera vinculado à proposta"
+      },
+      {
+        "se": "for criado um prontuário/histórico clínico eletrônico nacional, integrando sistemas público e privado",
+        "porque": "a fragmentação de dados entre unidades e entre público/privado é apontada implicitamente como causa de ineficiência e duplicação de exames/atendimentos",
+        "entao": "haveria redução de custo e tempo de atendimento — sem meta percentual nem prazo de implementação",
+        "medicao": "não especificada; sem indicador definido nem menção a governança de dados/LGPD para o sistema"
+      }
+    ],
+    "lacunas": [
+      "Nenhuma proposta de saúde tem prazo definido (curto/médio/longo prazo, ano-alvo).",
+      "Nenhuma proposta tem meta numérica nacional (redução de fila em %, cobertura de telemedicina em %, número de hospitais sob OS/PPP).",
+      "Ausência de mecanismo de financiamento: não fica claro se a contratação da rede privada usaria recursos adicionais, remanejamento do orçamento do SUS, ou mudança no piso constitucional de saúde.",
+      "Silêncio sobre o financiamento federal do SUS (piso constitucional, relação com estados/municípios) — chamativo por ser um dos temas mais centrais de qualquer plano de saúde federal.",
+      "Sem indicador de desfecho em saúde (mortalidade infantil, mortalidade evitável, expectativa de vida) — todas as propostas mapeadas são de processo/insumo, não de resultado.",
+      "Sem menção de como o histórico estadual (MG) seria escalado para o nível federal, nem lições aprendidas com as críticas ao modelo (fechamento de unidades Fhemig, perdas salariais de servidores)."
+    ],
+    "analise": "As propostas de saúde de Zema seguem o mesmo padrão do restante do plano: direcionamento estratégico claro (privado como parceiro operacional do SUS, gestão por OS/PPP, digitalização), mas quase nenhuma tradução em métricas, prazos ou mecanismos de financiamento. Há um 'SE' (ação) razoavelmente claro em quase todos os itens, mas falta sistematicamente o 'ENTÃO' (resultado esperado quantificado) e a 'MEDIÇÃO' (indicador e fonte). Um diferencial deste candidato é possuir histórico de execução real e auditável como governador de Minas Gerais (2019–2026) — mas esse histórico é contestado: fontes favoráveis (partido Novo) relatam expansão de investimento e cirurgias eletivas; fontes críticas (Brasil de Fato/CUT-MG) relatam atraso de quase 8 anos na entrega de hospitais regionais prometidos (2 de 6 entregues até março de 2026), fechamento de unidades de referência e perda salarial real de servidores de até 27%. Nenhuma das duas narrativas foi verificada nesta análise contra fonte primária auditada (TCE-MG, DataSUS) — ambas são tratadas como alegação de parte interessada. A direção estratégica é identificável, mas a ausência quase total de números, prazos e indicadores no documento nacional é a lacuna de produto mais relevante.",
+    "opiniaoCurador": "Reconheço que Zema é o único candidato deste levantamento com histórico real e auditável de gestão em saúde — isso tem valor. Mas um histórico contestado (elogiado pelo próprio partido, criticado por sindicatos e movimentos sociais) não substitui uma meta clara no plano federal. 'Vamos repetir o que funcionou em Minas' sem dizer o quê, quando e com que orçamento não é um plano de governo — é uma promessa de continuidade que eu não consigo auditar antes do voto.",
+    "fontes": [
+      {
+        "titulo": "'Plano Implacável': veja as propostas de Zema na disputa pela Presidência — Estado de Minas",
+        "url": "https://www.em.com.br/politica/2026/08/7475589-plano-implacavel-veja-as-propostas-de-zema-na-disputa-pela-presidencia.html",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Plano de Zema prevê 'choque fiscal', limitação ao STF e saída do Brics — Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/121274/plano-de-zema-preve-choque-fiscal--limitacao-ao-stf-e-saida-do-brics",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Romeu Zema, Governador de Minas Gerais: Veja 9 Resultados — Partido Novo (fonte favorável ao candidato)",
+        "url": "https://novo.org.br/noticias/romeu-zema-governador-de-minas-gerais-resultados-mandato/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Zema deixa Minas com promessas vazias, hospitais fechados e propaganda enganosa na saúde — Brasil de Fato (fonte crítica ao candidato)",
+        "url": "https://www.brasildefato.com.br/2026/03/26/zema-deixa-minas-com-promessas-vazias-hospitais-fechados-e-propaganda-enganosa-na-saude/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Plano de Governo 2026 (PDF registrado no TSE, hospedado por Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/14/attachment/2026/08/14/fb9c64_planogoverno10120_1.pdf",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  },
+  {
+    "candidatoId": "caiado",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 7,
+      "implementabilidade": 5,
+      "clarezaMetrica": 7,
+      "viabilidadePolitica": 7
+    },
+    "northStar": "'Cada brasileiro deve receber o cuidado certo, no lugar certo e no tempo certo, e o Brasil deve ter capacidade científica, tecnológica e produtiva para sustentar esse direito' — alinhamento parcial com o North Star do setor: cobre mortalidade evitável (metas indicativas de -30% mortalidade cardiovascular e materna) e acesso universal (compromisso de preservar o SUS), mas não adota um indicador-síntese único de expectativa de vida saudável, optando por 21 metas fragmentadas por doença/linha de cuidado.",
+    "okrs": [
+      "Eliminar a espera evitável no SUS: reduzir ≥50% o tempo mediano das filas prioritárias nas regiões de maior espera até 2030 (linha de base 2027, ainda a ser levantada), com 100% das filas estratégicas com prioridade clínica e rastreabilidade digital; cobertura universal do SAMU.",
+      "Reduzir a mortalidade evitável nas principais causas de morte: metas indicativas de -30% mortalidade cardiovascular prematura e -30% mortalidade materna; cumprimento monitorado dos prazos legais de câncer (30 dias suspeita→diagnóstico, 60 dias diagnóstico→1º tratamento).",
+      "Tornar a Atenção Primária resolutiva e preventiva: 100% das equipes de Saúde da Família com teleconsultoria e estratificação de risco; reduzir 20% as internações por condições sensíveis à Atenção Primária; sustentar ≥95% de cobertura vacinal.",
+      "Construir soberania sanitária: carteira nacional de medicamentos/vacinas/insumos estratégicos com metas de nacionalização; rede pública nacional de terapia celular/gênica (CAR-T e outras)."
+    ],
+    "hipoteses": [
+      {
+        "se": "for implementado um 'Sistema Nacional de Acesso e Regulação Inteligente', substituindo a fila cronológica por prioridade clínica dinâmica, integrado a centrais de comando que monitoram capacidade ociosa e leitos em tempo real",
+        "porque": "hoje a posição do cidadão na fila é definida apenas pela data do pedido, gerando desperdício de vagas ociosas e piora clínica por espera não gerenciada, segundo o diagnóstico do próprio plano",
+        "entao": "o tempo mediano das filas prioritárias nas regiões de maior espera cairá ≥50% até 2030, com 100% das filas estratégicas rastreáveis — mas a linha de base de 2027 usada para calcular essa redução ainda não existe, será levantada por um censo nacional das filas nos primeiros 100 dias",
+        "medicao": "painel público não nomeado explicitamente; lacuna: sem fonte primária de dado nem periodicidade de publicação definidas"
+      },
+      {
+        "se": "for criada categoria regulatória própria para suspeita de câncer, com 'relógio assistencial' digital e cumprimento efetivo dos prazos legais já existentes (30 e 60 dias)",
+        "porque": "o texto reconhece que esses prazos já são lei, mas não são cumpridos na prática, e que atrasos comprometem a chance de cura e a sobrevida",
+        "entao": "haverá redução progressiva da proporção de diagnósticos em estágio avançado, com 100% dos casos suspeitos rastreáveis — sem meta percentual específica citada, apenas direção",
+        "medicao": "relógio assistencial + painel nacional; lacuna: não especifica fonte primária (ex. Registros Hospitalares de Câncer/INCA) nem frequência de aferição"
+      },
+      {
+        "se": "for organizada rede nacional de infarto/AVC com hemodinâmica regional 24/7, ECG conectado no SAMU e TeleAVC",
+        "porque": "infarto e AVC são tempo-dependentes e há desigualdade territorial de acesso à reperfusão, segundo o plano",
+        "entao": "a mortalidade cardiovascular prematura cairá 30% até 2030 — mas o próprio plano rotula essa meta como 'indicativa', ou seja, com menor grau de compromisso que as metas 'duras'",
+        "medicao": "não especificada; presumivelmente SIM/DATASUS, mas sem fonte nem periodicidade citadas no documento"
+      }
+    ],
+    "lacunas": [
+      "Financiamento não quantificado: nenhuma das 21 metas ou 15 ações vem com estimativa de custo ou fonte orçamentária, em tensão com o compromisso simultâneo de contenção fiscal (despesas obrigatórias crescendo abaixo do PIB) presente em outro capítulo do mesmo plano.",
+      "Várias metas de mortalidade (cardiovascular, materna) são explicitamente rotuladas 'indicativas' — um recuo de compromisso assumido pelo próprio texto.",
+      "Linha de base inexistente no momento da proposta: metas de redução usam '2027 como linha de base', que ainda será levantada por um censo a ser feito depois de eleito.",
+      "Fonte e periodicidade de medição inconsistentes: a maioria das metas cita 'painel público' genérico sem nomear a base de dados oficial (SIM, SINASC, DATASUS, RHC-INCA) nem a frequência de publicação.",
+      "Diferente de outros capítulos do mesmo plano (Segurança, Agronegócio, Educação), o de Saúde não cita nenhum dado do desempenho do SUS em Goiás sob a gestão de Caiado, apesar de ele ser médico — uma lacuna de evidência dentro do próprio setor em que tem formação profissional direta.",
+      "Mecanismo de responsabilização pouco detalhado: fala-se em 'avaliação nacional independente' em 2030, sem órgão nomeado nem consequência caso as metas não sejam atingidas."
+    ],
+    "analise": "O capítulo de Saúde é, em termos de estrutura de PO, o mais sofisticado dos 26 temas do plano de Caiado: formato de 'Ações' numeradas com diagnóstico, proposta e meta 2030 quantificada, culminando em tabela consolidada de 21 metas nacionais e cronograma anual de governança (2027 diagnóstico → 2028 implantação → 2029 expansão → 2030 avaliação independente). Isso é incomum para plataformas eleitorais brasileiras. Por outro lado, o rigor de evidência é desigual: o diagnóstico é majoritariamente qualitativo, sem citar números de linha de base já existentes hoje, e as metas percentuais partem de uma linha de base que só será medida depois da eleição — o que é operacionalmente razoável, mas reduz a testabilidade da proposta agora. Também não há explicação de como conciliar a ambição de expansão de capacidade (novos institutos, rede nacional de terapias avançadas) com o compromisso fiscal simultâneo de conter o crescimento da despesa obrigatória do mesmo plano. A participação relatada do ex-ministro Luiz Henrique Mandetta na elaboração do capítulo é um dado relevante de rigor técnico, embora não conste no próprio PDF.",
+    "opiniaoCurador": "Este é, disparado, o capítulo de saúde mais bem estruturado entre os planos que avaliei — dá pra ver a mão de gente que entende de gestão em saúde, não só de discurso. Mas estruturar bem uma meta não é o mesmo que financiar ela: dizer que vai expandir rede nacional de terapia celular e ao mesmo tempo prometer conter despesa obrigatória abaixo do PIB é uma conta que não fecha no papel, e o documento não explica como fecha na prática. Rigor de formato não é o mesmo que rigor de execução.",
+    "fontes": [
+      {
+        "titulo": "Plano de Governo Ronaldo Caiado Presidente 2027-2030 (documento oficial, PSD) — Tema 25 · Saúde",
+        "url": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Leia a íntegra do plano de governo de Ronaldo Caiado — Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Caiado chama Mandetta para plano de saúde da campanha — O Cafezinho",
+        "url": "https://www.ocafezinho.com/2026/08/16/caiado-chama-mandetta-para-plano-de-saude-da-campanha",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Plano de Caiado mira facções, ajuste fiscal e fim da reeleição — Congresso em Foco",
+        "url": "https://www.congressoemfoco.com.br/noticia/121321/plano-de-caiado-mira-faccoes-ajuste-fiscal-e-fim-da-reeleicao",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  },
+  {
+    "candidatoId": "flavio-bolsonaro",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 3,
+      "clarezaMetrica": 2,
+      "viabilidadePolitica": 3
+    },
+    "northStar": "Lacuna: não há indicador-síntese mensurável. A frase mais próxima de uma visão é 'prevenir custa pouco; tratar tarde custa caro, e às vezes custa a vida', que estabelece uma direção (prevenção + fim de fila + histórico digital único) mas não é convertida em meta com prazo — não menciona expectativa de vida, mortalidade evitável nem % de cobertura universal.",
+    "okrs": [
+      "Eliminar espera excessiva por consultas/exames no SUS: agendamento nacional por IA que aloque o paciente na 'primeira vaga disponível', contratação de capacidade ociosa da rede privada e ampliação da Estratégia Saúde da Família — sem meta de redução de tempo, volume ou cobertura.",
+      "Unificar e digitalizar o histórico de saúde do cidadão: prontuário eletrônico único vinculado ao CPF, integrado ao Gov.br, interoperável público-privado, dando sequência ao Conecte SUS criado no governo Bolsonaro (2019-2022) — sem baseline de % já digitalizado nem prazo de conclusão.",
+      "Corrigir o financiamento da rede assistencial via correção da tabela SUS, usando lei de reajuste já existente mas hoje travada por restrição orçamentária — sem % de reajuste, valor em R$ ou prazo.",
+      "Garantir cuidado facilitado para populações vulneráveis: Programa de Atendimento aos Idosos, subsídio 'Casa Segura para Envelhecer' para acessibilidade domiciliar, Unidades Móveis de Saúde da Mulher — sem valores, critérios de renda, orçamento ou quantidade-alvo."
+    ],
+    "hipoteses": [
+      {
+        "se": "o SUS passar a usar inteligência artificial para agendar consultas e exames, encaixando o paciente na 'primeira vaga disponível'",
+        "porque": "hoje ninguém deveria ficar meses aguardando uma marcação que poderia ser resolvida em muito menos tempo, segundo o diagnóstico do próprio plano (sem dado de fila atual citado)",
+        "entao": "não especificado — o plano não declara redução esperada do tempo médio de espera nem prazo",
+        "medicao": "não especificada; existiria, por exemplo, o tempo médio de espera via e-SUS/CNES, mas o plano não cita nenhuma fonte"
+      },
+      {
+        "se": "for garantida a correção efetiva da tabela SUS, usando a lei de reajuste já existente hoje travada pelo orçamento",
+        "porque": "a defasagem atual 'asfixia hospitais, santas casas e clínicas, sobretudo no interior', segundo o diagnóstico citado no plano",
+        "entao": "a remuneração passaria a 'cobrir o custo real do atendimento' — sem % de reajuste, valor em R$ ou prazo declarados",
+        "medicao": "não especificada"
+      },
+      {
+        "se": "for implantado o prontuário eletrônico único vinculado ao CPF, interoperável entre redes pública e privada, com base no Conecte SUS já criado no governo Bolsonaro",
+        "porque": "'milhares de brasileiros morrem de doenças que poderiam ter sido tratadas a tempo porque a informação sobre a própria saúde está espalhada em papéis, sistemas e unidades que não conversam entre si', segundo o plano (evidência qualitativa, sem número ou fonte)",
+        "entao": "espera-se menos duplicidade de exames e mais agilidade em emergências — sem % de redução de mortalidade evitável ou retrabalho declarado",
+        "medicao": "não especificada; não há indicador de adoção do prontuário nem taxa de interoperabilidade definidos"
+      }
+    ],
+    "lacunas": [
+      "Nenhuma meta numérica com prazo em qualquer proposta de saúde (nem % de redução de fila/mortalidade, nem ano-alvo específico).",
+      "Nenhuma fonte de financiamento setorial declarada: não se diz quanto custa a correção da tabela SUS, o subsídio Casa Segura para Envelhecer ou as Unidades Móveis de Saúde da Mulher — no mesmo documento que promete corte de pelo menos 10 ministérios, gerando tensão entre corte fiscal e expansão de programas sem custeio.",
+      "Nenhum indicador de monitoramento nomeado (tempo médio de espera, mortalidade infantil, cobertura da Saúde da Família em %, expectativa de vida ao nascer).",
+      "Nenhuma equipe técnica de saúde é citada no documento, diferentemente até do capítulo econômico, que ao menos menciona consultar Paulo Guedes.",
+      "'Concluir a digitalização do SUS' não define baseline (% já digitalizado hoje) nem data de conclusão."
+    ],
+    "analise": "O bloco de saúde tem um ponto forte real: propostas nomeadas e concretas (prontuário eletrônico único, correção da tabela SUS, Programa de Atendimento aos Idosos, Casa Segura para Envelhecer, Unidades Móveis de Saúde da Mulher), a maioria conectando um diagnóstico específico a um mecanismo proposto — superior a um discurso genérico de 'melhorar a saúde'. A fraqueza estrutural é sistemática: em nenhuma proposta há a dupla ENTÃO quantificado + MEDIÇÃO com fonte/frequência; o texto usa formulações de intenção sem ancorar a número de baseline, meta ou data — padrão ainda mais acentuado que no capítulo de Economia do mesmo candidato, que ao menos apresentava alguns números retrospectivos concretos. Do ponto de vista de execução, o plano se apoia em mecanismos já existentes (Conecte SUS, lei de reajuste da tabela SUS já sancionada, EBSERH), reduzindo a necessidade de reforma constitucional inédita. Mas a mesma tensão fiscal do capítulo econômico se replica aqui: um plano que promete corte de estrutura de Estado ao mesmo tempo em que amplia subsídios e cria novos programas, sem indicar de onde sai o dinheiro incremental.",
+    "opiniaoCurador": "As propostas de saúde daqui têm nome e diagnóstico — isso já é mais do que muita gente entrega. Mas 'vamos garantir as condições para corrigir a tabela SUS' sem dizer quanto, com que dinheiro e até quando não é uma meta, é um desejo bem escrito. E o mesmo problema que vi em Economia se repete aqui: promete cortar o Estado e expandir programa social ao mesmo tempo, sem fechar a conta. Isso não é neutro nem partidário de avaliar — é aritmética básica que falta no documento.",
+    "fontes": [
+      {
+        "titulo": "Plano de governo 'Para o Brasil Vencer o Atraso' (íntegra, documento oficial)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Leia a íntegra do plano de governo de Flávio Bolsonaro — Poder360",
+        "url": "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Flávio quer usar IA para agilizar consultas e exames no SUS — Metrópoles",
+        "url": "https://www.metropoles.com/colunas/grande-angular/flavio-quer-usar-ia-para-agilizar-consultas-e-exames-no-sus",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Plano de governo de Flávio prevê subsídio a idosos de menor renda — Metrópoles",
+        "url": "https://www.metropoles.com/colunas/igor-gadelha/plano-de-governo-de-flavio-preve-subsidio-a-idosos-de-menor-renda",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Lula e Flávio prometem mais saúde, mas nenhum diz quem vai pagar a conta — MidiaNews",
+        "url": "https://www.midianews.com.br/politica/lula-e-flavio-prometem-mais-saude-mas-nenhum-diz-quem-vai-pagar-a-conta/527228",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  },
+  {
+    "candidatoId": "marcal",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 2,
+      "implementabilidade": 3,
+      "clarezaMetrica": 1,
+      "viabilidadePolitica": 3
+    },
+    "northStar": "Lacuna total: não foi localizada nenhuma proposta de saúde específica da candidatura presidencial de 2026. O único material disponível é indireto: o plano municipal para prefeito de São Paulo (2024) e o plano presidencial de 2022 ('40 anos em 4'), usados aqui apenas como indicativo do padrão de pensamento do candidato sobre o tema — não como proposta federal para 2026.",
+    "okrs": [
+      "Reduzir tempo de espera por exames/consultas de baixa e média complexidade via informatização e telemedicina ('Programa Pró-Saúde', citado no plano presidencial de 2022) — sem meta numérica.",
+      "Reduzir filas de exames via ampliação de parcerias com hospitais privados e prontuário unificado com IA (padrão do plano municipal de 2024, usado como referência de visão) — sem meta numérica.",
+      "Estruturar atenção à saúde mental em três pilares — prevenção, identificação, tratamento (plano municipal de 2024) — sem meta numérica.",
+      "Ofertar cirurgia reparadora estética via SUS para mulheres vítimas de violência doméstica (plano presidencial de 2022) — proposta pontual, sem meta de cobertura."
+    ],
+    "hipoteses": [
+      {
+        "se": "for implementado sistema informatizado de agendamento de exames e telemedicina integrando estados e municípios",
+        "porque": "não há evidência ou dado citado pelo candidato que sustente o mecanismo",
+        "entao": "não há resultado esperado quantificado nem prazo",
+        "medicao": "lacuna total — nenhuma fonte, indicador ou frequência de aferição mencionados"
+      },
+      {
+        "se": "for ampliada parceria com hospitais privados e leitos ociosos forem contratados pela tabela SUS",
+        "porque": "há leitos privados ociosos identificáveis, premissa razoável mas sem dado citado de quantidade ou percentual de ociosidade",
+        "entao": "as filas de exames seriam reduzidas — sem número-alvo nem prazo",
+        "medicao": "lacuna — não há indicador definido (ex. tempo médio de espera) nem fonte de aferição"
+      },
+      {
+        "se": "o SUS passar a custear cirurgia estética reparadora para mulheres vítimas de violência doméstica",
+        "porque": "essas mulheres sofrem sequelas físicas que afetam saúde mental e reinserção social — premissa razoável, mas não amparada por dado ou fonte citada pelo candidato",
+        "entao": "não há meta de número de mulheres atendidas nem redução de indicador associado — é a proposta mais concreta e específica encontrada, mas ainda assim sem mecanismo orçamentário, prazo ou meta",
+        "medicao": "lacuna total"
+      }
+    ],
+    "lacunas": [
+      "Ausência de plano de saúde específico para a candidatura presidencial de 2026 — nenhuma proposta setorial encontrada até 18/08/2026.",
+      "Nenhuma proposta, em nenhuma camada (2022, 2024 ou declarações de 2026), tem prazo definido.",
+      "Nenhuma proposta tem meta numérica (redução de mortalidade, ampliação de cobertura, tempo de espera-alvo).",
+      "Nenhuma proposta tem fonte de financiamento explicitada (quem paga o Pró-Saúde, quantos leitos privados seriam contratados, custo da cirurgia reparadora em escala).",
+      "Nenhum indicador de acompanhamento (fonte ou frequência) é mencionado em nenhuma hipótese.",
+      "O material disponível é majoritariamente extrapolado de um pleito diferente (prefeitura de São Paulo, 2024) do cargo que o candidato de fato disputa em 2026 (Presidência) — um comparador de propostas presidenciais não deveria precisar recorrer a um plano municipal para reconstruir a posição do candidato sobre o tema.",
+      "Achado relevante para consistência (não para julgamento ideológico): na campanha municipal de 2024, o médico indicado para coordenar a pasta de Saúde foi identificado pela imprensa como defensor de cloroquina contra covid-19 e cético quanto à eficácia de máscaras/vacinas — fato de composição de equipe relevante para avaliar consistência entre discurso de 'prevenção' e escolha de quadros técnicos."
+    ],
+    "analise": "Sob a ótica estrita de Product Ownership, o material disponível sobre saúde associado a Pablo Marçal é fragmentado e majoritariamente extrapolado de um pleito diferente (prefeitura de São Paulo, 2024) do cargo que ele disputa em 2026. A ausência de um plano de governo específico e localizável para 2026 — já registrada no produto para o setor Economia — se confirma integralmente também em Saúde. Dentro do que existe, há um padrão de pensamento reconhecível entre os planos de 2022 e 2024 — digitalização (prontuário unificado, telemedicina, IA para agendamento), prevenção comportamental e parcerias público-privadas para reduzir filas — sugerindo alguma estabilidade de visão além de improviso pontual. Entretanto, em nenhum material essa visão é operacionalizada: não há número-alvo, prazo, mecanismo orçamentário ou indicador de acompanhamento associado a qualquer proposta. Mecanismos como integração de sistemas entre estados/municípios e contratação de leitos privados ociosos pela tabela SUS exigem pactuação federativa (o SUS é gerido de forma tripartite) e negociação com o setor hospitalar privado — nenhuma proposta indica como essa articulação seria conduzida.",
+    "opiniaoCurador": "Aqui a lacuna é mais grave que em qualquer outro candidato que avaliei até agora: não existe, até a data desta análise, um plano de saúde para a Presidência em 2026 — o que tem é reciclado de uma campanha para prefeito de São Paulo. Reaproveitar ideia de outro cargo não é necessariamente errado, mas apresentar isso como posição para a Presidência sem adaptar para a escala e a governança federal do SUS é, no mínimo, um sinal de que o tema não foi tratado com a prioridade que merece.",
+    "fontes": [
+      {
+        "titulo": "Propostas Pablo Marçal: veja o plano de governo do candidato para saúde, habitação, educação e segurança pública — Exame (plano municipal, São Paulo 2024)",
+        "url": "https://exame.com/brasil/eleicoes-em-sp-o-que-pensa-pablo-marcal-sobre-saude-habitacao-educacao-e-seguranca-publica/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Pablo Marçal incorpora ações sugeridas pelo SindHosp ao seu plano de governo para a saúde — SindHosp (plano municipal, São Paulo 2024)",
+        "url": "https://sindhosp.org.br/pablo-marcal-incorpora-acoes-sugeridas-pelo-sindhosp-ao-seu-plano-de-governo-para-a-saude/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Marçal quer médico antivacina e antiaborto para coordenar saúde em São Paulo — Agência Pública",
+        "url": "https://apublica.org/nota/marcal-quer-medico-antivacina-e-antiaborto-para-coordenar-saude-em-sao-paulo/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Conheça o Plano de Governo do candidato Pablo Marçal — Agência Brasil (plano presidencial 2022, 'Pró-Saúde' e cirurgia reparadora via SUS)",
+        "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2022-08/conheca-o-plano-de-governo-do-candidato-pablo-marcal",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Pablo Marçal diz que, caso eleito, chamará Augusto Cury e Ronaldo Caiado para o seu governo — O Tempo",
+        "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/17/pablo-marcal-diz-que-caso-eleito-chamara-augusto-cury-e-ronaldo-caiado-para-o-seu-governo",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  },
+  {
+    "candidatoId": "renan-santos",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 3,
+      "implementabilidade": 3,
+      "clarezaMetrica": 1,
+      "viabilidadePolitica": 2
+    },
+    "northStar": "Lacuna: o plano não declara North Star de Saúde. O North Star implícito, inferido do desenho das propostas, é 'acesso ágil e priorizado por risco clínico' — centrado em eliminar filas e digitalizar o sistema — e não em resultados de saúde populacional (mortalidade, expectativa de vida) como define o North Star do setor: uma métrica de processo no lugar de uma métrica de resultado.",
+    "okrs": [
+      "Eliminar as filas de espera do SUS priorizando por gravidade clínica ('SUS Fila Zero'): implantar sistema nacional de classificação de pacientes por risco clínico, substituindo a ordem cronológica — sem % de redução do tempo médio de espera nem prazo.",
+      "Digitalizar integralmente os processos do SUS: implantar o 'PRONTO' (prontuário eletrônico nacional interoperável) conectando atenção primária, especialistas, hospitais públicos/privados, laboratórios e farmácias — sem cobertura-alvo nem prazo.",
+      "Ampliar capacidade preditiva e de resposta a emergências sanitárias: vigilância epidemiológica preditiva em tempo real, plataforma nacional de mRNA para vacinas/terapias, ampliação do banco de dados genômicos (referência ao Genomas Brasil) — sem metas quantitativas nem cronograma.",
+      "Validar telemedicina + IA antes de escalar nacionalmente: piloto inspirado no 'DoctorSV' (El Salvador) em algumas cidades atendidas pelo SUS antes de eventual implementação nacional — sem número de cidades-piloto, critérios de sucesso ou prazo de transição."
+    ],
+    "hipoteses": [
+      {
+        "se": "o SUS adotar um sistema nacional de priorização de filas por risco clínico em vez de ordem cronológica ('SUS Fila Zero')",
+        "porque": "não especificado — o plano não apresenta dado ou evidência epidemiológica que quantifique o dano atual causado pela fila cronológica",
+        "entao": "espera-se redução do tempo de espera e da mortalidade evitável associada a atrasos no atendimento — sem percentual-alvo nem prazo",
+        "medicao": "não especificada; nenhuma fonte de dado ou frequência de aferição definidas"
+      },
+      {
+        "se": "for implantado um prontuário eletrônico nacional interoperável (PRONTO) conectando atenção primária, hospitais, laboratórios e farmácias",
+        "porque": "a integração de dados clínicos tende a reduzir redundância de exames e perda de histórico do paciente — inferência lógica do desenho do sistema, sem estudo ou piloto anterior citado",
+        "entao": "espera-se maior eficiência diagnóstica e menor duplicação de exames — sem percentual nem prazo",
+        "medicao": "não especificada; nenhum indicador ou fonte de aferição definidos"
+      },
+      {
+        "se": "o programa de telemedicina/IA inspirado no DoctorSV (El Salvador) for testado primeiro em cidades-piloto atendidas pelo SUS",
+        "porque": "o modelo salvadorenho é citado como referência de integração bem-sucedida, mas o plano não traz dado de resultado do DoctorSV em El Salvador que justifique a comparação",
+        "entao": "espera-se validar a viabilidade técnica/operacional antes de escalar nacionalmente — sem critérios de sucesso do piloto nem prazo definido para a decisão de escalar",
+        "medicao": "não especificada"
+      }
+    ],
+    "lacunas": [
+      "Nenhuma meta numérica de redução de tempo de espera, mortalidade evitável ou cobertura de exames.",
+      "Nenhum prazo (curto/médio/longo) para 'SUS Fila Zero', PRONTO ou piloto DoctorSV; número de cidades do piloto não especificado.",
+      "Nenhuma fonte de financiamento dedicada à Saúde — e, mais grave: o plano fiscal do candidato propõe acabar com os pisos constitucionais de gastos mínimos em saúde e educação como parte de um ajuste fiscal de R$ 250 bi/ano, sem explicar como iniciativas intensivas em capital (plataforma de mRNA, vigilância em tempo real) seriam financiadas nesse novo cenário orçamentário.",
+      "A 'Lei de Responsabilidade Gerencial' (accountability de gestores de saúde) é citada, mas sem indicadores, metas ou periodicidade de aferição definidos.",
+      "Nenhuma conexão explícita entre as propostas e indicadores de resultado em saúde populacional (expectativa de vida, mortalidade infantil/materna, cobertura vacinal)."
+    ],
+    "analise": "O eixo de Saúde concentra-se em modernização tecnológica e reorganização de fluxo assistencial, não em expansão de investimento ou de rede física. O 'SUS Fila Zero' e o PRONTO refletem um raciocínio de produto plausível — priorizar por risco clínico e centralizar dados podem, em tese, reduzir desperdício e melhorar a qualidade da decisão clínica. Contudo, o plano não estabelece linha de base nem meta futura mensurável, impedindo qualquer verificação de sucesso ao longo de um eventual mandato. Há uma tensão estrutural entre objetivo e restrição orçamentária: ao mesmo tempo em que o plano promete ampliar digitalização e capacidade preditiva (iniciativas intensivas em capital), o eixo fiscal mais amplo do candidato propõe o fim dos pisos constitucionais de gasto mínimo em saúde e educação, sem explicar como as novas iniciativas seriam sustentadas financeiramente nesse cenário. Por outro lado, o plano inclui um elemento de accountability pouco comum entre propostas setoriais — a 'Lei de Responsabilidade Gerencial', prevendo indicadores de desempenho e consequências administrativas para gestores que não atingirem metas — mas, como os próprios indicadores não são especificados, funciona hoje como promessa de governança ainda sem rubrica testável.",
+    "opiniaoCurador": "Gosto da ideia de priorizar fila por risco clínico em vez de ordem de chegada — isso é debate técnico sério, não populismo. Mas prometer prontuário nacional interoperável e plataforma de mRNA ao mesmo tempo em que se propõe acabar com o piso constitucional de gasto em saúde é uma contradição que o documento não resolve: são investimentos caros sendo prometidos junto com o corte da garantia orçamentária que hoje sustenta a saúde pública. Rigor técnico no desenho não compensa a falta de rigor na conta.",
+    "fontes": [
+      {
+        "titulo": "Plano de Governo 2026 (Livro Amarelo, documento oficial registrado no TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "O que diz o plano de governo de Renan Santos (Missão) — Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/como-renan-santos-pretende-restaurar-o-brasil-plano-de-governo-candidato-missao/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Tecnologia perpassa todos os setores do plano de governo de Renan Santos — Mobile Time",
+        "url": "https://www.mobiletime.com.br/noticias/14/08/2026/tecnologia-renan-santos/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Renan Santos propõe corte de R$ 250 bi ao ano e mira Presidência como candidato do ajuste fiscal — BPMoney",
+        "url": "https://bpmoney.com.br/politica/renan-santos-propoe-choque-fiscal-250-bilhoes/",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  },
+  {
+    "candidatoId": "lula",
+    "setorId": "saude",
+    "scores": {
+      "rigorPO": 5,
+      "implementabilidade": 8,
+      "clarezaMetrica": 4,
+      "viabilidadePolitica": 7
+    },
+    "northStar": "Não há um indicador-síntese com meta numérica para o próximo mandato. O documento apresenta uma declaração de propósito qualitativa recorrente — 'fortalecer o SUS como sistema público, universal, integral, equânime e humanizado' — associada a menções retrospectivas (não prospectivas) de que os governos do PT ampliaram a expectativa de vida e reduziram a mortalidade infantil. É compatível com o North Star do setor, mas permanece orientação de valores, não objetivo mensurável para 2027-2030.",
+    "okrs": [
+      "Reduzir filas e tempo de espera para atenção especializada: manter o programa 'Agora Tem Especialistas' (MP 1301/25) vigente até 31/12/2030, com renúncia fiscal de R$ 2 bilhões/ano, priorizando oftalmologia infantil e radioterapia oncológica; sustentar/ampliar o volume de cirurgias eletivas acima do recorde de 14,7 milhões em 2025 (alta de 42,9% frente a 2022).",
+      "Ampliar infraestrutura e logística assistencial do SUS: executar o 'Novo PAC Saúde' com R$ 31,5 bilhões em obras, equipamentos e veículos; entregar em 2026 os 2,1 mil veículos (700 micro-ônibus, 700 vans, 700 ambulâncias) de um pacote de R$ 815 milhões, priorizando pacientes oncológicos.",
+      "Universalizar a transformação digital do SUS: federalizar a Rede Nacional de Dados em Saúde (de 700 milhões para 6,7 bilhões de registros no mandato atual); expandir a Rede Brasileira de Telessaúde (de 12 para 63 núcleos, 79% dos municípios, +6 milhões de teleatendimentos entre 2024-2026) rumo à cobertura universal — sem prazo numérico definido.",
+      "Fortalecer soberania produtiva em saúde: ampliar o Complexo Econômico-Industrial da Saúde (produção nacional de medicamentos, vacinas, fitoterápicos, bioinsumos) — sem metas quantificadas de substituição de importação ou investimento."
+    ],
+    "hipoteses": [
+      {
+        "se": "o governo mantiver o 'Agora Tem Especialistas' com renúncia fiscal de R$ 2 bi/ano até 2030",
+        "porque": "o novo modelo de pagamento por pacote (consulta+diagnóstico+cirurgia) já elevou as cirurgias eletivas de 10,3 milhões (2022) para 14,7 milhões (2025) — alta de 42,9%, com cirurgias ortopédicas subindo 67,5%",
+        "entao": "espera-se manutenção/expansão desse ritmo de produção e redução de filas nas especialidades priorizadas — sem meta numérica explícita para 2027-2030, apenas continuidade",
+        "medicao": "número de cirurgias/consultas eletivas realizadas, painéis do Ministério da Saúde/DataSUS, divulgação periódica"
+      },
+      {
+        "se": "o Novo PAC Saúde investir R$ 31,5 bilhões em obras/equipamentos/veículos, incluindo os R$ 815 milhões em 2,1 mil veículos anunciados em fevereiro de 2026",
+        "porque": "a falta de transporte assistido é apontada como barreira de acesso a tratamentos distantes, sobretudo oncológicos",
+        "entao": "espera-se redução do tempo de deslocamento e das faltas a tratamentos continuados, com entrega da frota prevista para 2026",
+        "medicao": "número de veículos entregues e municípios atendidos, relatórios do Ministério da Saúde/Novo PAC"
+      },
+      {
+        "se": "a Rede Brasileira de Telessaúde for federalizada e universalizada (hoje 63 núcleos, 79% dos municípios, +6 milhões de teleatendimentos em 2024-2026)",
+        "porque": "a expansão de 12 para 63 núcleos já reduziu deslocamentos e ampliou acesso especializado nesse período",
+        "entao": "espera-se cobertura de 100% dos municípios e crescimento continuado — mas o documento não define prazo nem número-alvo para essa universalização",
+        "medicao": "número de núcleos, % de municípios cobertos, número de teleatendimentos, dados do Ministério da Saúde"
+      }
+    ],
+    "lacunas": [
+      "Ausência quase total de metas numéricas prospectivas para 2027-2030 — o texto usa verbos como 'ampliar', 'fortalecer', 'consolidar' sem % ou prazo, exceto em políticas já herdadas em curso (MP 1301/25 até 2030; R$ 31,5 bi do PAC Saúde).",
+      "Não há indicador nacional consolidado e público de fila/tempo de espera — reforçado por críticas na Câmara de que falta transparência nas filas apesar do recorde de cirurgias.",
+      "A 'Carreira Interfederativa do SUS' (valorização de trabalhadores) é proposta sem cronograma, custo estimado ou indicador de adesão de estados/municípios.",
+      "Não há meta explícita de redução de mortalidade infantil/materna ou ganho de expectativa de vida para o próximo mandato — apenas menção retrospectiva a avanços do mandato atual.",
+      "O documento reconhece 'subfinanciamento histórico' do SUS e pede 'financiamento estável', mas não propõe nova fonte de recursos, percentual do PIB ou mudança em regras fiscais que hoje limitam o gasto em saúde.",
+      "Números de 'cirurgias em 2025' divergem entre fontes (14,7 milhões segundo Agência Brasil/CNN Brasil; 15 milhões segundo Exame/PT) — sinal de imprecisão na comunicação oficial dos próprios números."
+    ],
+    "analise": "O material de saúde de Lula tem uma característica distintiva em relação a um plano de desafiante: é, em grande parte, um relatório de continuidade de política pública em execução, não uma proposta nova formulada do zero. Isso é uma força sob a ótica de implementabilidade — os mecanismos citados (Agora Tem Especialistas, Novo PAC Saúde, Rede Nacional de Dados em Saúde) já têm base legal ativa (MP 1301/25), orçamento comprometido (R$ 31,5 bi) e resultados mensuráveis publicados (14,7 milhões de cirurgias, 63 núcleos de telessaúde). Por outro lado, sob a ótica estrita de rigor de Product Ownership, o documento é fraco em conversão de conquistas passadas em metas futuras quantificadas: a extensa narrativa histórica e ideológica ocupa a maior parte do texto, enquanto a formulação de resultados-chave específicos para 2027-2030 — com números, prazos e responsáveis — é escassa. Sabemos o 'SE' (mecanismo) e o 'PORQUE' (evidência passada) em vários casos, mas o 'ENTÃO' carece de metas numéricas na maioria dos eixos. A robustez de dados retrospectivos reflete o fato de o candidato já governar — isso favorece Implementabilidade, mas não deve ser confundido com clareza de metas prospectivas, que é o que a dimensão de Clareza de Métricas avalia.",
+    "opiniaoCurador": "É esquisito avaliar quem já governa: tem números de verdade, o que os outros candidatos não têm, e isso pesa a favor. Mas 'já fizemos 14,7 milhões de cirurgias' é retrospecto, não meta — e o documento troca sistematicamente uma coisa pela outra, como se mostrar o que já foi feito dispensasse dizer aonde se quer chegar. Tem produto real rodando, mas falta o próximo OKR escrito com a mesma clareza do relatório de resultados.",
+    "fontes": [
+      {
+        "titulo": "Contribuições do Setorial Nacional de Saúde ao Programa de Governo Lula 2027-2030 — Partido dos Trabalhadores (documento oficial, julho de 2026)",
+        "url": "https://pt.org.br/wp-content/uploads/2026/07/sns-plano-de-governo-pt-2026-julho.pdf",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Leia a íntegra do plano de governo de Lula — Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/pt-divulga-programa-de-governo-de-lula-leia-a-integra/",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "SUS teve recorde com 14,7 milhões de cirurgias eletivas em 2025 — Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-02/sus-teve-recorde-com-147-milhoes-de-cirurgias-eletivas-em-2025",
+        "dataAcesso": "2026-08-18"
+      },
+      {
+        "titulo": "Presidente Lula anuncia ações do Novo PAC Saúde com investimento de R$ 815 milhões em 2,1 mil veículos para transporte de pacientes do SUS — Palácio do Planalto",
+        "url": "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2026/02/presidente-lula-anuncia-acoes-do-novo-pac-saude-com-investimento-de-r-815-milhoes-em-2-1-mil-veiculos-para-transporte-de-pacientes-do-sus",
+        "dataAcesso": "2026-08-18"
+      }
+    ],
+    "ultimaAtualizacao": "2026-08-18"
+  }
+]

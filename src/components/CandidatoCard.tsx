@@ -1,22 +1,26 @@
 import { Link } from "react-router-dom";
 import type { Candidato, PropostaSetor } from "../types";
-import { mediaScore } from "../lib/dados";
+import { getSetor, mediaScore } from "../lib/dados";
 import AvatarCandidato from "./AvatarCandidato";
 import Selo from "./Selo";
 import ScoreFingerprint from "./ScoreFingerprint";
 
 interface CandidatoCardProps {
   candidato: Candidato;
+  setorId: string;
   proposta?: PropostaSetor;
 }
 
 export default function CandidatoCard({
   candidato,
+  setorId,
   proposta,
 }: CandidatoCardProps) {
+  const setor = getSetor(setorId);
+
   return (
     <Link
-      to={`/candidato/${candidato.id}`}
+      to={`/candidato/${setorId}/${candidato.id}`}
       className="candidato-card"
       data-partido={candidato.partido}
     >
@@ -41,7 +45,7 @@ export default function CandidatoCard({
         </p>
       ) : (
         <p className="candidato-card-media candidato-card-sem-dados">
-          Análise de Economia ainda não publicada
+          Análise de {setor?.nome ?? setorId} ainda não publicada
         </p>
       )}
     </Link>
