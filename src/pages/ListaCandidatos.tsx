@@ -6,7 +6,6 @@ import RadarComparativo from "../components/RadarComparativo";
 import BarrasPorDimensao from "../components/BarrasPorDimensao";
 import MatrizIdeiaExecucao from "../components/MatrizIdeiaExecucao";
 import TransparenciaCandidatos from "../components/TransparenciaCandidatos";
-import AdSlot from "../components/AdSlot";
 import ApoioProjeto from "../components/ApoioProjeto";
 import { candidatos, propostas, mediaScore } from "../lib/dados";
 import { DIMENSOES_SCORE, type Scores } from "../types";
@@ -125,8 +124,6 @@ export default function ListaCandidatos() {
           </section>
         </>
       )}
-
-      <AdSlot slot="lista-economia" />
 
       <section className="secao-lista">
         <div className="controles-ordenacao">

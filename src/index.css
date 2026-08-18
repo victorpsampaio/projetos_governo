@@ -909,26 +909,6 @@ h3 {
   text-align: center;
 }
 
-/* ---------- Anúncio ---------- */
-
-.ad-slot {
-  margin: 2rem 0;
-  padding: 1rem;
-  border: 1px dashed var(--border);
-  border-radius: var(--radius);
-  text-align: center;
-}
-
-.ad-slot-rotulo {
-  display: block;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--text-soft);
-  margin-bottom: 0.6rem;
-}
-
 /* ---------- Banner de cookies ---------- */
 
 .consent-banner {

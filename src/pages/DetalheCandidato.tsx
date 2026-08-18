@@ -3,7 +3,6 @@ import AvatarCandidato from "../components/AvatarCandidato";
 import ScoreBadge from "../components/ScoreBadge";
 import ScoreFingerprint from "../components/ScoreFingerprint";
 import Selo from "../components/Selo";
-import AdSlot from "../components/AdSlot";
 import ApoioProjeto from "../components/ApoioProjeto";
 import { getCandidato, getProposta, getSetor } from "../lib/dados";
 import { DIMENSOES_SCORE } from "../types";
@@ -175,8 +174,6 @@ export default function DetalheCandidato() {
               <p>{proposta.opiniaoCurador}</p>
             </section>
           )}
-
-          <AdSlot slot="detalhe-candidato" />
 
           <section className="secao-fontes">
             <h2>Fontes</h2>
