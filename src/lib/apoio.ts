@@ -3,3 +3,6 @@
 export const NOME_BENEFICIARIO = "Victor Sampaio";
 export const CHAVE_PIX = "45759749862";
 export const LINK_APOIO = "";
+
+// Canal de contato público para pedidos relacionados a dados pessoais (LGPD, Art. 18).
+export const LINK_CONTATO = "https://www.linkedin.com/in/victorpsampaio/";

@@ -3,6 +3,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Route, Routes } from "react-router-dom";
 import ConsentBanner from "./components/ConsentBanner";
 import TemaToggle from "./components/TemaToggle";
+import ScrollParaTopo from "./components/ScrollParaTopo";
 import LandingPage from "./pages/LandingPage";
 import Sobre from "./pages/Sobre";
 import Privacidade from "./pages/Privacidade";
@@ -14,6 +15,7 @@ import Busca from "./pages/Busca";
 export default function App() {
   return (
     <>
+      <ScrollParaTopo />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/sobre" element={<Sobre />} />
