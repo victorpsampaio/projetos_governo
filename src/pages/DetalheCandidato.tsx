@@ -43,9 +43,15 @@ export default function DetalheCandidato() {
 
   return (
     <div className="pagina-detalhe">
-      <Link to={linkLista} className="link-voltar">
-        ← Voltar para a lista
-      </Link>
+      <div className="nav-topo">
+        <Link to={linkLista} className="link-voltar">
+          ← Voltar para a lista
+        </Link>
+        <nav className="nav-setores">
+          <Link to={`/candidato/${candidatoId}`}>Perfil completo</Link>
+          <Link to="/busca">Buscar</Link>
+        </nav>
+      </div>
 
       <header className="cabecalho-detalhe">
         <AvatarCandidato candidato={candidato} tamanho={128} mostrarCredito />

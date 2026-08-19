@@ -106,7 +106,7 @@ export default function LandingPage() {
         {candidatos.map((candidato) => (
           <Link
             key={candidato.id}
-            to={`/candidato/economia/${candidato.id}`}
+            to={`/candidato/${candidato.id}`}
             className="faixa-candidatos-item"
           >
             <AvatarCandidato candidato={candidato} tamanho={52} />
@@ -114,6 +114,10 @@ export default function LandingPage() {
           </Link>
         ))}
       </nav>
+
+      <p className="link-busca-landing">
+        <Link to="/busca">🔍 Buscar um tema em todas as propostas →</Link>
+      </p>
 
       <section className="secao-problema">
         <h2>O problema</h2>

@@ -26,18 +26,29 @@ const urls = [
   { loc: "/", changefreq: "weekly", priority: "1.0" },
   { loc: "/sobre", changefreq: "monthly", priority: "0.5" },
   { loc: "/privacidade", changefreq: "yearly", priority: "0.3" },
+  { loc: "/busca", changefreq: "weekly", priority: "0.6" },
 ];
 
 for (const setor of setores) {
   urls.push({ loc: `/${setor.id}`, changefreq: "weekly", priority: "0.9" });
 }
 
+const candidatosComProposta = new Set();
 for (const proposta of propostas) {
   urls.push({
     loc: `/candidato/${proposta.setorId}/${proposta.candidatoId}`,
     changefreq: "monthly",
     priority: "0.7",
     lastmod: proposta.ultimaAtualizacao,
+  });
+  candidatosComProposta.add(proposta.candidatoId);
+}
+
+for (const candidatoId of candidatosComProposta) {
+  urls.push({
+    loc: `/candidato/${candidatoId}`,
+    changefreq: "monthly",
+    priority: "0.6",
   });
 }
 

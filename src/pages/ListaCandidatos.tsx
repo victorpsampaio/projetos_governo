@@ -90,6 +90,7 @@ export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
               {s.nome}
             </Link>
           ))}
+          <Link to="/busca">Buscar</Link>
         </nav>
       </div>
 

@@ -23,6 +23,10 @@ export function getPropostasPorSetor(setorId: string): PropostaSetor[] {
   return propostas.filter((p) => p.setorId === setorId);
 }
 
+export function getPropostasPorCandidato(candidatoId: string): PropostaSetor[] {
+  return propostas.filter((p) => p.candidatoId === candidatoId);
+}
+
 export function getProposta(
   candidatoId: string,
   setorId: string,

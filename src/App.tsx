@@ -8,6 +8,8 @@ import Sobre from "./pages/Sobre";
 import Privacidade from "./pages/Privacidade";
 import ListaCandidatos from "./pages/ListaCandidatos";
 import DetalheCandidato from "./pages/DetalheCandidato";
+import PerfilCandidato from "./pages/PerfilCandidato";
+import Busca from "./pages/Busca";
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
           path="/candidato/:setorId/:candidatoId"
           element={<DetalheCandidato />}
         />
+        <Route path="/candidato/:candidatoId" element={<PerfilCandidato />} />
+        <Route path="/busca" element={<Busca />} />
       </Routes>
       <TemaToggle />
       <ConsentBanner />
