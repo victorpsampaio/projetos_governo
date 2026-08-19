@@ -7,6 +7,7 @@ import ApoioProjeto from "../components/ApoioProjeto";
 import { getCandidato, getProposta, getSetor } from "../lib/dados";
 import { useSeo } from "../lib/seo";
 import { calcularConfianca, LABEL_NIVEL } from "../lib/confianca";
+import { gerarResumo } from "../lib/resumo";
 import { DIMENSOES_SCORE } from "../types";
 
 export default function DetalheCandidato() {
@@ -20,6 +21,7 @@ export default function DetalheCandidato() {
   const setor = setorId ? getSetor(setorId) : undefined;
   const linkLista = setorId ? `/${setorId}` : "/economia";
   const confianca = proposta ? calcularConfianca(proposta) : undefined;
+  const resumo = proposta ? gerarResumo(proposta) : undefined;
 
   useSeo({
     title: candidato
@@ -103,6 +105,22 @@ export default function DetalheCandidato() {
         </p>
       ) : (
         <>
+          {resumo && (
+            <section className="secao-resumo">
+              <span className="secao-resumo-eyebrow">Resumo executivo</span>
+              <div className="secao-resumo-corpo">
+                <p className="secao-resumo-texto">{resumo.resumoExecutivo}</p>
+                {resumo.destaques.length > 0 && (
+                  <ul className="secao-resumo-destaques">
+                    {resumo.destaques.map((destaque, i) => (
+                      <li key={i}>{destaque}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </section>
+          )}
+
           <section className="secao-scores">
             <h2>Scores</h2>
             <div className="grid-scores">
@@ -111,9 +129,21 @@ export default function DetalheCandidato() {
                   key={dimensao.key}
                   label={dimensao.label}
                   valor={proposta.scores[dimensao.key]}
+                  pergunta={dimensao.pergunta}
                 />
               ))}
             </div>
+            <details className="legenda-scores">
+              <summary>O que significa cada nota?</summary>
+              <dl>
+                {DIMENSOES_SCORE.map((dimensao) => (
+                  <div key={dimensao.key}>
+                    <dt>{dimensao.label}</dt>
+                    <dd>{dimensao.pergunta}</dd>
+                  </div>
+                ))}
+              </dl>
+            </details>
           </section>
 
           {proposta.documentoOficial && (

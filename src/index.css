@@ -520,6 +520,73 @@ h3 {
   color: var(--brand);
 }
 
+/* ---------- Resumo executivo ---------- */
+
+.secao-resumo {
+  background: var(--brand-soft);
+  border-radius: var(--radius);
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-7);
+}
+
+.secao-resumo-eyebrow {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-bottom: var(--space-4);
+}
+
+.secao-resumo-corpo {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: var(--space-6);
+}
+
+.secao-resumo-texto {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.secao-resumo-destaques {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.secao-resumo-destaques li {
+  position: relative;
+  padding-left: 1.2rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-soft);
+}
+
+.secao-resumo-destaques li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 6px;
+  height: 6px;
+  background: var(--brand);
+  transform: rotate(45deg);
+}
+
+@media (max-width: 700px) {
+  .secao-resumo-corpo {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------- Scores ---------- */
 
 .secao-scores {
@@ -588,6 +655,56 @@ h3 {
 }
 .score-baixo .score-badge-valor {
   color: var(--score-baixo);
+}
+
+.legenda-scores {
+  margin-top: var(--space-4);
+}
+
+.legenda-scores summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--brand);
+  width: fit-content;
+}
+
+.legenda-scores summary:hover {
+  text-decoration: underline;
+}
+
+.legenda-scores dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3) var(--space-5);
+  margin: var(--space-4) 0 0;
+  padding: var(--space-4) var(--space-5);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.legenda-scores dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  margin-bottom: 0.2rem;
+}
+
+.legenda-scores dd {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-soft);
+}
+
+@media (max-width: 700px) {
+  .legenda-scores dl {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- North Star ---------- */
