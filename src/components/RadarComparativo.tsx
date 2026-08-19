@@ -9,21 +9,24 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { DIMENSOES_SCORE, type Candidato, type PropostaSetor } from "../types";
-import { CORES_CANDIDATOS, TEXTO_GRAFICO, BORDA_GRAFICO } from "../lib/paleta";
+import { CORES_CANDIDATOS, paletaGrafico } from "../lib/paleta";
+import { useTema } from "../lib/tema";
 
 interface RadarComparativoProps {
   candidatos: Candidato[];
   propostas: PropostaSetor[];
 }
 
-const TEXTO = TEXTO_GRAFICO;
-const BORDA = BORDA_GRAFICO;
 const CORES = CORES_CANDIDATOS;
 
 export default function RadarComparativo({
   candidatos,
   propostas,
 }: RadarComparativoProps) {
+  const { tema } = useTema();
+  const { texto: TEXTO, borda: BORDA, tooltipFundo, tooltipBorda, tooltipSombra } =
+    paletaGrafico(tema);
+
   const dados = DIMENSOES_SCORE.map((dimensao) => {
     const linha: Record<string, string | number> = {
       dimensao: dimensao.label,
@@ -71,10 +74,10 @@ export default function RadarComparativo({
         />
         <Tooltip
           contentStyle={{
-            background: "#ffffff",
-            border: "1px solid #e4e3ee",
+            background: tooltipFundo,
+            border: `1px solid ${tooltipBorda}`,
             borderRadius: 12,
-            boxShadow: "0 8px 24px rgba(20,18,31,0.1)",
+            boxShadow: tooltipSombra,
             fontFamily: "Public Sans, sans-serif",
             fontSize: "0.85rem",
           }}

@@ -1,5 +1,7 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Route, Routes } from "react-router-dom";
 import ConsentBanner from "./components/ConsentBanner";
+import TemaToggle from "./components/TemaToggle";
 import LandingPage from "./pages/LandingPage";
 import Sobre from "./pages/Sobre";
 import Privacidade from "./pages/Privacidade";
@@ -23,7 +25,9 @@ export default function App() {
           element={<DetalheCandidato />}
         />
       </Routes>
+      <TemaToggle />
       <ConsentBanner />
+      <Analytics />
     </>
   );
 }

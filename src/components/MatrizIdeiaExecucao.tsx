@@ -11,7 +11,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import type { Candidato, PropostaSetor } from "../types";
-import { CORES_CANDIDATOS, TEXTO_GRAFICO, BORDA_GRAFICO } from "../lib/paleta";
+import { CORES_CANDIDATOS, paletaGrafico } from "../lib/paleta";
+import { useTema } from "../lib/tema";
 
 interface MatrizIdeiaExecucaoProps {
   candidatos: Candidato[];
@@ -33,6 +34,15 @@ export default function MatrizIdeiaExecucao({
   candidatos,
   propostas,
 }: MatrizIdeiaExecucaoProps) {
+  const { tema } = useTema();
+  const {
+    texto: TEXTO_GRAFICO,
+    borda: BORDA_GRAFICO,
+    tooltipFundo,
+    tooltipBorda,
+    tooltipSombra,
+  } = paletaGrafico(tema);
+
   const pontos = candidatos
     .map((candidato, i) => {
       const proposta = propostas.find((p) => p.candidatoId === candidato.id);
@@ -90,10 +100,10 @@ export default function MatrizIdeiaExecucao({
         <Tooltip
           cursor={{ strokeDasharray: "3 3" }}
           contentStyle={{
-            background: "#ffffff",
-            border: "1px solid #e4e3ee",
+            background: tooltipFundo,
+            border: `1px solid ${tooltipBorda}`,
             borderRadius: 12,
-            boxShadow: "0 8px 24px rgba(20,18,31,0.1)",
+            boxShadow: tooltipSombra,
             fontFamily: "Public Sans, sans-serif",
             fontSize: "0.85rem",
           }}
