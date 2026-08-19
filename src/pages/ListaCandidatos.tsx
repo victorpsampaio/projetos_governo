@@ -12,6 +12,7 @@ import {
   getPropostasPorSetor,
   getSetor,
   mediaScore,
+  scorePersonalizado,
   setores,
 } from "../lib/dados";
 import { useSeo } from "../lib/seo";
@@ -21,16 +22,31 @@ interface ListaCandidatosProps {
   setorId: string;
 }
 
-type CriterioOrdenacao = "nome" | "media" | keyof Scores;
+type CriterioOrdenacao = "nome" | "media" | "personalizado" | keyof Scores;
 
 const OPCOES_ORDENACAO: { valor: CriterioOrdenacao; label: string }[] = [
   { valor: "media", label: "Média geral" },
   { valor: "nome", label: "Nome" },
   ...DIMENSOES_SCORE.map((d) => ({ valor: d.key, label: d.label })),
+  { valor: "personalizado", label: "Personalizado (defina os pesos)" },
 ];
+
+const PESO_PADRAO: Scores = {
+  rigorPO: 2,
+  implementabilidade: 2,
+  clarezaMetrica: 2,
+  viabilidadePolitica: 2,
+};
+
+const LABEL_PESO: Record<number, string> = {
+  1: "Baixo",
+  2: "Médio",
+  3: "Alto",
+};
 
 export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
   const [ordenacao, setOrdenacao] = useState<CriterioOrdenacao>("media");
+  const [pesos, setPesos] = useState<Scores>(PESO_PADRAO);
 
   const setor = getSetor(setorId);
   const propostasDoSetor = useMemo(
@@ -45,30 +61,25 @@ export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
   });
 
   const candidatosOrdenados = useMemo(() => {
+    const valorDeOrdenacao = (
+      proposta: (typeof propostasDoSetor)[number] | undefined,
+    ) => {
+      if (!proposta) return -1;
+      if (ordenacao === "nome") return 0;
+      if (ordenacao === "media") return mediaScore(proposta);
+      if (ordenacao === "personalizado")
+        return scorePersonalizado(proposta, pesos);
+      return proposta.scores[ordenacao];
+    };
+
     return [...candidatos].sort((a, b) => {
       if (ordenacao === "nome") return a.nome.localeCompare(b.nome);
 
       const propostaA = propostasDoSetor.find((p) => p.candidatoId === a.id);
       const propostaB = propostasDoSetor.find((p) => p.candidatoId === b.id);
-      const valorA =
-        ordenacao === "media"
-          ? propostaA
-            ? mediaScore(propostaA)
-            : -1
-          : propostaA
-            ? propostaA.scores[ordenacao]
-            : -1;
-      const valorB =
-        ordenacao === "media"
-          ? propostaB
-            ? mediaScore(propostaB)
-            : -1
-          : propostaB
-            ? propostaB.scores[ordenacao]
-            : -1;
-      return valorB - valorA;
+      return valorDeOrdenacao(propostaB) - valorDeOrdenacao(propostaA);
     });
-  }, [ordenacao, propostasDoSetor]);
+  }, [ordenacao, propostasDoSetor, pesos]);
 
   const candidatosComProposta = candidatos.filter((c) =>
     propostasDoSetor.some((p) => p.candidatoId === c.id),
@@ -180,6 +191,41 @@ export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
             ))}
           </select>
         </div>
+
+        {ordenacao === "personalizado" && (
+          <div className="pesos-personalizados">
+            <p className="pesos-personalizados-aviso">
+              Dê peso a cada dimensão e veja a lista reordenar com os
+              <strong> mesmos scores neutros</strong> de sempre — isto não é
+              uma recomendação de voto, é uma forma de explorar o dado pela
+              sua prioridade.
+            </p>
+            <div className="pesos-personalizados-grid">
+              {DIMENSOES_SCORE.map((dimensao) => (
+                <label key={dimensao.key} className="peso-item">
+                  <span className="peso-item-label">{dimensao.label}</span>
+                  <input
+                    type="range"
+                    min={1}
+                    max={3}
+                    step={1}
+                    value={pesos[dimensao.key]}
+                    onChange={(e) =>
+                      setPesos((atual) => ({
+                        ...atual,
+                        [dimensao.key]: Number(e.target.value),
+                      }))
+                    }
+                    aria-valuetext={LABEL_PESO[pesos[dimensao.key]]}
+                  />
+                  <span className="peso-item-valor">
+                    {LABEL_PESO[pesos[dimensao.key]]}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="grid-candidatos">
           {candidatosOrdenados.map((candidato) => (

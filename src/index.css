@@ -264,6 +264,56 @@ h3 {
   color: var(--text);
 }
 
+.pesos-personalizados {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-5);
+  margin-bottom: 1.5rem;
+}
+
+.pesos-personalizados-aviso {
+  margin: 0 0 var(--space-4);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--text-soft);
+}
+
+.pesos-personalizados-aviso strong {
+  color: var(--text);
+}
+
+.pesos-personalizados-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4) var(--space-5);
+}
+
+.peso-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.peso-item-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+.peso-item input[type="range"] {
+  width: 100%;
+  accent-color: var(--brand);
+}
+
+.peso-item-valor {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--brand);
+}
+
 .grid-candidatos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
