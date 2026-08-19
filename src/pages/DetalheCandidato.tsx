@@ -6,6 +6,7 @@ import Selo from "../components/Selo";
 import ApoioProjeto from "../components/ApoioProjeto";
 import { getCandidato, getProposta, getSetor } from "../lib/dados";
 import { useSeo } from "../lib/seo";
+import { calcularConfianca, LABEL_NIVEL } from "../lib/confianca";
 import { DIMENSOES_SCORE } from "../types";
 
 export default function DetalheCandidato() {
@@ -18,6 +19,7 @@ export default function DetalheCandidato() {
     candidatoId && setorId ? getProposta(candidatoId, setorId) : undefined;
   const setor = setorId ? getSetor(setorId) : undefined;
   const linkLista = setorId ? `/${setorId}` : "/economia";
+  const confianca = proposta ? calcularConfianca(proposta) : undefined;
 
   useSeo({
     title: candidato
@@ -63,9 +65,27 @@ export default function DetalheCandidato() {
             <div className="aviso-status">{candidato.observacaoStatus}</div>
           )}
         </div>
-        {proposta && (
+        {proposta && confianca && (
           <div className="cabecalho-detalhe-fingerprint">
-            <ScoreFingerprint scores={proposta.scores} tamanho={72} />
+            <ScoreFingerprint
+              scores={proposta.scores}
+              tamanho={72}
+              confianca={confianca.pontuacao}
+            />
+            <Selo
+              texto={`Confiança do dossiê: ${LABEL_NIVEL[confianca.nivel]}`}
+              variante="carimbo"
+              tamanho="sm"
+            />
+            <p className="confianca-detalhe">
+              {confianca.documentoOficial
+                ? "Documento oficial"
+                : "Sem documento oficial"}{" "}
+              · {confianca.numFontes}{" "}
+              {confianca.numFontes === 1 ? "fonte" : "fontes"} ·{" "}
+              {confianca.hipotesesComMedicao}/{confianca.totalHipoteses}{" "}
+              hipóteses com medição
+            </p>
           </div>
         )}
       </header>

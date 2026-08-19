@@ -43,6 +43,10 @@
     ],
     "analise": "Sob o mesmo enquadramento teórico explicitamente marxista do restante do programa (capital financeiro capturando serviços essenciais), a proposta de Saúde de Samara Martins segue o padrão observado em Economia: diagnóstico bem fundamentado com dados reais e verificáveis (lucro das operadoras de planos de saúde, número de hospitais privados no país, queda de investimento público citada com fonte), mas mecanismo de execução pouco detalhado — sem prazo, cronograma de transição ou indicador formal de sucesso. A proposta central (estatização total da gestão do SUS e fim dos planos de saúde privados) é uma ruptura profunda em um setor que hoje envolve milhões de empregos, contratos e beneficiários no sistema de saúde suplementar privado, e que exigiria capacidade de execução e apoio legislativo muito além da estrutura partidária atual da candidata. Assim como em Economia, há uma diferença de rigor dentro do próprio documento: a meta de Educação tem número (10% do PIB) enquanto a de Saúde não tem equivalente, o que é uma inconsistência interna de aplicação do próprio padrão que o documento estabelece em outros capítulos.",
     "opiniaoCurador": "Concordo com o diagnóstico — plano de saúde lucrando R$ 17,9 bilhões enquanto o SUS perde investimento é prioridade errada, não importa de que ângulo se olhe. Mas 'estatizar tudo' sem dizer o que acontece com quem depende de plano privado hoje, nem um prazo pra transição, não é uma proposta executável — é uma direção. Concordar com o horizonte não me isenta de cobrar o caminho até lá.",
+    "documentoOficial": {
+      "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026) — capítulo Saúde Pública e Valorização do SUS",
+      "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg"
+    },
     "fontes": [
       {
         "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026) — capítulo Saúde Pública e Valorização do SUS",
@@ -98,6 +102,10 @@
     ],
     "analise": "As propostas de saúde de Zema seguem o mesmo padrão do restante do plano: direcionamento estratégico claro (privado como parceiro operacional do SUS, gestão por OS/PPP, digitalização), mas quase nenhuma tradução em métricas, prazos ou mecanismos de financiamento. Há um 'SE' (ação) razoavelmente claro em quase todos os itens, mas falta sistematicamente o 'ENTÃO' (resultado esperado quantificado) e a 'MEDIÇÃO' (indicador e fonte). Um diferencial deste candidato é possuir histórico de execução real e auditável como governador de Minas Gerais (2019–2026) — mas esse histórico é contestado: fontes favoráveis (partido Novo) relatam expansão de investimento e cirurgias eletivas; fontes críticas (Brasil de Fato/CUT-MG) relatam atraso de quase 8 anos na entrega de hospitais regionais prometidos (2 de 6 entregues até março de 2026), fechamento de unidades de referência e perda salarial real de servidores de até 27%. Nenhuma das duas narrativas foi verificada nesta análise contra fonte primária auditada (TCE-MG, DataSUS) — ambas são tratadas como alegação de parte interessada. A direção estratégica é identificável, mas a ausência quase total de números, prazos e indicadores no documento nacional é a lacuna de produto mais relevante.",
     "opiniaoCurador": "Reconheço que Zema é o único candidato deste levantamento com histórico real e auditável de gestão em saúde — isso tem valor. Mas um histórico contestado (elogiado pelo próprio partido, criticado por sindicatos e movimentos sociais) não substitui uma meta clara no plano federal. 'Vamos repetir o que funcionou em Minas' sem dizer o quê, quando e com que orçamento não é um plano de governo — é uma promessa de continuidade que eu não consigo auditar antes do voto.",
+    "documentoOficial": {
+      "titulo": "Plano de Governo 2026 (PDF registrado no TSE, hospedado por Congresso em Foco)",
+      "url": "https://static.congressoemfoco.com.br/2026/08/14/attachment/2026/08/14/fb9c64_planogoverno10120_1.pdf"
+    },
     "fontes": [
       {
         "titulo": "'Plano Implacável': veja as propostas de Zema na disputa pela Presidência — Estado de Minas",
@@ -117,11 +125,6 @@
       {
         "titulo": "Zema deixa Minas com promessas vazias, hospitais fechados e propaganda enganosa na saúde — Brasil de Fato (fonte crítica ao candidato)",
         "url": "https://www.brasildefato.com.br/2026/03/26/zema-deixa-minas-com-promessas-vazias-hospitais-fechados-e-propaganda-enganosa-na-saude/",
-        "dataAcesso": "2026-08-18"
-      },
-      {
-        "titulo": "Plano de Governo 2026 (PDF registrado no TSE, hospedado por Congresso em Foco)",
-        "url": "https://static.congressoemfoco.com.br/2026/08/14/attachment/2026/08/14/fb9c64_planogoverno10120_1.pdf",
         "dataAcesso": "2026-08-18"
       }
     ],
@@ -173,12 +176,11 @@
     ],
     "analise": "O capítulo de Saúde é, em termos de estrutura de PO, o mais sofisticado dos 26 temas do plano de Caiado: formato de 'Ações' numeradas com diagnóstico, proposta e meta 2030 quantificada, culminando em tabela consolidada de 21 metas nacionais e cronograma anual de governança (2027 diagnóstico → 2028 implantação → 2029 expansão → 2030 avaliação independente). Isso é incomum para plataformas eleitorais brasileiras. Por outro lado, o rigor de evidência é desigual: o diagnóstico é majoritariamente qualitativo, sem citar números de linha de base já existentes hoje, e as metas percentuais partem de uma linha de base que só será medida depois da eleição — o que é operacionalmente razoável, mas reduz a testabilidade da proposta agora. Também não há explicação de como conciliar a ambição de expansão de capacidade (novos institutos, rede nacional de terapias avançadas) com o compromisso fiscal simultâneo de conter o crescimento da despesa obrigatória do mesmo plano. A participação relatada do ex-ministro Luiz Henrique Mandetta na elaboração do capítulo é um dado relevante de rigor técnico, embora não conste no próprio PDF.",
     "opiniaoCurador": "Este é, disparado, o capítulo de saúde mais bem estruturado entre os planos que avaliei — dá pra ver a mão de gente que entende de gestão em saúde, não só de discurso. Mas estruturar bem uma meta não é o mesmo que financiar ela: dizer que vai expandir rede nacional de terapia celular e ao mesmo tempo prometer conter despesa obrigatória abaixo do PIB é uma conta que não fecha no papel, e o documento não explica como fecha na prática. Rigor de formato não é o mesmo que rigor de execução.",
+    "documentoOficial": {
+      "titulo": "Plano de Governo Ronaldo Caiado Presidente 2027-2030 (documento oficial, PSD) — Tema 25 · Saúde",
+      "url": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf"
+    },
     "fontes": [
-      {
-        "titulo": "Plano de Governo Ronaldo Caiado Presidente 2027-2030 (documento oficial, PSD) — Tema 25 · Saúde",
-        "url": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
-        "dataAcesso": "2026-08-18"
-      },
       {
         "titulo": "Leia a íntegra do plano de governo de Ronaldo Caiado — Poder360",
         "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/",
@@ -242,12 +244,11 @@
     ],
     "analise": "O bloco de saúde tem um ponto forte real: propostas nomeadas e concretas (prontuário eletrônico único, correção da tabela SUS, Programa de Atendimento aos Idosos, Casa Segura para Envelhecer, Unidades Móveis de Saúde da Mulher), a maioria conectando um diagnóstico específico a um mecanismo proposto — superior a um discurso genérico de 'melhorar a saúde'. A fraqueza estrutural é sistemática: em nenhuma proposta há a dupla ENTÃO quantificado + MEDIÇÃO com fonte/frequência; o texto usa formulações de intenção sem ancorar a número de baseline, meta ou data — padrão ainda mais acentuado que no capítulo de Economia do mesmo candidato, que ao menos apresentava alguns números retrospectivos concretos. Do ponto de vista de execução, o plano se apoia em mecanismos já existentes (Conecte SUS, lei de reajuste da tabela SUS já sancionada, EBSERH), reduzindo a necessidade de reforma constitucional inédita. Mas a mesma tensão fiscal do capítulo econômico se replica aqui: um plano que promete corte de estrutura de Estado ao mesmo tempo em que amplia subsídios e cria novos programas, sem indicar de onde sai o dinheiro incremental.",
     "opiniaoCurador": "As propostas de saúde daqui têm nome e diagnóstico — isso já é mais do que muita gente entrega. Mas 'vamos garantir as condições para corrigir a tabela SUS' sem dizer quanto, com que dinheiro e até quando não é uma meta, é um desejo bem escrito. E o mesmo problema que vi em Economia se repete aqui: promete cortar o Estado e expandir programa social ao mesmo tempo, sem fechar a conta. Isso não é neutro nem partidário de avaliar — é aritmética básica que falta no documento.",
+    "documentoOficial": {
+      "titulo": "Plano de governo 'Para o Brasil Vencer o Atraso' (íntegra, documento oficial)",
+      "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+    },
     "fontes": [
-      {
-        "titulo": "Plano de governo 'Para o Brasil Vencer o Atraso' (íntegra, documento oficial)",
-        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
-        "dataAcesso": "2026-08-18"
-      },
       {
         "titulo": "Leia a íntegra do plano de governo de Flávio Bolsonaro — Poder360",
         "url": "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
@@ -392,12 +393,11 @@
     ],
     "analise": "O eixo de Saúde concentra-se em modernização tecnológica e reorganização de fluxo assistencial, não em expansão de investimento ou de rede física. O 'SUS Fila Zero' e o PRONTO refletem um raciocínio de produto plausível — priorizar por risco clínico e centralizar dados podem, em tese, reduzir desperdício e melhorar a qualidade da decisão clínica. Contudo, o plano não estabelece linha de base nem meta futura mensurável, impedindo qualquer verificação de sucesso ao longo de um eventual mandato. Há uma tensão estrutural entre objetivo e restrição orçamentária: ao mesmo tempo em que o plano promete ampliar digitalização e capacidade preditiva (iniciativas intensivas em capital), o eixo fiscal mais amplo do candidato propõe o fim dos pisos constitucionais de gasto mínimo em saúde e educação, sem explicar como as novas iniciativas seriam sustentadas financeiramente nesse cenário. Por outro lado, o plano inclui um elemento de accountability pouco comum entre propostas setoriais — a 'Lei de Responsabilidade Gerencial', prevendo indicadores de desempenho e consequências administrativas para gestores que não atingirem metas — mas, como os próprios indicadores não são especificados, funciona hoje como promessa de governança ainda sem rubrica testável.",
     "opiniaoCurador": "Gosto da ideia de priorizar fila por risco clínico em vez de ordem de chegada — isso é debate técnico sério, não populismo. Mas prometer prontuário nacional interoperável e plataforma de mRNA ao mesmo tempo em que se propõe acabar com o piso constitucional de gasto em saúde é uma contradição que o documento não resolve: são investimentos caros sendo prometidos junto com o corte da garantia orçamentária que hoje sustenta a saúde pública. Rigor técnico no desenho não compensa a falta de rigor na conta.",
+    "documentoOficial": {
+      "titulo": "Plano de Governo 2026 (Livro Amarelo, documento oficial registrado no TSE)",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789"
+    },
     "fontes": [
-      {
-        "titulo": "Plano de Governo 2026 (Livro Amarelo, documento oficial registrado no TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789",
-        "dataAcesso": "2026-08-18"
-      },
       {
         "titulo": "O que diz o plano de governo de Renan Santos (Missão) — Gazeta do Povo",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/como-renan-santos-pretende-restaurar-o-brasil-plano-de-governo-candidato-missao/",
@@ -462,12 +462,11 @@
     ],
     "analise": "O material de saúde de Lula tem uma característica distintiva em relação a um plano de desafiante: é, em grande parte, um relatório de continuidade de política pública em execução, não uma proposta nova formulada do zero. Isso é uma força sob a ótica de implementabilidade — os mecanismos citados (Agora Tem Especialistas, Novo PAC Saúde, Rede Nacional de Dados em Saúde) já têm base legal ativa (MP 1301/25), orçamento comprometido (R$ 31,5 bi) e resultados mensuráveis publicados (14,7 milhões de cirurgias, 63 núcleos de telessaúde). Por outro lado, sob a ótica estrita de rigor de Product Ownership, o documento é fraco em conversão de conquistas passadas em metas futuras quantificadas: a extensa narrativa histórica e ideológica ocupa a maior parte do texto, enquanto a formulação de resultados-chave específicos para 2027-2030 — com números, prazos e responsáveis — é escassa. Sabemos o 'SE' (mecanismo) e o 'PORQUE' (evidência passada) em vários casos, mas o 'ENTÃO' carece de metas numéricas na maioria dos eixos. A robustez de dados retrospectivos reflete o fato de o candidato já governar — isso favorece Implementabilidade, mas não deve ser confundido com clareza de metas prospectivas, que é o que a dimensão de Clareza de Métricas avalia.",
     "opiniaoCurador": "É esquisito avaliar quem já governa: tem números de verdade, o que os outros candidatos não têm, e isso pesa a favor. Mas 'já fizemos 14,7 milhões de cirurgias' é retrospecto, não meta — e o documento troca sistematicamente uma coisa pela outra, como se mostrar o que já foi feito dispensasse dizer aonde se quer chegar. Tem produto real rodando, mas falta o próximo OKR escrito com a mesma clareza do relatório de resultados.",
+    "documentoOficial": {
+      "titulo": "Contribuições do Setorial Nacional de Saúde ao Programa de Governo Lula 2027-2030 — Partido dos Trabalhadores (documento oficial, julho de 2026)",
+      "url": "https://pt.org.br/wp-content/uploads/2026/07/sns-plano-de-governo-pt-2026-julho.pdf"
+    },
     "fontes": [
-      {
-        "titulo": "Contribuições do Setorial Nacional de Saúde ao Programa de Governo Lula 2027-2030 — Partido dos Trabalhadores (documento oficial, julho de 2026)",
-        "url": "https://pt.org.br/wp-content/uploads/2026/07/sns-plano-de-governo-pt-2026-julho.pdf",
-        "dataAcesso": "2026-08-18"
-      },
       {
         "titulo": "Leia a íntegra do plano de governo de Lula — Poder360",
         "url": "https://www.poder360.com.br/poder-eleicoes-2026/pt-divulga-programa-de-governo-de-lula-leia-a-integra/",
