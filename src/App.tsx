@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Route, Routes } from "react-router-dom";
 import ConsentBanner from "./components/ConsentBanner";
 import TemaToggle from "./components/TemaToggle";
@@ -28,6 +29,7 @@ export default function App() {
       <TemaToggle />
       <ConsentBanner />
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }
