@@ -18,6 +18,7 @@ export default function Temas() {
         </Link>
         <nav className="nav-setores">
           <Link to="/busca">Buscar</Link>
+          <Link to="/quiz">Quiz</Link>
         </nav>
       </div>
 

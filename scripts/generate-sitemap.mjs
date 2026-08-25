@@ -29,6 +29,7 @@ const urls = [
   { loc: "/privacidade", changefreq: "yearly", priority: "0.3" },
   { loc: "/busca", changefreq: "weekly", priority: "0.6" },
   { loc: "/temas", changefreq: "monthly", priority: "0.6" },
+  { loc: "/quiz", changefreq: "monthly", priority: "0.7" },
 ];
 
 for (const tema of temas) {

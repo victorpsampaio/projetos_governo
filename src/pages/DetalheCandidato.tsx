@@ -53,6 +53,7 @@ export default function DetalheCandidato() {
           <Link to={`/candidato/${candidatoId}`}>Perfil completo</Link>
           <Link to="/busca">Buscar</Link>
           <Link to="/temas">Temas</Link>
+          <Link to="/quiz">Quiz</Link>
         </nav>
       </div>
 

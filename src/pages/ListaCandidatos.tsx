@@ -103,6 +103,7 @@ export default function ListaCandidatos({ setorId }: ListaCandidatosProps) {
           ))}
           <Link to="/busca">Buscar</Link>
           <Link to="/temas">Temas</Link>
+          <Link to="/quiz">Quiz</Link>
         </nav>
       </div>
 

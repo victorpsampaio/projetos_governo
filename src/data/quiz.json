@@ -1,0 +1,875 @@
+[
+  {
+    "id": "economia-privatizacao",
+    "tema": "Economia",
+    "pergunta": "O Estado deve privatizar Petrobras, Banco do Brasil, Caixa e Correios?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "O plano foca em direcionar crédito subsidiado via NIB para setores estratégicos e não propõe privatizar estatais — linha de continuidade, não de venda de ativos.",
+        "fonte": {
+          "titulo": "Diretrizes para o Programa de Transformação do Brasil 2026 — Partido dos Trabalhadores (PT)",
+          "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "Propõe explicitamente privatizar Petrobras (com cisão em produção/refino/logística), Banco do Brasil, Caixa e Correios nos primeiros 12 meses de mandato.",
+        "fonte": {
+          "titulo": "Zema defende 'privatizar tudo' para ajudar a quitar a dívida pública",
+          "url": "https://www.poder360.com.br/poder-economia/zema-defende-privatizar-tudo-para-ajudar-a-quitar-a-divida-publica/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de Economia não apresenta proposta específica de privatização dessas quatro estatais — foco está em ajuste fiscal via 'Orçamento da Verdade'."      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano propõe corte de ministérios e nova regra fiscal, mas não menciona especificamente a privatização de Petrobras, BB, Caixa ou Correios."      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "depende",
+        "justificativa": "Defende privatizar estatais deficitárias, mas mantém explicitamente a Petrobras estatal — não é a privatização do pacote completo citado na pergunta.",
+        "fonte": {
+          "titulo": "O que Renan Santos promete para a economia em seu plano de governo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-renan-santos-missao/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "depende",
+        "justificativa": "Defende genericamente vender participações e empresas públicas para gerar caixa, mas não nomeia especificamente Petrobras, BB, Caixa ou Correios.",
+        "fonte": {
+          "titulo": "Em sabatina, Pablo Marçal propõe privatizações, GCMs 'até o limite da lei' e vias expressas",
+          "url": "https://www.dgabc.com.br/Noticia/4156406/em-sabatina-pablo-marcal-propoe-privatizacoes-gcms-ate-o-limite-da-lei-e-vias-expressas",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "Propõe o oposto: nacionalização do sistema bancário sob controle estatal e dos trabalhadores.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026)",
+          "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+          "dataAcesso": "2026-08-18"
+        }
+      }
+    ]
+  },
+  {
+    "id": "economia-divida-auditoria",
+    "tema": "Economia",
+    "pergunta": "O pagamento da dívida pública deve ser suspenso unilateralmente para auditoria, antes de continuar sendo pago?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "Mantém o arcabouço fiscal vigente como regra de gestão da dívida, sem propor suspensão de pagamento.",
+        "fonte": {
+          "titulo": "Diretrizes para o Programa de Transformação do Brasil 2026 — Partido dos Trabalhadores (PT)",
+          "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Propõe reduzir a dívida via privatizações e teto de gastos, não via suspensão de pagamento.",
+        "fonte": {
+          "titulo": "Plano Implacável — íntegra",
+          "url": "https://static.congressoemfoco.com.br/2026/08/14/attachment/2026/08/14/fb9c64_planogoverno10120_1.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao",
+        "justificativa": "O 'Orçamento da Verdade' busca estabilizar a dívida por ajuste fiscal e transparência, não por suspensão do pagamento.",
+        "fonte": {
+          "titulo": "Plano de governo de Caiado prevê estabilizar dívida pública em até 3 anos",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/plano-de-governo-de-caiado-preve-estabilizar-divida-publica-em-ate-3-anos/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao",
+        "justificativa": "Propõe nova regra fiscal vinculada à dívida para estabilizá-la, não suspensão de pagamento.",
+        "fonte": {
+          "titulo": "Para o Brasil Vencer o Atraso — íntegra",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "A 'PEC do Equilíbrio Fiscal' busca reduzir a dívida por corte de despesas, abordagem ortodoxa oposta à suspensão de pagamento.",
+        "fonte": {
+          "titulo": "O que Renan Santos promete para a economia em seu plano de governo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-renan-santos-missao/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao",
+        "justificativa": "Propõe gerar caixa vendendo participações públicas, não suspender pagamento da dívida.",
+        "fonte": {
+          "titulo": "Veja quais são as propostas de Pablo Marçal para a economia",
+          "url": "https://www.moneytimes.com.br/veja-quais-sao-as-propostas-de-pablo-marcal-para-a-economia/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Propõe suspensão imediata do pagamento de juros e amortizações da dívida pública, seguida de auditoria cidadã.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026)",
+          "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+          "dataAcesso": "2026-08-18"
+        }
+      }
+    ]
+  },
+  {
+    "id": "economia-imposto-fortunas",
+    "tema": "Economia",
+    "pergunta": "Deve haver imposto progressivo sobre grandes fortunas, lucros e dividendos?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de Economia não aborda tributação sobre grandes fortunas ou dividendos — foca na transição já definida em lei da reforma tributária sobre consumo (CBS/IBS)."      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Toda a agenda tributária do plano é de redução: IRPJ gradual para baixo e 'metas progressivas' de redução da carga tributária geral, sem menção a taxar fortunas.",
+        "fonte": {
+          "titulo": "Plano Implacável — íntegra",
+          "url": "https://static.congressoemfoco.com.br/2026/08/14/attachment/2026/08/14/fb9c64_planogoverno10120_1.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O próprio levantamento aponta a lacuna: não foram encontradas propostas de reforma do IR ou tributação de grandes fortunas/dividendos atribuídas ao plano de Caiado."      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao",
+        "justificativa": "Propõe reduzir a carga tributária sobre produção, consumo e profissionais liberais — direção de corte, não de nova taxação sobre fortunas.",
+        "fonte": {
+          "titulo": "Para o Brasil Vencer o Atraso — íntegra",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "A PEC do Equilíbrio Fiscal foca em cortar despesas (desindexação de benefícios, revisão de renúncias), não em criar tributos novos sobre fortunas.",
+        "fonte": {
+          "titulo": "O que Renan Santos promete para a economia em seu plano de governo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-renan-santos-missao/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Propõe substituir 11 tributos por um 'imposto único' (RAP) sem detalhar alíquotas ou incidência sobre fortunas especificamente."      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "OKR explícito de criação de imposto progressivo sobre grandes fortunas, lucros, dividendos e heranças, como parte da tributação progressiva do programa.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026)",
+          "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+          "dataAcesso": "2026-08-18"
+        }
+      }
+    ]
+  },
+  {
+    "id": "saude-gestao-publica",
+    "tema": "Saúde",
+    "pergunta": "A gestão de hospitais e postos do SUS deve ser 100% pública, sem Organizações Sociais nem parcerias privadas?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de Saúde não entra explicitamente no debate sobre modelo de gestão (OS vs. gestão direta) — foco está em ampliar capacidade e digitalização do SUS."      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Propõe reduzir filas contratando a rede privada e ampliar a gestão hospitalar por Organizações Sociais e PPPs.",
+        "fonte": {
+          "titulo": "'Plano Implacável': veja as propostas de Zema na disputa pela presidência",
+          "url": "https://www.em.com.br/politica/2026/08/7475589-plano-implacavel-veja-as-propostas-de-zema-na-disputa-pela-presidencia.html",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano foca em priorização por risco clínico e regulação de filas, sem tomar posição explícita sobre gestão pública direta vs. OS."      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano foca em agendamento por IA, prontuário eletrônico e correção da tabela SUS, sem tomar posição explícita sobre o modelo de gestão hospitalar."      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano foca em priorização de filas por risco clínico e digitalização (PRONTO, DoctorSV), sem abordar o modelo de gestão hospitalar."      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao",
+        "justificativa": "Propõe ampliar parceria com hospitais privados, contratando leitos ociosos pela tabela SUS.",
+        "fonte": {
+          "titulo": "Pablo Marçal incorpora ações sugeridas pelo SindHosp ao seu plano de governo para a saúde",
+          "url": "https://sindhosp.org.br/pablo-marcal-incorpora-acoes-sugeridas-pelo-sindhosp-ao-seu-plano-de-governo-para-a-saude/",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Propõe extinguir a gestão por Organizações Sociais e fundações privadas, passando toda a rede sanitária para gestão direta e pública.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026) — capítulo Saúde Pública e Valorização do SUS",
+          "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+          "dataAcesso": "2026-08-18"
+        }
+      }
+    ]
+  },
+  {
+    "id": "saude-fim-planos-privados",
+    "tema": "Saúde",
+    "pergunta": "Os planos de saúde privados devem deixar de existir, com os recursos redirecionados ao SUS?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "O plano expande o SUS através de mecanismos que coexistem com a rede suplementar (ex: Agora Tem Especialistas), sem propor o fim dos planos privados.",
+        "fonte": {
+          "titulo": "Contribuições do Setorial Nacional de Saúde ao Programa de Governo Lula 2027-2030",
+          "url": "https://pt.org.br/wp-content/uploads/2026/07/sns-plano-de-governo-pt-2026-julho.pdf",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Todo o modelo proposto depende de parceria com a rede privada — incompatível com extinguir os planos privados.",
+        "fonte": {
+          "titulo": "'Plano Implacável': veja as propostas de Zema na disputa pela presidência",
+          "url": "https://www.em.com.br/politica/2026/08/7475589-plano-implacavel-veja-as-propostas-de-zema-na-disputa-pela-presidencia.html",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao",
+        "justificativa": "O plano não propõe extinguir planos privados; a rede privada segue como parte do sistema de saúde previsto.",
+        "fonte": {
+          "titulo": "Plano de Governo Ronaldo Caiado Presidente 2027-2030 — Tema 25 · Saúde",
+          "url": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao",
+        "justificativa": "O plano não propõe o fim dos planos privados; mantém a lógica de mercado suplementar coexistindo com o SUS.",
+        "fonte": {
+          "titulo": "Plano de governo 'Para o Brasil Vencer o Atraso' (íntegra)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "Linha geral de mercado do plano não propõe extinguir planos privados de saúde.",
+        "fonte": {
+          "titulo": "Plano de Governo 2026 (Livro Amarelo, documento oficial registrado no TSE)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao",
+        "justificativa": "Propõe ampliar parceria com hospitais privados, direção oposta a extinguir a saúde suplementar.",
+        "fonte": {
+          "titulo": "Pablo Marçal incorpora ações sugeridas pelo SindHosp ao seu plano de governo para a saúde",
+          "url": "https://sindhosp.org.br/pablo-marcal-incorpora-acoes-sugeridas-pelo-sindhosp-ao-seu-plano-de-governo-para-a-saude/",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Propõe explicitamente extinguir a exploração dos planos de saúde privados e redirecionar os recursos à saúde pública, citando lucro de R$ 17,9 bi das operadoras.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026) — capítulo Saúde Pública e Valorização do SUS",
+          "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+          "dataAcesso": "2026-08-18"
+        }
+      }
+    ]
+  },
+  {
+    "id": "saude-piso-constitucional",
+    "tema": "Saúde",
+    "pergunta": "O piso constitucional de investimento em Saúde deve ser mantido ou ampliado por lei, em vez de flexibilizado ou extinto?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "sim",
+        "justificativa": "O plano reconhece 'subfinanciamento histórico' do SUS e pede 'financiamento estável', direção de manutenção/fortalecimento do piso.",
+        "fonte": {
+          "titulo": "Contribuições do Setorial Nacional de Saúde ao Programa de Governo Lula 2027-2030",
+          "url": "https://pt.org.br/wp-content/uploads/2026/07/sns-plano-de-governo-pt-2026-julho.pdf",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao_localizada",
+        "justificativa": "O próprio levantamento aponta silêncio do plano sobre o financiamento federal do SUS, incluindo o piso constitucional."      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "Nenhuma das metas do capítulo de Saúde vem com estimativa de custo ou fonte orçamentária definida, incluindo o piso constitucional."      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano não declara fonte de financiamento setorial para Saúde, nem posição explícita sobre o piso constitucional."      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "O plano fiscal do candidato propõe acabar com os pisos constitucionais de gastos mínimos em saúde e educação, como parte de um ajuste fiscal de R$ 250 bi/ano.",
+        "fonte": {
+          "titulo": "Renan Santos propõe corte de R$ 250 bi ao ano e mira Presidência como candidato do ajuste fiscal",
+          "url": "https://bpmoney.com.br/politica/renan-santos-propoe-choque-fiscal-250-bilhoes/",
+          "dataAcesso": "2026-08-18"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Não há plano de Saúde específico localizado para a candidatura presidencial de 2026."      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Defende ampliar radicalmente o investimento público em saúde, redirecionando para o SUS os recursos hoje capturados pelos planos privados.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (documento completo, PDF, 2026) — capítulo Saúde Pública e Valorização do SUS",
+          "url": "https://drive.google.com/uc?export=download&id=1UJwhjA-8RpSEok9hs7mMVY2G-SrHdXcg",
+          "dataAcesso": "2026-08-18"
+        }
+      }
+    ]
+  },
+  {
+    "id": "poderes-stf",
+    "tema": "Reforma do Estado e Poderes",
+    "pergunta": "O Supremo Tribunal Federal deve ter seus poderes revistos ou limitados?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "O plano trata o tema de forma pontual, propondo apenas 'continuidade do diálogo com os atores do Judiciário para estimular seu aperfeiçoamento', sem propor mudança estrutural nos poderes do STF.",
+        "fonte": {
+          "titulo": "O que os planos dos candidatos à Presidência dizem sobre o STF",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/o-que-os-planos-dos-candidatos-a-presidencia-dizem-sobre-o-stf/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "Plano propõe explicitamente acabar com decisões monocráticas que suspendam leis ou bloqueiem políticas públicas, retirar do STF competências tributárias e penais, restringir a reversão de decisões do Congresso e elevar para 60 anos a idade mínima de indicação de ministros.",
+        "fonte": {
+          "titulo": "Plano de Zema prevê 'choque fiscal', limitação ao STF e saída do Brics",
+          "url": "https://www.congressoemfoco.com.br/noticia/121274/plano-de-zema-preve-choque-fiscal--limitacao-ao-stf-e-saida-do-brics",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "Plano propõe quarentena de um ano para ex-ministros/secretários antes de irem ao STF, restrição do foro privilegiado e limites a decisões monocráticas individuais.",
+        "fonte": {
+          "titulo": "Plano de Flávio prevê mudanças no funcionamento do STF; veja o que está previsto",
+          "url": "https://terrabrasilnoticias.com/2026/08/plano-de-flavio-preve-mudancas-no-funcionamento-do-stf-veja-o-que-esta-previsto/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "depende",
+        "justificativa": "Defende mandato de 10 anos e idade limite para ministros, e mudar a indicação para lista tríplice — mas isso é sobre composição, não sobre os poderes da Corte, e ele rejeita explicitamente o discurso de 'ditadura do STF' de aliados de outros candidatos.",
+        "fonte": {
+          "titulo": "'Defendo mandato de 10 anos e limite de idade para STF', diz Caiado",
+          "url": "https://www.cnnbrasil.com.br/politica/defendo-mandato-de-10-anos-e-limite-de-idade-para-stf-diz-caiado/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "sim",
+        "justificativa": "Em declarações de campanha (não no plano de governo escrito), defende que o presidente deve agir 'de maneira muito rígida' contra decisões do STF consideradas inconstitucionais, para a Corte 'voltar para a casinha'.",
+        "fonte": {
+          "titulo": "'O STF precisa voltar para a casinha', afirma Renan Santos",
+          "url": "https://www.gazetadopovo.com.br/vozes/entrelinhas/o-stf-precisa-voltar-para-a-casinha-afirma-renan-santos/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Não foi localizada posição de 2026 sobre o tema — o plano de governo protocolado no TSE (18/ago/2026) não aborda o STF."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Propõe eleição direta de juízes e tribunais superiores, incluindo o STF, e fim de privilégios de magistrados — uma reforma estrutural do Judiciário, mas pela via da democratização, não pelo enquadramento de 'conter ativismo' usado por candidatos de direita.",
+        "fonte": {
+          "titulo": "O que os planos dos candidatos à Presidência dizem sobre o STF",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/o-que-os-planos-dos-candidatos-a-presidencia-dizem-sobre-o-stf/",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "seguranca-faccoes-terrorismo",
+    "tema": "Segurança pública",
+    "pergunta": "Facções criminosas devem ser enquadradas legalmente como organizações terroristas?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "O ministro Lewandowski declarou que o governo federal 'não tem nenhuma intenção' de fazer essa equiparação — facções não têm a motivação ideológica exigida pela lei antiterrorismo. A Lei Antifacção sancionada não equipara facções a terrorismo.",
+        "fonte": {
+          "titulo": "Governo não tem intenção de classificar facções como terroristas, diz ministro",
+          "url": "https://www.gazetadopovo.com.br/republica/nao-temos-nenhuma-intencao-classificar-faccoes-como-terroristas-diz-ministro/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "'Essas facções controlam territórios, têm tribunais do crime… e ainda assim não são tratadas como terroristas? Isso pra mim é terrorismo.'",
+        "fonte": {
+          "titulo": "Zema volta a defender que facções sejam tratadas como grupos terroristas",
+          "url": "https://jmonline.com.br/geral/zema-volta-a-defender-que-facc-es-criminosas-sejam-tratadas-como-grupos-terroristas-1.564248",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "O plano de governo 2026 propõe classificar PCC, CV e milícias como organizações terroristas — embora tenha estado ausente de uma votação simbólica sobre o tema no Senado em nov/2025, quando um aliado recuou dessa classificação num projeto de lei sob pressão do centrão.",
+        "fonte": {
+          "titulo": "Flávio promete endurecer penas e tratar facções como terrorismo",
+          "url": "https://portaln10.com.br/politica/eleicoes/flavio-faccoes-terrorismo-maracanazinho-351526/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "sim",
+        "justificativa": "Propõe uma 'Lei de Terrorismo Doméstico' para enquadrar facções, posição reafirmada em debate em agosto de 2026.",
+        "fonte": {
+          "titulo": "Caiado propõe lei para enquadrar facções como terroristas domésticos",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/08/7477000-caiado-propoe-lei-para-enquadrar-faccoes-como-terroristas-domesticos.html",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "Defende o 'Direito Penal do Inimigo' para facções, doutrina conceitualmente próxima, mas não há declaração direta sobre enquadramento legal como terrorismo."
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Candidatura inelegível até 2032, sem participação em debates e sem declaração própria localizada sobre o tema em 2025/2026."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "Argumenta que classificar facções brasileiras como terroristas poderia justificar intervenção militar dos EUA no Brasil, usando isso como argumento de soberania contra o enquadramento.",
+        "fonte": {
+          "titulo": "'Falar de soberania e não fazer reforma agrária não faz sentido', diz Samara Martins",
+          "url": "https://almapreta.com.br/sessao/politica/samara-martins-entrevista-eleicoes-2026/",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "seguranca-autonomia-policial",
+    "tema": "Segurança pública",
+    "pergunta": "As polícias devem ter mais autonomia operacional, com menos controle e revisão externa?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "O ministro Lewandowski assinou portarias com regras mais rígidas de uso da força e um comitê de monitoramento, condicionando repasses federais ao cumprimento — o oposto de reduzir controle externo.",
+        "fonte": {
+          "titulo": "Governadores criticam decreto que limita uso de força letal pela polícia",
+          "url": "https://www.correiobraziliense.com.br/politica/2024/12/7020341-governadores-criticam-decreto-que-limita-uso-de-forca-letal-pela-policia.html",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "Protestou contra o decreto federal que limita o uso da força; o plano de governo 2026 prevê reforço da autonomia das polícias e dos estados.",
+        "fonte": {
+          "titulo": "O que Romeu Zema propõe para a área da segurança pública",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-governo-zema-seguranca-publica/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "Como presidente da Comissão de Segurança Pública do Senado, defendeu abertamente a revogação da ADPF das Favelas (ADPF 635), que hoje impõe controle e regras externas a operações policiais.",
+        "fonte": {
+          "titulo": "Flávio Bolsonaro defende revogação da ADPF das Favelas",
+          "url": "https://www12.senado.leg.br/noticias/audios/2025/02/flavio-bolsonaro-defende-revogacao-da-adpf-das-favelas",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "sim",
+        "justificativa": "'Com portarias como essa, a conivência, a leniência do governo com a criminalidade fica mais do que clara' — também chamou a ADPF das Favelas de criadora de 'zona imune' ao crime.",
+        "fonte": {
+          "titulo": "Caiado diz que regulamentar a ação policial é conivência do governo com o crime",
+          "url": "https://www.gazetadopovo.com.br/brasil/caiado-regulamentar-a-acao-policial-e-conivencia-do-governo-com-o-crime/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano prevê ação pesada contra facções armadas, mas não há declaração direta sobre ouvidorias, ADPF das Favelas ou desenho institucional de controle externo."
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Nenhuma declaração própria ou de aliados localizada sobre este tema específico."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "Defende extinção da PM, unificação em polícia civil, formação em direitos humanos/não-letalidade — posição explícita a favor de mais controle e fiscalização externa, não menos.",
+        "fonte": {
+          "titulo": "Samara Martins, única mulher pré-candidata a presidente, defende dobrar salário mínimo e o fim da polícia militar",
+          "url": "https://www.bahianoticias.com.br/noticia/316062-samara-martins-unica-mulher-pre-candidata-a-presidente-defende-dobrar-salario-minimo-e-o-fim-da-policia-militar",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ambiente-licenciamento",
+    "tema": "Meio ambiente",
+    "pergunta": "O licenciamento ambiental deve ser simplificado ou acelerado, mesmo em áreas sensíveis (ex: Foz do Amazonas)?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "depende",
+        "justificativa": "Pressionou pessoalmente o Ibama a autorizar a exploração de petróleo na Foz do Amazonas ('passaporte para o futuro'), mas vetou 63 dispositivos de flexibilização da nova Lei Geral do Licenciamento Ambiental — vetos depois derrubados pelo Congresso.",
+        "fonte": {
+          "titulo": "Lula sanciona novo licenciamento ambiental com 63 vetos",
+          "url": "https://www.camara.leg.br/noticias/1186832-lula-sanciona-novo-licenciamento-ambiental-com-63-vetos/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "Plano de governo propõe simplificar/'destravar' o licenciamento ambiental; defendeu abertamente vender a Petrobras ('não tem vaca sagrada') e citou a exploração na Bacia da Foz do Amazonas como parte do potencial energético a explorar.",
+        "fonte": {
+          "titulo": "'Plano Implacável': veja as propostas de Zema na disputa pela presidência",
+          "url": "https://www.em.com.br/politica/2026/08/7475589-plano-implacavel-veja-as-propostas-de-zema-na-disputa-pela-presidencia.html",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "No Pará, defendeu flexibilizar licenças ambientais na Amazônia para viabilizar agropecuária e mineração; prometeu 'enxugar' a burocracia de licenciamento para mineradoras em Minas Gerais.",
+        "fonte": {
+          "titulo": "No Pará, Flávio Bolsonaro defende flexibilizar licenças ambientais na Amazônia",
+          "url": "https://oeco.org.br/salada-verde/no-para-flavio-bolsonaro-defende-flexibilizar-licencas-ambientais-na-amazonia/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "sim",
+        "justificativa": "Defende 'licenciamento por adesão', com meta de reduzir o prazo médio de 24 para 6 dias. Não há declaração específica sobre a Foz do Amazonas — a posição vem da proposta geral de simplificação, documentada no plano de governo.",
+        "fonte": {
+          "titulo": "Leia a íntegra do plano de governo de Ronaldo Caiado",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "sim",
+        "justificativa": "O 'Livro Amarelo' propõe 'implementação plena' da nova Lei Geral do Licenciamento Ambiental, com uso substancial da Licença Ambiental Especial para acelerar projetos de infraestrutura.",
+        "fonte": {
+          "titulo": "'Livro Amarelo': a doutrina que Renan Santos diz ser a base do projeto do Missão",
+          "url": "https://www.infomoney.com.br/politica/livro-amarelo-a-doutrina-que-renan-santos-diz-ser-a-base-do-projeto-do-missao/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de governo (108 páginas, '7 missões') não trata explicitamente de licenciamento ambiental nem da Foz do Amazonas — apenas menções genéricas a 'energias limpas'."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao_localizada",
+        "justificativa": "Não há declaração direta sobre licenciamento ambiental ou sobre a Foz do Amazonas. O programa defende reestatização de estatais e fim de leilões de petróleo, mas isso é inferência de linha partidária, não uma posição confirmada sobre o caso específico."
+      }
+    ]
+  },
+  {
+    "id": "ambiente-desmatamento-agro",
+    "tema": "Meio ambiente",
+    "pergunta": "O combate ao desmatamento deve ser priorizado mesmo quando gera atrito com o agronegócio?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "sim",
+        "justificativa": "Governo registrou o menor índice de desmatamento da série histórica do Deter/INPE (queda de cerca de 37% no período), reforçando PPCDAm, Ibama e ICMBio — com atrito documentado com a bancada ruralista, que derrubou os vetos de Lula à Lei do Licenciamento Ambiental.",
+        "fonte": {
+          "titulo": "Governo Lula registra queda recorde no desmatamento da Amazônia",
+          "url": "https://www.brasil247.com/meio-ambiente/governo-lula-registra-queda-recorde-no-desmatamento-da-amazonia/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Como governador de MG, propôs dispensar licenciamento ambiental para propriedades rurais de até mil hectares (ante o limite de 200 ha) — medida que especialistas apontam como ameaça ao Cerrado, o bioma mais desmatado do país.",
+        "fonte": {
+          "titulo": "Em aceno ao agro, Zema quer dispensar licenciamento ambiental para propriedades de até mil hectares",
+          "url": "https://www.otempo.com.br/politica/2025/6/11/em-aceno-ao-agro-zema-quer-dispensar-licenciamento-ambiental-para-propriedades-de-ate-mil-hectares",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "depende",
+        "justificativa": "Promete 'zerar' o desmatamento ilegal até 2029 com IA/satélites, mas defende simultaneamente flexibilizar o licenciamento para expandir agropecuária e mineração na Amazônia — sem prioridade clara em caso de atrito real.",
+        "fonte": {
+          "titulo": "Eleições 2026: o que dizem os planos de governo dos candidatos para o agronegócio",
+          "url": "https://mundocoop.com.br/agronegocio/eleicoes-2026-o-que-dizem-os-planos-de-governo-dos-candidatos-para-o-agronegocio/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "depende",
+        "justificativa": "Fala em 'combinar combate ao desmatamento e ao garimpo ilegal com mecanismos de conservação', mas o eixo central da proposta é a estabilidade do Código Florestal e a crítica à 'judicialização ambiental' — sinalizando prioridade à segurança jurídica do agro em caso de conflito.",
+        "fonte": {
+          "titulo": "Leia a íntegra do plano de governo de Ronaldo Caiado",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "depende",
+        "justificativa": "Propõe monitoramento por satélite ('Iniciativa Sentinela') contra desmatamento, mas trata a 'agropecuária de alta produtividade' como setor estratégico prioritário — sem declaração explícita sobre qual prevalece em caso de atrito.",
+        "fonte": {
+          "titulo": "'Livro Amarelo': a doutrina que Renan Santos diz ser a base do projeto do Missão",
+          "url": "https://www.infomoney.com.br/politica/livro-amarelo-a-doutrina-que-renan-santos-diz-ser-a-base-do-projeto-do-missao/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano menciona genericamente 'combate ao desmatamento ilegal' e um programa de incentivo à exportação agropecuária, sem definir prioridade em caso de atrito entre as duas agendas."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Critica governos anteriores por 'priorizar o agronegócio' e defende 'Reforma Agrária Popular', fim do latifúndio e defesa da Amazônia, priorizando agricultura familiar sobre o modelo do agronegócio.",
+        "fonte": {
+          "titulo": "Única mulher candidata à Presidência, Samara Martins diz que Lula e Bolsonaro fizeram a 'mesma política'",
+          "url": "https://midiamax.com.br/politica/2026/unica-mulher-candidata-presidencia-samara-martins-diz-lula-bolsonaro-fizeram-mesma-politica/",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "armas-acesso",
+    "tema": "Armas e costumes",
+    "pergunta": "Deve ser facilitado o acesso de cidadãos comuns à posse e ao porte de arma de fogo?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "O plano de governo 2026 chama a revogação dos decretos de armas da era Bolsonaro de 'medida acertada' e promete manter a política de controle de armas e munições e melhorar a rastreabilidade.",
+        "fonte": {
+          "titulo": "Lula dobra aposta em ações já existentes e desarmamento",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/lula-propostas-plano-de-governo-seguranca-publica/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "depende",
+        "justificativa": "Proposta é restrita, não geral: ampliar o porte de arma de produtores rurais para toda a extensão de suas propriedades (hoje vale só na sede/moradia), como resposta a invasões — não é uma flexibilização do Estatuto do Desarmamento para todos os cidadãos.",
+        "fonte": {
+          "titulo": "Romeu Zema propõe porte de armas e privatização de estatais",
+          "url": "https://m.imirante.com/noticias/brasil/2026/08/11/ipolitica-romeu-zema-propoe-porte-de-armas-e-privatizacao-de-estatais",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "Campanha trabalha pela revogação do Estatuto do Desarmamento e por regras mais flexíveis de aquisição e porte, com a pauta armamentista a cargo do deputado Marcos Pollon (PL-MS); plano prevê reverter restrições do governo Lula e ampliar segurança jurídica dos CACs.",
+        "fonte": {
+          "titulo": "Plano de Flávio prevê segurança jurídica para donos de armas",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-flavio-preve-seguranca-juridica-para-donos-de-armas/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "Não há declaração direta sobre posse/porte de arma para civis em geral, nem no plano de governo nem em entrevistas de 2026 — sua ligação histórica com a UDR nos anos 1980 é antiga demais para valer como posição atual sem confirmação."
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "O discurso de segurança do plano foca em ação penal/policial contra facções, sem mencionar armas civis. Há indícios de vídeos de campanha sobre o tema, mas sem citação literal verificável."
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "depende",
+        "justificativa": "Em entrevista de 2022 (pré-candidatura ao PROS, antes do PRTB), defendeu que 'todo homem livre' possa se armar, mas condicionou isso a 'critérios técnicos para coibir o uso de força letal por pessoas despreparadas' — não é uma flexibilização irrestrita, e não há reafirmação encontrada já na campanha de 2026.",
+        "fonte": {
+          "titulo": "Eleições 2022: pré-candidatos à Presidência falam sobre a liberação do porte de armas",
+          "url": "https://www.cnnbrasil.com.br/politica/pre-candidatos-a-presidencia-falam-sobre-a-liberacao-do-porte-de-armas/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "O programa defende mais fiscalização e controle de armas e munições, dentro de um pacote de desmilitarização da segurança pública — direção de mais controle, não de facilitar o acesso civil.",
+        "fonte": {
+          "titulo": "Samara Martins, única mulher pré-candidata a presidente, defende dobrar salário mínimo e o fim da polícia militar",
+          "url": "https://www.bahianoticias.com.br/noticia/316062-samara-martins-unica-mulher-pre-candidata-a-presidente-defende-dobrar-salario-minimo-e-o-fim-da-policia-militar",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "aborto-descriminalizacao",
+    "tema": "Armas e costumes",
+    "pergunta": "O aborto deve ser descriminalizado em mais casos além dos já previstos em lei?",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "depende",
+        "justificativa": "Posição própria desde 2022: 'Eu sou contra o aborto (...) é preciso transformar essa questão do aborto numa questão de saúde pública' — pessoalmente contrário, mas favorável a tratá-lo como saúde pública. O plano 2026 evita a palavra 'aborto' e fala em 'direitos sexuais e reprodutivos', enquanto o governo já tomou ações administrativas na direção pró-acesso à informação sobre aborto legal.",
+        "fonte": {
+          "titulo": "'Sou contra o aborto', diz Lula após defender que 'todo mundo' deveria ter esse direito",
+          "url": "https://www.cnnbrasil.com.br/politica/sou-contra-o-aborto-diz-lula-apos-defender-que-todo-mundo-deveria-ter-esse-direito/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Apoiou decisão do Senado (jun/2026) que derrubou resolução que facilitava aborto legal a vítimas de violência sexual, dizendo que a norma anterior 'incentivava a atuação de pedófilos'.",
+        "fonte": {
+          "titulo": "Zema ataca esquerda, e Caiado cobra Congresso após Senado dificultar aborto legal",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/zema-ataca-esquerda-e-caiado-cobra-congresso-apos-senado-dificultar-aborto-legal/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao",
+        "justificativa": "Único entre os principais candidatos a se posicionar frontalmente contra o aborto no próprio programa de governo, defendendo 'compromisso inegociável de respeitar e defender a vida desde a concepção'.",
+        "fonte": {
+          "titulo": "Estatizar o Uber? Legalizar o aborto? As piores propostas dos candidatos à Presidência",
+          "url": "https://www.gazetadopovo.com.br/ideias/estatizar-o-uber-legalizar-o-aborto-as-piores-propostas-dos-candidatos-a-presidencia/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao",
+        "justificativa": "Diante da mesma decisão do Senado de jun/2026, disse em nota ser 'contra o aborto, exceto nas situações previstas em lei' e cobrou nova regulamentação do Congresso — ou seja, quer manter as exceções atuais, não ampliá-las.",
+        "fonte": {
+          "titulo": "Zema ataca esquerda, e Caiado cobra Congresso após Senado dificultar aborto legal",
+          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/zema-ataca-esquerda-e-caiado-cobra-congresso-apos-senado-dificultar-aborto-legal/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "A página oficial da campanha afirma diretamente: 'o partido é a favor da manutenção da legislação atual' — aborto permitido só nos casos já previstos em lei.",
+        "fonte": {
+          "titulo": "Caixa Preta — Renan Santos responde a todos os ataques",
+          "url": "https://www.renanpresidente.com.br/caixa-preta",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao",
+        "justificativa": "Análise de sua trajetória descreve a oposição ao aborto como parte central de sua estratégia de alinhamento com o eleitorado evangélico desde 2024 — não é uma citação direta na campanha presidencial de 2026, mas é consistente com sua vice de chapa, que já associou aborto a desemprego juvenil publicamente.",
+        "fonte": {
+          "titulo": "O que o fenômeno Pablo Marçal ensina sobre o novo cenário político brasileiro",
+          "url": "https://theconversation.com/o-que-o-fenomeno-pablo-marcal-ensina-sobre-o-novo-cenario-politico-brasileiro-242093",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "Defende explicitamente 'descriminalização e legalização do aborto', tratando o tema como uma questão de saúde pública.",
+        "fonte": {
+          "titulo": "Eleições 2026: o que os planos dos candidatos à Presidência dizem sobre as mulheres?",
+          "url": "https://agenciapatriciagalvao.org.br/mulheres-de-olho/eleicoes-2026-o-que-os-planos-dos-candidatos-a-presidencia-dizem-sobre-as-mulheres/",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  }
+]

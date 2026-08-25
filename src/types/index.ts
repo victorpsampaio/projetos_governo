@@ -68,6 +68,26 @@ export interface Setor {
   northStarDefinicao: string; // a métrica-referência do setor, do framework
 }
 
+export interface FontePosicao {
+  titulo: string;
+  url: string;
+  dataAcesso: string; // ISO date
+}
+
+export interface PosicaoCandidato {
+  candidatoId: string;
+  posicao: "sim" | "nao" | "depende" | "nao_localizada";
+  justificativa: string;
+  fonte?: FontePosicao; // ausente só quando posicao === "nao_localizada"
+}
+
+export interface PerguntaQuiz {
+  id: string;
+  tema: string;
+  pergunta: string;
+  posicoes: PosicaoCandidato[];
+}
+
 export const DIMENSOES_SCORE: {
   key: keyof Scores;
   label: string;

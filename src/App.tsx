@@ -13,6 +13,7 @@ import PerfilCandidato from "./pages/PerfilCandidato";
 import Busca from "./pages/Busca";
 import Temas from "./pages/Temas";
 import TemaPortal from "./pages/TemaPortal";
+import Quiz from "./pages/Quiz";
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/busca" element={<Busca />} />
         <Route path="/temas" element={<Temas />} />
         <Route path="/tema/:temaId" element={<TemaPortal />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
       <TemaToggle />
       <ConsentBanner />
