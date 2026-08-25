@@ -884,5 +884,514 @@
         }
       }
     ]
+  },
+  {
+    "id": "reindustrializacao-credito-subsidiado",
+    "tema": "Reindustrialização",
+    "pergunta": "O Estado deve usar crédito subsidiado e bancos públicos para direcionar investimento a setores industriais estratégicos?",
+    "contexto": "É o modelo de política industrial ativa — o Estado escolhendo setores prioritários (semicondutores, terras raras, hidrogênio verde etc.) e financiando-os com crédito mais barato do que o mercado ofereceria — versus a visão de que o mercado, não o governo, deve decidir onde investir.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "sim",
+        "justificativa": "OKR explícito de reindustrialização soberana via Nova Indústria Brasil (NIB)/Plano Mais Produção, com R$ 860 bilhões mobilizados em financiamentos no ciclo 2023-2026 para semicondutores, hidrogênio verde e minerais críticos.",
+        "fonte": {
+          "titulo": "Diretrizes para o Programa de Transformação do Brasil 2026 — Partido dos Trabalhadores (PT)",
+          "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Todo o plano vai na direção oposta: privatizar estatais, reduzir o tamanho do Estado e cortar gastos — não há proposta de crédito público direcionado a setores industriais.",
+        "fonte": {
+          "titulo": "Plano Implacável — íntegra",
+          "url": "https://static.congressoemfoco.com.br/2026/08/14/attachment/2026/08/14/fb9c64_planogoverno10120_1.pdf",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de Economia foca em ajuste fiscal e diagnóstico da dívida ('Orçamento da Verdade') — não há proposta específica de política industrial ou crédito direcionado por bancos públicos."
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano foca em corte de ministérios e redução da carga tributária — não há proposta específica sobre direcionar crédito público a setores industriais."
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "depende",
+        "justificativa": "Combina liberalismo fiscal ortodoxo com um traço de nacionalismo industrial — quer desenvolver processamento de terras-raras e manter a Petrobras estatal — mas o próprio levantamento aponta que o plano não resolve essa tensão interna nem detalha o mecanismo de financiamento.",
+        "fonte": {
+          "titulo": "O que Renan Santos promete para a economia em seu plano de governo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-renan-santos-missao/",
+          "dataAcesso": "2026-08-17"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Não há plano de governo de 2026 com proposta específica de política industrial — os números mais concretos disponíveis (Ministério da Empresarização) vêm do plano de 2022 e são sobre abertura de empresas, não crédito industrial direcionado."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao_localizada",
+        "justificativa": "O programa foca em nacionalização do sistema bancário, suspensão da dívida e tributação progressiva — não detalha um mecanismo específico de crédito industrial direcionado por bancos públicos."
+      }
+    ]
+  },
+  {
+    "id": "educacao-novo-ensino-medio",
+    "tema": "Educação",
+    "pergunta": "O Novo Ensino Médio deve ser mantido como está, revisto ou revogado?",
+    "contexto": "A reforma de 2017 (revisada em 2024) mudou a carga horária e criou 'itinerários formativos' eletivos no ensino médio — defensores dizem que aproxima o ensino da realidade do aluno, críticos dizem que fragmentou o currículo e reduziu carga de disciplinas obrigatórias.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "sim",
+        "justificativa": "O plano prevê a continuidade da legislação já revisada em 2024 pelo próprio governo, combinando formação geral e preparação profissional, sem sinalizar nova reforma estrutural.",
+        "fonte": {
+          "titulo": "Veja as principais propostas do plano de governo da chapa Lula-Alckmin para a educação",
+          "url": "https://www.brasil247.com/brasil/veja-as-principais-propostas-do-plano-de-governo-da-chapa-lula-alckmin-para-a-educacao/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao_localizada",
+        "justificativa": "Fontes sobre o plano de governo são inconsistentes entre si quanto a uma posição específica sobre o Novo Ensino Médio — sem uma fonte confiável e direta, não é possível classificar."
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano tem seção de educação (método fônico, educação técnica, escolas cívico-militares), mas nenhuma posição direta localizada sobre manter, revisar ou revogar o Novo Ensino Médio especificamente."
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "depende",
+        "justificativa": "O plano de governo mantém a estrutura de itinerários formativos, mas reconhece falhas de implementação ('itinerários reais, não apenas formais') e propõe mudar o Enem — é revisão, não manutenção pura nem revogação.",
+        "fonte": {
+          "titulo": "Plano de Governo Ronaldo Caiado Presidente 2027-2030 — Tema 11 · Educação",
+          "url": "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "Há propostas detalhadas para ensino superior e educação básica, mas nenhuma declaração direta sobre o Novo Ensino Médio especificamente."
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "As propostas educacionais localizadas (Crédito Mirim, Universidade Federal Digital) não tratam do Novo Ensino Médio."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "O programa propõe revogar a Reforma do Ensino Médio e a BNCC, por considerá-las decididas sem diálogo com professores, estados e municípios, defendendo nova reforma conduzida por professores, sindicatos e estudantes.",
+        "fonte": {
+          "titulo": "Programa — Unidade Popular e Samara Martins (TSE)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998025",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "educacao-meta-investimento",
+    "tema": "Educação",
+    "pergunta": "Deve haver uma meta oficial de investimento em Educação, como 10% do PIB?",
+    "contexto": "O novo Plano Nacional de Educação (2026) fixou a meta de chegar a 10% do PIB em investimento público em educação até o fim da década — um patamar defendido há décadas por educadores, mas que exigiria redirecionar uma fatia grande do orçamento público.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "sim",
+        "justificativa": "O novo Plano Nacional de Educação, sancionado em 2026, estabelece meta de chegar a 10% do PIB em investimento público em educação até o fim da década (7,5% no 7º ano).",
+        "fonte": {
+          "titulo": "Plano Nacional prevê 10% do PIB para educação; veja outras metas",
+          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-04/plano-nacional-preve-10-do-pib-para-educacao-veja-outras-metas",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao_localizada",
+        "justificativa": "Nenhuma proposta de meta numérica de investimento em educação encontrada no plano de governo."
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "Nenhuma meta de % do PIB para educação encontrada no plano disponível."
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O capítulo de Educação do plano de governo não menciona meta de % do PIB especificamente para o setor."
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "Nenhuma meta de % do PIB para educação encontrada nas propostas do candidato."
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Nenhuma meta de % do PIB para educação encontrada."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "sim",
+        "justificativa": "O programa declara textualmente: '10% do PIB para Educação! Acesso gratuito à universidade e fim do vestibular (Enem)'.",
+        "fonte": {
+          "titulo": "Programa — Unidade Popular e Samara Martins (TSE)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280016998025",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "educacao-cotas",
+    "tema": "Educação",
+    "pergunta": "Cotas raciais e sociais em universidades públicas devem ser mantidas ou ampliadas?",
+    "contexto": "Desde 2012 (Lei de Cotas), universidades federais reservam vagas por critério racial e de renda — apoiadores apontam redução de uma desigualdade histórica de acesso, críticos defendem substituir por critério só de renda ou por mérito.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "sim",
+        "justificativa": "O governo assinou decreto em 2026 ampliando o alcance das cotas no Prouni e celebrou publicamente os 14 anos da Lei de Cotas, com recorde de bolsas para pretos, pardos e indígenas.",
+        "fonte": {
+          "titulo": "Presidente Lula participa de evento que celebra 21 anos do Programa Universidade para Todos e avanços da política de cotas",
+          "url": "https://www.ocafezinho.com/2026/04/04/presidente-lula-participa-de-evento-que-celebra-21-anos-do-programa-universidade-para-todos-e-avancos-da-politica-de-cotas/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "nao",
+        "justificativa": "Em julho de 2026, declarou: 'O Brasil não aguenta mais quatro anos de políticas de cotas, que enxergam primeiro a cor da pele e só depois a cor das pessoas.'",
+        "fonte": {
+          "titulo": "'O Brasil não aguenta mais quatro anos de cotas', afirma Zema durante encontro nacional do Novo",
+          "url": "https://ncnews.com.br/2026/07/19/o-brasil-nao-aguenta-mais-quatro-anos-de-cotas-afirma-zema-durante-encontro-nacional-do-novo/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "depende",
+        "justificativa": "Defende substituir cotas raciais por cotas sociais baseadas em renda — proposta que apresentou como emenda no Senado em 2023, rejeitada por ampla maioria. Não é fim de toda cota, é troca do critério racial pelo econômico.",
+        "fonte": {
+          "titulo": "Emenda de Flávio Bolsonaro que muda lei das cotas raciais é rejeitada",
+          "url": "https://revistaforum.com.br/politica/2023/10/25/emenda-de-flavio-bolsonaro-que-muda-lei-das-cotas-raciais-rejeitada-146496.html",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de governo trata de inclusão em concursos públicos, não especificamente de cotas em universidades — não há posição direta sobre manter ou ampliar cotas universitárias."
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "Propõe reforma do ensino superior com fim das cotas e criação de sistema de bolsas de mérito, argumentando que todos devem competir 'em igualdade de condições'.",
+        "fonte": {
+          "titulo": "Plano de Renan tem 'desfavelização', superpresídios e fim de cotas",
+          "url": "https://www.congressoemfoco.com.br/noticia/121275/plano-de-renan-tem-desfavelizacao--superpresidios-e-fim-de-cotas",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Não foi localizada fonte confiável e datada de 2026 sobre a posição do candidato quanto a cotas raciais em universidades."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao_localizada",
+        "justificativa": "O programa de 2026 não traz um trecho específico sobre cotas raciais/sociais em universidades — apenas defesa de acesso universal e gratuito ao ensino superior, o que não é a mesma proposta."
+      }
+    ]
+  },
+  {
+    "id": "externa-aproximacao-eua",
+    "tema": "Política externa",
+    "pergunta": "O Brasil deve se aproximar mais dos EUA, mesmo que isso signifique se afastar do BRICS/Mercosul?",
+    "contexto": "Há uma disputa real em 2025-2026 entre manter o Brasil no BRICS/Mercosul (bloco que inclui China e Rússia) e se aproximar mais dos EUA sob o governo Trump, que impôs tarifas e pressão diplomática sobre o Brasil ao longo de 2025.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "Defende soberania e 'autonomia para decidir seus próprios rumos', rejeitando 'qualquer subordinação estratégica'; reforça o BRICS e o Mercosul como eixos centrais da política externa.",
+        "fonte": {
+          "titulo": "Presidente Lula coloca soberania no centro do plano de 2026, reforça BRICS e Mercosul e reage à pressão dos EUA",
+          "url": "https://jornalgrandebahia.com.br/2026/08/presidente-lula-coloca-soberania-no-centro-do-plano-de-2026-reforca-brics-e-mercosul-e-reage-a-pressao-dos-eua/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "É o único candidato que propõe explicitamente a saída do Brasil do BRICS ('de forma diplomática, preservando relações comerciais bilaterais'), chamando o bloco de 'clubinho da China', e defende ingresso na OCDE.",
+        "fonte": {
+          "titulo": "Novo oficializa candidatura de Zema no TSE e apresenta plano de governo",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/novo-oficializa-candidatura-de-zema-no-tse-e-apresenta-plano-de-governo/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "Defende romper o 'alinhamento ideológico' do governo atual e retomar relações sólidas com EUA e Israel, colocando a adesão à OCDE como prioridade — não propõe sair formalmente do BRICS, mas o tira do centro da estratégia.",
+        "fonte": {
+          "titulo": "Política externa: Flávio quer pragmatismo comercial enquanto Lula foca em BRICS e ideologia",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/politica-externa-flavio-quer-pragmatismo-comercial-enquanto-lula-foca-em-brics-e-ideologia/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "depende",
+        "justificativa": "Afirma que 'o Brasil não escolherá um único bloco' — mantém participação ativa no BRICS, ONU, OMC e G20, mas prioriza minerais estratégicos com os EUA e defende retomar a adesão à OCDE.",
+        "fonte": {
+          "titulo": "Brasil: política externa entra na disputa presidencial de 2026 com debates sobre BRICS, Estados Unidos e Mercosul",
+          "url": "https://prensamercosur.org/2026/08/19/brasil-politica-externa-entra-na-disputa-presidencial-de-2026-com-debates-sobre-brics-estados-unidos-e-mercosul/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao_localizada",
+        "justificativa": "Questiona a influência chinesa dentro do BRICS sem propor saída, e criticou publicamente o governo Trump por tentar interferir na eleição brasileira — sinais mistos que não chegam a formar uma posição clara e bem confirmada sobre aproximação com os EUA."
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Seu plano de governo não trata de política externa. Tem admiração pessoal declarada por Trump, mas isso não equivale a uma posição formal sobre BRICS/Mercosul/EUA."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "Defende 'o fim da submissão do Brasil aos EUA, à China e a todos os países imperialistas' e criticou outros candidatos por disputarem 'quem é melhor amigo do fascista Donald Trump'.",
+        "fonte": {
+          "titulo": "Quem é Samara Martins, pré-candidata à Presidência em 2026 pelo Unidade Popular",
+          "url": "https://www.cartacapital.com.br/politica/quem-e-samara-martins-pre-candidata-a-presidencia-em-2026-pelo-unidade-popular/",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "externa-captura-maduro",
+    "tema": "Política externa",
+    "pergunta": "A ação militar dos EUA que capturou Nicolás Maduro em janeiro de 2026 foi correta?",
+    "contexto": "Em janeiro de 2026, forças dos Estados Unidos capturaram o presidente venezuelano Nicolás Maduro, hoje preso em Nova York acusado de narcoterrorismo — uma ação militar de um país contra o líder de outro, sem participação formal de organismos internacionais. Delcy Rodríguez assumiu o governo interino da Venezuela.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "Condenou a captura como uma 'afronta gravíssima à soberania', mantendo a linha histórica de seu governo de reconhecimento e apoio diplomático ao governo venezuelano frente a pressões dos EUA.",
+        "fonte": {
+          "titulo": "Reconhecimento: Lula enviará embaixadora para posse de Maduro",
+          "url": "https://www.gazetadopovo.com.br/republica/reconhecimento-explicito-lula-enviara-embaixadora-para-posse-de-maduro-na-venezuela/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "Comemorou publicamente a captura: 'Que a queda de Maduro sirva para que o povo venezuelano finalmente reencontre paz, estabilidade e o caminho do desenvolvimento'.",
+        "fonte": {
+          "titulo": "Zema comemora captura de Maduro: 'esperança de paz na Venezuela'",
+          "url": "https://www.otempo.com.br/politica/2026/1/3/zema-comemora-captura-de-maduro-para-que-o-povo-venezuelano-reencontre-paz",
+          "dataAcesso": "2026-01-03"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "Chamou a captura de 'libertação' (não 'invasão') e declarou que a Venezuela 'se tornou um dos exemplos mais extremos de como regimes autoritários podem destruir nações'.",
+        "fonte": {
+          "titulo": "Pré-candidatos à Presidência do Brasil repercutem captura de Maduro",
+          "url": "https://tribunadonorte.com.br/politica/pre-candidatos-a-presidencia-do-brasil-repercutem-captura-de-maduro/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "sim",
+        "justificativa": "'Que o dia 3 de janeiro entre para a história como o dia da libertação do povo venezuelano, oprimido por mais de 20 anos pela narco-ditadura chavista.'",
+        "fonte": {
+          "titulo": "Pré-candidatos à Presidência do Brasil repercutem captura de Maduro",
+          "url": "https://tribunadonorte.com.br/politica/pre-candidatos-a-presidencia-do-brasil-repercutem-captura-de-maduro/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "depende",
+        "justificativa": "Disse a diplomatas dos EUA que, idealmente, seria responsabilidade do próprio Brasil prender Maduro, não dos EUA — concorda com a queda de Maduro, mas não com quem a executou.",
+        "fonte": {
+          "titulo": "Renan Santos para diplomatas dos EUA: Brasil deveria prender Maduro",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/renan-santos-para-diplomatas-dos-eua-brasil-deveria-prender-maduro",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Não foi localizada declaração direta e verificável do candidato sobre a captura de Maduro."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "A Unidade Popular condena a intervenção dos EUA como golpismo imperialista: 'Todo apoio à luta contra o golpismo patrocinado pelo imperialismo dos Estados Unidos na Venezuela!'",
+        "fonte": {
+          "titulo": "Nota de solidariedade da Unidade Popular ao povo venezuelano",
+          "url": "https://www.unidadepopular.org.br/blog/nota-de-solidariedade-da-unidade-popular-ao-povo-venezuelano",
+          "dataAcesso": "2024-08-03"
+        }
+      }
+    ]
+  },
+  {
+    "id": "forcas-armadas-seguranca-interna",
+    "tema": "Forças Armadas",
+    "pergunta": "As Forças Armadas devem ter papel ampliado na segurança pública interna, como combate a facções criminosas?",
+    "contexto": "Historicamente as Forças Armadas só atuam em segurança pública via Garantia da Lei e da Ordem (GLO), um mecanismo excepcional e temporário — usá-las de forma mais rotineira contra o crime organizado divide quem vê isso como resposta necessária à violência das facções, e quem teme risco a direitos civis e ao papel constitucional dos militares.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "nao",
+        "justificativa": "Defende o fim da dependência de GLO, propondo fortalecer Polícia Federal, PRF e criar uma Guarda Nacional civil 'para que nunca mais se fale em GLO' — postura de manter as Forças Armadas fora de funções policiais rotineiras.",
+        "fonte": {
+          "titulo": "Lula: PEC da Segurança Pública permitirá fim da GLO e criação de novo modelo de atuação federal",
+          "url": "https://agenciagov.ebc.com.br/noticias/202604/lula-pec-da-seguranca-publica-permitira-fim-da-glo-e-criacao-de-novo-modelo-de-atuacao-federal",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "sim",
+        "justificativa": "Declarou querer 'fazer uso da lei da GLO' para segurança pública se eleito, com ação federal combinada com os estados.",
+        "fonte": {
+          "titulo": "Zema, sobre segurança pública: 'Quero fazer uso da lei da GLO'",
+          "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/13/zema-diz-que-quer-fazer-uso-da-lei-da-glo-para-seguranca-publica-se-for-eleito",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "sim",
+        "justificativa": "O plano prevê envolvimento direto das Forças Armadas no combate ao narcotráfico e a organizações 'narcoterroristas', com uso de drones e IA.",
+        "fonte": {
+          "titulo": "Flávio Bolsonaro quer Forças Armadas contra o narcotráfico",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-quer-forcas-armadas-contra-o-narcotrafico-e-lula-mira-dissuasao-contra-outros-paises/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "sim",
+        "justificativa": "Prometeu usar as Forças Armadas já no 1º dia de governo contra o crime organizado, dispensando até o acionamento formal de GLO, dentro do plano 'Operação Reconquista'.",
+        "fonte": {
+          "titulo": "Caiado promete enquadrar facções criminosas como terroristas no 1º dia de governo: 'Vamos usar as Forças Armadas'",
+          "url": "https://portal6.com.br/2026/08/04/caiado-promete-enquadrar-faccoes-criminosas-como-terroristas-no-1o-dia-de-governo-vamos-usar-as-forcas-armadas/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "sim",
+        "justificativa": "O 'Livro Amarelo' prevê decretar Estado de Defesa combinado com operações de GLO em locais dominados por facções, com atuação conjunta das Forças Armadas com as polícias.",
+        "fonte": {
+          "titulo": "Renan Santos propõe Estado de Defesa e superpresídios para combater o crime",
+          "url": "https://www.band.com.br/politica/eleicoes/2026/renan-santos-propoe-estado-de-defesa-e-superpresidios-para-combater-o-crime-202608232012",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Candidatura só foi registrada em 15/ago/2026 e o plano de governo para 2026 não trata do tema — referências a 'Forças Armadas' associadas a ele vêm de campanhas anteriores (2022/2024), não confirmadas para 2026."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "Defende desmilitarização da segurança pública e alertou que classificar facções como terroristas poderia servir de pretexto para intervenção militar no Brasil — posição contrária à ampliação do papel militar na segurança interna.",
+        "fonte": {
+          "titulo": "Eleições 2026: candidata à Presidência defende fim da Polícia Militar e amplia discurso socialista",
+          "url": "https://www.radiocaxias.com.br/eleicoes-2026-candidata-a-presidencia-defende-fim-da-policia-militar-e-amplia-discurso-socialista-em-entrevista-a-radio-caxias/",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "forcas-armadas-orcamento",
+    "tema": "Forças Armadas",
+    "pergunta": "O orçamento de Defesa e das Forças Armadas deve ser ampliado significativamente?",
+    "contexto": "O investimento militar brasileiro caiu nas últimas décadas frente a outros países da região, mas uma lei recente liberou recursos extras para Defesa fora do teto de gastos — o debate é se isso deve virar prioridade orçamentária maior ou se compete com outras áreas por recursos escassos.",
+    "posicoes": [
+      {
+        "candidatoId": "lula",
+        "posicao": "depende",
+        "justificativa": "Sancionou lei liberando R$ 30 bi extra-teto para Defesa em 6 anos e disse que a área 'deve ser tratada como prioridade', mas seu governo aplicou em 2026 o maior bloqueio orçamentário entre os ministérios à própria Defesa — discurso de ampliação e corte na prática ao mesmo tempo.",
+        "fonte": {
+          "titulo": "Lula quer 'turbinar' Defesa depois de deixar a pasta 'a pão e água'",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/lula-quer-turbinar-defesa-depois-de-deixar-a-pasta-a-pao-e-agua/",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "zema",
+        "posicao": "depende",
+        "justificativa": "O plano prevê modernizar equipamentos e integrar as Forças Armadas, mas o eixo central do programa é corte de gastos e redução do tamanho do Estado — modernização pontual dentro de um plano fiscal apertado, sem compromisso claro de ampliação geral do orçamento.",
+        "fonte": {
+          "titulo": "Plano de Zema prevê 'choque fiscal', limitação ao STF e saída do Brics",
+          "url": "https://www.congressoemfoco.com.br/noticia/121274/plano-de-zema-preve-choque-fiscal--limitacao-ao-stf-e-saida-do-brics",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "flavio-bolsonaro",
+        "posicao": "nao_localizada",
+        "justificativa": "Não há declaração direta sobre ampliar o orçamento de Defesa na campanha 2026 — o PL, partido do candidato, é autor de uma PEC no Senado fixando mínimo de 2% do PIB para Defesa, mas isso é posição partidária, não uma declaração de campanha dele."
+      },
+      {
+        "candidatoId": "caiado",
+        "posicao": "nao_localizada",
+        "justificativa": "O plano de segurança amplia o uso das Forças Armadas contra facções, o que pressupõe mais recursos, mas não há declaração explícita sobre ampliar o orçamento de Defesa em termos percentuais ou de valor."
+      },
+      {
+        "candidatoId": "renan-santos",
+        "posicao": "nao",
+        "justificativa": "Criticou publicamente 'supersalários' e 'superaposentadorias' de militares, prometendo incluí-los em nova reforma da previdência e cortar privilégios — resistência a ampliar gastos com pessoal militar, mesmo defendendo uso operacional das Forças Armadas.",
+        "fonte": {
+          "titulo": "Renan Santos dispara contra generais, critica 'supersalários' e promete rever 'superaposentadorias' militares",
+          "url": "https://www.sociedademilitar.com.br/2026/08/o-que-mais-tem-no-brasil-e-militar-vagabundo-que-nao-faz-nada-renan-santos-dispara-contra-generais-critica-supersalarios-e-promete-rever-superaposentadorias-militares-afch.html",
+          "dataAcesso": "2026-08-25"
+        }
+      },
+      {
+        "candidatoId": "marcal",
+        "posicao": "nao_localizada",
+        "justificativa": "Plano de governo para 2026 não trata do tema — referências a modernização das Forças Armadas associadas a ele vêm do plano de 2022, não confirmadas para a campanha atual."
+      },
+      {
+        "candidatoId": "samara-martins",
+        "posicao": "nao",
+        "justificativa": "O programa denuncia recursos bilionários destinados a armamentos e operações militares enquanto trabalhadores passam necessidade, defendendo priorizar gastos sociais (saúde, educação) em vez de gasto militar.",
+        "fonte": {
+          "titulo": "Programa da Unidade Popular pelo Socialismo (TSE)",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017119534",
+          "dataAcesso": "2026-08-25"
+        }
+      }
+    ]
   }
 ]

@@ -11,6 +11,14 @@ export interface ResultadoAfinidade {
   totalRespondido: number; // perguntas em que esse candidato tinha posição real
 }
 
+// Suavização bayesiana: candidatos com poucas posições documentadas (ex.
+// planos de governo incompletos) têm a % puxada em direção a 50%, em vez de
+// poder disparar pra extremos com base em poucos pontos — mesma lógica de
+// médias ponderadas usadas em rankings com amostra pequena (Reddit, IMDB).
+// Quanto maior PESO_PRIOR, mais forte o efeito; com muitas respostas (perto
+// das 13 perguntas do quiz) o ajuste vira desprezível.
+const PESO_PRIOR = 4;
+
 export function calcularAfinidade(
   respostas: Record<string, RespostaQuiz>,
 ): ResultadoAfinidade[] {
@@ -37,7 +45,12 @@ export function calcularAfinidade(
   return Array.from(acumulado.entries())
     .map(([candidatoId, { pontos, total }]) => ({
       candidatoId,
-      pontuacao: total === 0 ? 0 : Math.round((pontos / total) * 100),
+      pontuacao:
+        total === 0
+          ? 50
+          : Math.round(
+              ((pontos + PESO_PRIOR * 0.5) / (total + PESO_PRIOR)) * 100,
+            ),
       totalRespondido: total,
     }))
     .sort((a, b) => b.pontuacao - a.pontuacao);

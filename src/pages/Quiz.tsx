@@ -231,6 +231,19 @@ export default function Quiz() {
             })}
           </div>
 
+          <details className="quiz-contexto">
+            <summary>Como calculamos a porcentagem?</summary>
+            <p>
+              Candidatos com menos posições documentadas (planos de governo
+              incompletos ou pouco divulgados) têm a % ajustada em direção a
+              50%, em vez de poder disparar pra extremos com base em poucos
+              pontos — quanto mais perguntas documentadas, menor esse
+              ajuste. É a mesma lógica usada em rankings com amostra
+              pequena, tipo comentários em fóruns ou notas de filmes com
+              poucas avaliações.
+            </p>
+          </details>
+
           <details className="quiz-detalhe-perguntas">
             <summary>
               Ver como cada candidato respondeu, pergunta a pergunta
