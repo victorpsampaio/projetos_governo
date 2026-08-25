@@ -2,9 +2,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import AvatarCandidato from "../components/AvatarCandidato";
 import ApoioProjeto from "../components/ApoioProjeto";
+import CompartilharResultado from "../components/CompartilharResultado";
 import { getCandidato } from "../lib/dados";
 import { calcularAfinidade, perguntasQuiz, type RespostaQuiz } from "../lib/quiz";
 import { useSeo } from "../lib/seo";
+import type { Candidato } from "../types";
 
 type Fase = "intro" | "perguntas" | "resultado";
 
@@ -203,6 +205,23 @@ export default function Quiz() {
               );
             })}
           </div>
+
+          <CompartilharResultado
+            top3={resultado
+              .slice(0, 3)
+              .map((r) => {
+                const candidato = getCandidato(r.candidatoId);
+                return candidato
+                  ? { candidato, pontuacao: r.pontuacao }
+                  : null;
+              })
+              .filter(
+                (
+                  item,
+                ): item is { candidato: Candidato; pontuacao: number } =>
+                  item !== null,
+              )}
+          />
 
           <details className="quiz-detalhe-perguntas">
             <summary>

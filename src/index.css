@@ -2034,6 +2034,105 @@ button.cta-grande:disabled {
   color: var(--brand);
 }
 
+/* ---------- Compartilhar resultado ---------- */
+
+.compartilhar-resultado {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-5) var(--space-5) var(--space-6);
+  margin-bottom: var(--space-6);
+}
+
+.compartilhar-resultado h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.3rem;
+}
+
+.compartilhar-texto {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  margin: 0 0 var(--space-5);
+}
+
+.compartilhar-corpo {
+  display: flex;
+  gap: var(--space-6);
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.compartilhar-preview {
+  flex: 0 0 220px;
+  width: 220px;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compartilhar-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.compartilhar-preview-carregando {
+  color: var(--text-soft);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: var(--space-4);
+}
+
+.compartilhar-botoes {
+  flex: 1;
+  min-width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.compartilhar-botao-principal {
+  flex-basis: 100%;
+}
+
+.compartilhar-botao {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.compartilhar-botao:hover {
+  border-color: var(--brand);
+  color: var(--brand);
+  transform: translateY(-1px);
+}
+
+.compartilhar-dica {
+  flex-basis: 100%;
+  margin: var(--space-2) 0 0;
+  font-size: 0.8rem;
+  color: var(--text-soft);
+  line-height: 1.5;
+}
+
 @media (max-width: 480px) {
   .hipotese strong {
     width: 100%;

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const SITE_URL = "https://projetosgoverno.vercel.app";
+export const SITE_URL = "https://projetosgoverno.vercel.app";
 const SITE_NOME = "Candidatos 2026";
 const OG_IMAGEM_PADRAO = `${SITE_URL}/og-image.png`;
 
