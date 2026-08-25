@@ -20,19 +20,22 @@
         "se": "for extinta a gestão de hospitais e postos de saúde por Organizações Sociais (OSs) e fundações privadas, passando toda a rede para gestão direta e pública",
         "porque": "segundo o documento, essas entidades administram os serviços visando lucro à custa da precarização da saúde pública",
         "entao": "haveria melhoria na qualidade do atendimento — sem meta numérica de redução de filas/tempo de espera, nem detalhamento de como seria feita a transição de milhares de contratos de gestão hoje vigentes",
-        "medicao": "não especificada pela candidata; métrica externa disponível: tempo médio de espera no SUS, Ministério da Saúde/DATASUS"
+        "medicao": "não especificada pela candidata; métrica externa disponível: tempo médio de espera no SUS, Ministério da Saúde/DATASUS",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "for fortalecida a produção farmacêutica estatal (laboratórios oficiais do Estado)",
         "porque": "isso reduziria a dependência de importação e permitiria distribuição gratuita de medicamentos, vacinas e insumos, segundo o documento",
         "entao": "haveria soberania farmacêutica — sem meta de % de medicamentos nacionalizados nem prazo declarado",
-        "medicao": "não especificada; métrica externa disponível: participação de laboratórios públicos na produção farmacêutica nacional, Anvisa/Ministério da Saúde"
+        "medicao": "não especificada; métrica externa disponível: participação de laboratórios públicos na produção farmacêutica nacional, Anvisa/Ministério da Saúde",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "for extinta a exploração dos planos de saúde privados",
         "porque": "as operadoras tiveram lucro líquido de R$ 17,9 bilhões entre janeiro e setembro de 2025 (ANS, dado citado no documento), enquanto o investimento público em saúde caiu — o documento cita redução de 64% no investimento em saúde entre 2013 e 2023, segundo o Instituto de Estudos para Políticas de Saúde (IEPS)",
         "entao": "haveria redirecionamento de recursos para a saúde pública — sem mecanismo de transição para os beneficiários atuais de planos privados nem cronograma de implementação",
-        "medicao": "não especificada; métrica externa disponível: lucro líquido das operadoras de planos de saúde, ANS, divulgação trimestral"
+        "medicao": "não especificada; métrica externa disponível: lucro líquido das operadoras de planos de saúde, ANS, divulgação trimestral",
+        "temas": ["papel-do-estado", "financiamento-publico", "desigualdade-e-acesso"]
       }
     ],
     "lacunas": [
@@ -77,13 +80,15 @@
         "se": "o governo federal contratar a rede privada de clínicas e hospitais para reduzir filas do SUS",
         "porque": "um programa estadual similar em Minas Gerais sob a gestão de Zema, o 'Opera Mais Minas', ampliou o volume de cirurgias eletivas em 46% frente a 2019, segundo dado divulgado pelo partido Novo (não auditado de forma independente)",
         "entao": "haveria redução de filas — sem percentual-alvo nem prazo nacional definidos no plano",
-        "medicao": "não especificada; nenhum indicador, fonte de dado ou periodicidade definidos no plano nacional"
+        "medicao": "não especificada; nenhum indicador, fonte de dado ou periodicidade definidos no plano nacional",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "hospitais federais e parcerias forem geridos por Organizações Sociais e PPPs",
         "porque": "em Minas Gerais, sob esse modelo, houve investimento em saúde de R$ 5 bi para R$ 11 bi entre 2018–2024 segundo o Novo (fonte partidária) — mas fontes críticas (Brasil de Fato/CUT-MG) relatam fechamento/redução de leitos em unidades da rede Fhemig (Hospital Maria Amélia Lins e Hospital Alberto Cavalcanti) sob justificativa de 'modernização'",
         "entao": "haveria ganho de eficiência na gestão hospitalar — sem quantificação de quantos hospitais, qual investimento ou prazo no plano nacional",
-        "medicao": "não especificada; nenhum indicador de qualidade assistencial, leitos ou tempo de espera vinculado à proposta"
+        "medicao": "não especificada; nenhum indicador de qualidade assistencial, leitos ou tempo de espera vinculado à proposta",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "for criado um prontuário/histórico clínico eletrônico nacional, integrando sistemas público e privado",
@@ -151,7 +156,8 @@
         "se": "for implementado um 'Sistema Nacional de Acesso e Regulação Inteligente', substituindo a fila cronológica por prioridade clínica dinâmica, integrado a centrais de comando que monitoram capacidade ociosa e leitos em tempo real",
         "porque": "hoje a posição do cidadão na fila é definida apenas pela data do pedido, gerando desperdício de vagas ociosas e piora clínica por espera não gerenciada, segundo o diagnóstico do próprio plano",
         "entao": "o tempo mediano das filas prioritárias nas regiões de maior espera cairá ≥50% até 2030, com 100% das filas estratégicas rastreáveis — mas a linha de base de 2027 usada para calcular essa redução ainda não existe, será levantada por um censo nacional das filas nos primeiros 100 dias",
-        "medicao": "painel público não nomeado explicitamente; lacuna: sem fonte primária de dado nem periodicidade de publicação definidas"
+        "medicao": "painel público não nomeado explicitamente; lacuna: sem fonte primária de dado nem periodicidade de publicação definidas",
+        "temas": ["desigualdade-e-acesso"]
       },
       {
         "se": "for criada categoria regulatória própria para suspeita de câncer, com 'relógio assistencial' digital e cumprimento efetivo dos prazos legais já existentes (30 e 60 dias)",
@@ -226,7 +232,8 @@
         "se": "for garantida a correção efetiva da tabela SUS, usando a lei de reajuste já existente hoje travada pelo orçamento",
         "porque": "a defasagem atual 'asfixia hospitais, santas casas e clínicas, sobretudo no interior', segundo o diagnóstico citado no plano",
         "entao": "a remuneração passaria a 'cobrir o custo real do atendimento' — sem % de reajuste, valor em R$ ou prazo declarados",
-        "medicao": "não especificada"
+        "medicao": "não especificada",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "for implantado o prontuário eletrônico único vinculado ao CPF, interoperável entre redes pública e privada, com base no Conecte SUS já criado no governo Bolsonaro",
@@ -299,13 +306,15 @@
         "se": "for ampliada parceria com hospitais privados e leitos ociosos forem contratados pela tabela SUS",
         "porque": "há leitos privados ociosos identificáveis, premissa razoável mas sem dado citado de quantidade ou percentual de ociosidade",
         "entao": "as filas de exames seriam reduzidas — sem número-alvo nem prazo",
-        "medicao": "lacuna — não há indicador definido (ex. tempo médio de espera) nem fonte de aferição"
+        "medicao": "lacuna — não há indicador definido (ex. tempo médio de espera) nem fonte de aferição",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "o SUS passar a custear cirurgia estética reparadora para mulheres vítimas de violência doméstica",
         "porque": "essas mulheres sofrem sequelas físicas que afetam saúde mental e reinserção social — premissa razoável, mas não amparada por dado ou fonte citada pelo candidato",
         "entao": "não há meta de número de mulheres atendidas nem redução de indicador associado — é a proposta mais concreta e específica encontrada, mas ainda assim sem mecanismo orçamentário, prazo ou meta",
-        "medicao": "lacuna total"
+        "medicao": "lacuna total",
+        "temas": ["desigualdade-e-acesso"]
       }
     ],
     "lacunas": [
@@ -369,7 +378,8 @@
         "se": "o SUS adotar um sistema nacional de priorização de filas por risco clínico em vez de ordem cronológica ('SUS Fila Zero')",
         "porque": "não especificado — o plano não apresenta dado ou evidência epidemiológica que quantifique o dano atual causado pela fila cronológica",
         "entao": "espera-se redução do tempo de espera e da mortalidade evitável associada a atrasos no atendimento — sem percentual-alvo nem prazo",
-        "medicao": "não especificada; nenhuma fonte de dado ou frequência de aferição definidas"
+        "medicao": "não especificada; nenhuma fonte de dado ou frequência de aferição definidas",
+        "temas": ["desigualdade-e-acesso"]
       },
       {
         "se": "for implantado um prontuário eletrônico nacional interoperável (PRONTO) conectando atenção primária, hospitais, laboratórios e farmácias",
@@ -437,19 +447,22 @@
         "se": "o governo mantiver o 'Agora Tem Especialistas' com renúncia fiscal de R$ 2 bi/ano até 2030",
         "porque": "o novo modelo de pagamento por pacote (consulta+diagnóstico+cirurgia) já elevou as cirurgias eletivas de 10,3 milhões (2022) para 14,7 milhões (2025) — alta de 42,9%, com cirurgias ortopédicas subindo 67,5%",
         "entao": "espera-se manutenção/expansão desse ritmo de produção e redução de filas nas especialidades priorizadas — sem meta numérica explícita para 2027-2030, apenas continuidade",
-        "medicao": "número de cirurgias/consultas eletivas realizadas, painéis do Ministério da Saúde/DataSUS, divulgação periódica"
+        "medicao": "número de cirurgias/consultas eletivas realizadas, painéis do Ministério da Saúde/DataSUS, divulgação periódica",
+        "temas": ["financiamento-publico", "desigualdade-e-acesso"]
       },
       {
         "se": "o Novo PAC Saúde investir R$ 31,5 bilhões em obras/equipamentos/veículos, incluindo os R$ 815 milhões em 2,1 mil veículos anunciados em fevereiro de 2026",
         "porque": "a falta de transporte assistido é apontada como barreira de acesso a tratamentos distantes, sobretudo oncológicos",
         "entao": "espera-se redução do tempo de deslocamento e das faltas a tratamentos continuados, com entrega da frota prevista para 2026",
-        "medicao": "número de veículos entregues e municípios atendidos, relatórios do Ministério da Saúde/Novo PAC"
+        "medicao": "número de veículos entregues e municípios atendidos, relatórios do Ministério da Saúde/Novo PAC",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "a Rede Brasileira de Telessaúde for federalizada e universalizada (hoje 63 núcleos, 79% dos municípios, +6 milhões de teleatendimentos em 2024-2026)",
         "porque": "a expansão de 12 para 63 núcleos já reduziu deslocamentos e ampliou acesso especializado nesse período",
         "entao": "espera-se cobertura de 100% dos municípios e crescimento continuado — mas o documento não define prazo nem número-alvo para essa universalização",
-        "medicao": "número de núcleos, % de municípios cobertos, número de teleatendimentos, dados do Ministério da Saúde"
+        "medicao": "número de núcleos, % de municípios cobertos, número de teleatendimentos, dados do Ministério da Saúde",
+        "temas": ["desigualdade-e-acesso"]
       }
     ],
     "lacunas": [

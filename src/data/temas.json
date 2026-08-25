@@ -1,0 +1,17 @@
+[
+  {
+    "id": "financiamento-publico",
+    "nome": "Financiamento e orçamento público",
+    "descricao": "De onde sai o dinheiro — ajuste fiscal, dívida pública, cortes de gastos e como cada candidato propõe pagar (ou não) pelo que promete, em Economia e em Saúde."
+  },
+  {
+    "id": "papel-do-estado",
+    "nome": "Papel do Estado: estatal vs. privado",
+    "descricao": "Onde cada candidato traça a linha entre gestão pública direta e parceria com o setor privado — de bancos e estatais à gestão de hospitais do SUS."
+  },
+  {
+    "id": "desigualdade-e-acesso",
+    "nome": "Desigualdade e acesso",
+    "descricao": "Quem fica de fora se nada mudar — propostas voltadas a redistribuir renda ou priorizar acesso a quem mais precisa, e os planos que não tratam do tema."
+  }
+]

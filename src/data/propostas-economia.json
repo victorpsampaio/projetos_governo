@@ -20,13 +20,15 @@
         "se": "o governo mantiver o arcabouço fiscal (banda de crescimento do gasto primário de 0,6%–2,5% acima da inflação/ano) e 'controlar o aumento do gasto primário'",
         "porque": "essa é a regra fiscal desenhada pelo próprio governo em 2023 para substituir o teto de gastos",
         "entao": "o plano não especifica número-alvo de resultado primário ou de dívida/PIB para 2027–2030 — descreve o mecanismo, mas não a meta quantitativa nem o prazo de estabilização da dívida",
-        "medicao": "não especificada no plano; métrica externa disponível seria dívida bruta/PIB do Banco Central, divulgação mensal"
+        "medicao": "não especificada no plano; métrica externa disponível seria dívida bruta/PIB do Banco Central, divulgação mensal",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "o governo continuar direcionando crédito subsidiado via NIB/Plano Mais Produção para setores estratégicos (semicondutores, terras raras, minerais críticos, hidrogênio verde)",
         "porque": "o ciclo 2023–2026 já mobilizou, segundo o próprio governo, R$ 860 bilhões em financiamentos contratados",
         "entao": "espera-se aumento da participação da indústria de transformação no PIB e maior processamento doméstico de matérias-primas críticas, mas o plano não define meta numérica de participação industrial no PIB nem prazo específico para 2027–2030",
-        "medicao": "não especificada no plano; métrica externa disponível: participação da indústria de transformação no PIB, IBGE, divulgação trimestral"
+        "medicao": "não especificada no plano; métrica externa disponível: participação da indústria de transformação no PIB, IBGE, divulgação trimestral",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "for aprovada no Senado a PEC que reduz a jornada máxima para 40 horas semanais sem redução salarial (já aprovada na Câmara)",
@@ -104,19 +106,22 @@
         "se": "o governo federal privatizar Petrobras (com cisão em produção/refino/logística), Banco do Brasil, Caixa e Correios nos primeiros 12 meses de mandato",
         "porque": "a receita da venda de ativos estatais reduziria a necessidade de rolagem de dívida nova",
         "entao": "nenhuma meta declarada de valor arrecadado nem de pontos percentuais de redução na dívida/PIB — a proposta não apresenta avaliação de ativos, modelo de desestatização, cronograma nem estimativa de arrecadação",
-        "medicao": "não especificada no plano; métrica externa disponível: Dívida Bruta do Governo Geral (DBGG)/PIB, Banco Central, divulgação mensal"
+        "medicao": "não especificada no plano; métrica externa disponível: Dívida Bruta do Governo Geral (DBGG)/PIB, Banco Central, divulgação mensal",
+        "temas": ["papel-do-estado"]
       },
       {
         "se": "for aplicado ao orçamento federal um teto de gastos atrelado ao IPCA, replicando o decreto editado em Minas Gerais em 2020 sob o Regime de Recuperação Fiscal",
         "porque": "esse mecanismo, segundo o próprio governo estadual, teria contribuído para tirar MG do quase-default técnico",
         "entao": "o resultado alegado por Zema é a migração de déficit de R$ 11 bi (herdado) para superávit de R$ 4 bi em 2024 — porém esse dado está em conflito direto com o fechamento fiscal de 2025, sob a mesma gestão, que registrou déficit de R$ 11,3 bi e dívida consolidada de R$ 187,1 bi (ante R$ 113,4 bi em 2019)",
-        "medicao": "resultado primário e dívida consolidada de MG, Secretaria de Fazenda de MG / Tesouro Nacional, divulgação anual"
+        "medicao": "resultado primário e dívida consolidada de MG, Secretaria de Fazenda de MG / Tesouro Nacional, divulgação anual",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "for implementada reforma previdenciária com ajuste automático da idade mínima conforme expectativa de vida, estendida a estados, municípios, trabalhadores rurais e militares",
         "porque": "o envelhecimento populacional pressiona estruturalmente as despesas obrigatórias",
         "entao": "nenhuma estimativa de economia em R$/PIB ou prazo de vigência foi divulgada",
-        "medicao": "despesa previdenciária/PIB, Ministério da Previdência (RGPS) e Tesouro Nacional (RPPS), divulgação anual"
+        "medicao": "despesa previdenciária/PIB, Ministério da Previdência (RGPS) e Tesouro Nacional (RPPS), divulgação anual",
+        "temas": ["financiamento-publico"]
       }
     ],
     "lacunas": [
@@ -191,13 +196,15 @@
         "se": "o governo apresentar, nos primeiros meses, um 'Orçamento da Verdade' revisando despesas obrigatórias, subsídios, benefícios tributários e riscos fiscais",
         "porque": "segundo o diagnóstico da equipe econômica coordenada por Roberto Brant, cerca de 95% do crescimento do endividamento público brasileiro decorre do pagamento de juros reais, não do principal",
         "entao": "a dívida pública bruta será estabilizada em um horizonte de 2 a 3 anos — sem meta numérica final de dívida/PIB declarada",
-        "medicao": "Dívida Bruta do Governo Geral/PIB, Banco Central/Tesouro Nacional, divulgação trimestral; resultado primário, Tesouro Nacional, mensal"
+        "medicao": "Dívida Bruta do Governo Geral/PIB, Banco Central/Tesouro Nacional, divulgação trimestral; resultado primário, Tesouro Nacional, mensal",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "a dívida for estabilizada e a carga de juros reais reduzida",
         "porque": "isso libera espaço fiscal, reduz o risco-país e melhora as condições de crédito para o setor privado",
         "entao": "a taxa de investimento da economia subirá de cerca de 17% para 25% do PIB, sem prazo declarado para atingir esse patamar",
-        "medicao": "Formação Bruta de Capital Fixo/PIB, IBGE (Contas Nacionais), divulgação trimestral"
+        "medicao": "Formação Bruta de Capital Fixo/PIB, IBGE (Contas Nacionais), divulgação trimestral",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "for instituído um marco de segurança jurídica fundiária com prazo único de 180 dias para decisões administrativas, estabilidade do Código Florestal e licenciamento por adesão",
@@ -279,19 +286,22 @@
         "se": "o governo cortar ao menos 10 ministérios e reduzir cargos comissionados/supersalários",
         "porque": "segundo o candidato, isso libera espaço fiscal sem precisar elevar impostos ('faremos nossos gastos caberem no orçamento')",
         "entao": "esperar-se-ia queda da despesa discricionária da União como % do PIB, mas o plano não informa magnitude em R$ nem prazo",
-        "medicao": "não declarada; rigor de PO exigiria acompanhar despesa discricionária/PIB via Tesouro Nacional (RREO), divulgação bimestral"
+        "medicao": "não declarada; rigor de PO exigiria acompanhar despesa discricionária/PIB via Tesouro Nacional (RREO), divulgação bimestral",
+        "temas": ["papel-do-estado", "financiamento-publico"]
       },
       {
         "se": "o governo suspender por 1 ano a vigência da reforma tributária e reformular o IVA dual para reduzir cumulatividade e exceções",
         "porque": "segundo o candidato, o texto foi 'capturado por lobbies' setoriais, projetando uma alíquota de referência próxima de 30%, uma das mais altas do mundo entre IVAs",
         "entao": "esperar-se-ia redução da alíquota efetiva sobre setores sem regime especial, mas não há alíquota-alvo nem plano de compensação da arrecadação perdida durante a suspensão",
-        "medicao": "não declarada; medição rigorosa usaria a alíquota efetiva média por setor, Receita Federal, divulgação anual"
+        "medicao": "não declarada; medição rigorosa usaria a alíquota efetiva média por setor, Receita Federal, divulgação anual",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "for criada uma nova regra fiscal que restrinja mais o crescimento das despesas quanto maior a dívida pública/PIB, substituindo o arcabouço fiscal",
         "porque": "regras vinculadas ao endividamento, na linha do antigo teto de gastos, teriam mais credibilidade para conter a dívida do que o arcabouço vigente, segundo a equipe ligada a Paulo Guedes",
         "entao": "esperar-se-ia estabilização e queda da dívida bruta/PIB, mas não há meta numérica nem cronograma de convergência divulgados",
-        "medicao": "não declarada; medição rigorosa usaria a série de Dívida Bruta do Governo Geral, Banco Central, divulgação mensal"
+        "medicao": "não declarada; medição rigorosa usaria a série de Dívida Bruta do Governo Geral, Banco Central, divulgação mensal",
+        "temas": ["financiamento-publico"]
       }
     ],
     "lacunas": [
@@ -362,7 +372,8 @@
         "se": "aprovar a PEC do Equilíbrio Fiscal desindexando benefícios previdenciários/BPC do salário mínimo, desvinculando pisos de saúde/educação da receita e reduzindo renúncias fiscais",
         "porque": "técnicos da Câmara calcularam essas 4 medidas em R$ 212 bilhões/ano de economia recorrente, base da PEC do deputado Kim Kataguiri adotada pelo plano",
         "entao": "a economia acumulada chegaria a R$ 1,1 trilhão até 2031, mas o candidato não declara uma meta explícita de dívida bruta/PIB associada a esse resultado (hoje em 80,4% do PIB, com a IFI do Senado projetando cerca de 100% do PIB em 2030 sem reformas)",
-        "medicao": "dívida bruta do governo geral/PIB, Banco Central, divulgação mensal; resultado primário, Tesouro Nacional, mensal"
+        "medicao": "dívida bruta do governo geral/PIB, Banco Central, divulgação mensal; resultado primário, Tesouro Nacional, mensal",
+        "temas": ["financiamento-publico", "desigualdade-e-acesso"]
       },
       {
         "se": "extinguir a Justiça do Trabalho e substituir a CLT por negociação direta patrão-empregado, redirecionando o orçamento anual (cerca de R$ 24 bi) para reduzir encargos sobre a folha",
@@ -451,7 +462,8 @@
         "se": "o governo substituir 11 tributos federais por um 'imposto inteligente único' (RAP)",
         "porque": "não especificado pelo candidato — nenhum estudo, simulação de alíquota, base de cálculo ou impacto na arrecadação foi divulgado",
         "entao": "haveria redução de burocracia e sonegação e aumento de 'justiça social e empregabilidade', sem meta numérica nem prazo definidos",
-        "medicao": "não especificada; poderia ser aferida via arrecadação federal, Receita Federal, mas nenhuma fonte ou periodicidade é indicada pelo candidato"
+        "medicao": "não especificada; poderia ser aferida via arrecadação federal, Receita Federal, mas nenhuma fonte ou periodicidade é indicada pelo candidato",
+        "temas": ["financiamento-publico"]
       },
       {
         "se": "for criado um 'Ministério da Empresarização' para fomentar abertura de empresas em todos os setores",
@@ -463,7 +475,8 @@
         "se": "forem vendidas participações e empresas públicas ('vender por alguns bilhões e colocar no caixa')",
         "porque": "não especificado — sem avaliação de ativos, cronograma de desinvestimento ou análise de impacto fiscal",
         "entao": "haveria geração imediata de caixa para o ente público, sem detalhamento de uso do recurso nem de efeito sobre a trajetória da dívida/PIB",
-        "medicao": "não especificada; poderia usar dados da Dívida Bruta do Governo Geral, Tesouro Nacional, mas não é mencionada pelo candidato"
+        "medicao": "não especificada; poderia usar dados da Dívida Bruta do Governo Geral, Tesouro Nacional, mas não é mencionada pelo candidato",
+        "temas": ["papel-do-estado", "financiamento-publico"]
       }
     ],
     "lacunas": [
@@ -531,13 +544,15 @@
         "se": "o governo suspender imediatamente o pagamento de juros e amortizações da dívida pública e realizar uma auditoria cidadã da dívida",
         "porque": "segundo dados do Banco Central citados no documento, bancos e fundos de investimento (nacionais e estrangeiros) detêm 76,2% dos títulos da dívida interna, e a cada 1 ponto percentual de alta na Selic (hoje 14% ao ano) o gasto com a dívida pública cresce R$ 55 bilhões",
         "entao": "seriam liberados cerca de R$ 2 trilhões (1/3 do PIB) para investimento social — mas o documento não declara meta numérica de dívida/PIB resultante, cronograma de execução, nem como seria tratado o risco de reação de credores e mercado cambial",
-        "medicao": "não especificada pela candidata; métrica externa disponível: Dívida Bruta do Governo Geral/PIB, Banco Central, divulgação mensal"
+        "medicao": "não especificada pela candidata; métrica externa disponível: Dívida Bruta do Governo Geral/PIB, Banco Central, divulgação mensal",
+        "temas": ["financiamento-publico", "papel-do-estado"]
       },
       {
         "se": "o salário mínimo for elevado em 100% rumo ao valor calculado pelo DIEESE (R$ 7.892,55 em maio/2026)",
         "porque": "segundo o DIEESE, citado no documento, esse é o valor necessário para uma família de quatro pessoas viver com dignidade — cerca de 4,8 vezes o salário mínimo atual (R$ 1.621,00)",
         "entao": "seria garantida a subsistência básica da classe trabalhadora — mas não há prazo definido para atingir o valor integral do DIEESE nem estimativa do impacto inflacionário ou fiscal da medida",
-        "medicao": "não especificada pela candidata; métrica externa disponível: salário mínimo necessário, DIEESE, divulgação mensal; IPCA, IBGE, mensal"
+        "medicao": "não especificada pela candidata; métrica externa disponível: salário mínimo necessário, DIEESE, divulgação mensal; IPCA, IBGE, mensal",
+        "temas": ["desigualdade-e-acesso"]
       },
       {
         "se": "for implementado o fim da escala 6x1 com jornada de 30 horas semanais (escala 4x3) sem redução salarial",

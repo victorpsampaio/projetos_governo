@@ -11,6 +11,8 @@ import ListaCandidatos from "./pages/ListaCandidatos";
 import DetalheCandidato from "./pages/DetalheCandidato";
 import PerfilCandidato from "./pages/PerfilCandidato";
 import Busca from "./pages/Busca";
+import Temas from "./pages/Temas";
+import TemaPortal from "./pages/TemaPortal";
 
 export default function App() {
   return (
@@ -31,6 +33,8 @@ export default function App() {
         />
         <Route path="/candidato/:candidatoId" element={<PerfilCandidato />} />
         <Route path="/busca" element={<Busca />} />
+        <Route path="/temas" element={<Temas />} />
+        <Route path="/tema/:temaId" element={<TemaPortal />} />
       </Routes>
       <TemaToggle />
       <ConsentBanner />

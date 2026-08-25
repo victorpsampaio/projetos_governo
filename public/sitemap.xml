@@ -21,6 +21,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://projetosgoverno.vercel.app/temas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://projetosgoverno.vercel.app/tema/financiamento-publico</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://projetosgoverno.vercel.app/tema/papel-do-estado</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://projetosgoverno.vercel.app/tema/desigualdade-e-acesso</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://projetosgoverno.vercel.app/economia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

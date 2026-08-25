@@ -13,6 +13,7 @@ function lerJson(nome) {
 }
 
 const setores = lerJson("setores.json");
+const temas = lerJson("temas.json");
 const propostasArquivos = ["propostas-economia.json", "propostas-saude.json"];
 const propostas = propostasArquivos.flatMap((arquivo) => {
   try {
@@ -27,7 +28,12 @@ const urls = [
   { loc: "/sobre", changefreq: "monthly", priority: "0.5" },
   { loc: "/privacidade", changefreq: "yearly", priority: "0.3" },
   { loc: "/busca", changefreq: "weekly", priority: "0.6" },
+  { loc: "/temas", changefreq: "monthly", priority: "0.6" },
 ];
+
+for (const tema of temas) {
+  urls.push({ loc: `/tema/${tema.id}`, changefreq: "monthly", priority: "0.5" });
+}
 
 for (const setor of setores) {
   urls.push({ loc: `/${setor.id}`, changefreq: "weekly", priority: "0.9" });

@@ -4,7 +4,7 @@ import ScoreBadge from "../components/ScoreBadge";
 import ScoreFingerprint from "../components/ScoreFingerprint";
 import Selo from "../components/Selo";
 import ApoioProjeto from "../components/ApoioProjeto";
-import { getCandidato, getProposta, getSetor } from "../lib/dados";
+import { getCandidato, getProposta, getSetor, getTema } from "../lib/dados";
 import { useSeo } from "../lib/seo";
 import { calcularConfianca, LABEL_NIVEL } from "../lib/confianca";
 import { gerarResumo } from "../lib/resumo";
@@ -52,6 +52,7 @@ export default function DetalheCandidato() {
         <nav className="nav-setores">
           <Link to={`/candidato/${candidatoId}`}>Perfil completo</Link>
           <Link to="/busca">Buscar</Link>
+          <Link to="/temas">Temas</Link>
         </nav>
       </div>
 
@@ -223,6 +224,22 @@ export default function DetalheCandidato() {
                 <p>
                   <strong>MEDIÇÃO</strong> {h.medicao}
                 </p>
+                {h.temas && h.temas.length > 0 && (
+                  <div className="hipotese-temas">
+                    {h.temas.map((temaId) => {
+                      const tema = getTema(temaId);
+                      return tema ? (
+                        <Link
+                          key={temaId}
+                          to={`/tema/${temaId}`}
+                          className="tema-pill"
+                        >
+                          {tema.nome}
+                        </Link>
+                      ) : null;
+                    })}
+                  </div>
+                )}
               </div>
             ))}
           </section>

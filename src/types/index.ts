@@ -32,6 +32,13 @@ export interface Hipotese {
   porque: string;
   entao: string;
   medicao: string;
+  temas?: string[]; // ids de Tema — cross-cutting, opcional
+}
+
+export interface Tema {
+  id: string;
+  nome: string;
+  descricao: string;
 }
 
 export interface Fonte {
