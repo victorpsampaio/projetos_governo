@@ -1842,6 +1842,33 @@ button.cta-grande:disabled {
   margin: var(--space-3) 0 var(--space-6);
 }
 
+.quiz-contexto {
+  margin: 0 0 var(--space-5);
+}
+
+.quiz-contexto summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--brand);
+  width: fit-content;
+}
+
+.quiz-contexto summary:hover {
+  text-decoration: underline;
+}
+
+.quiz-contexto p {
+  margin: var(--space-3) 0 0;
+  padding: var(--space-4) var(--space-5);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-soft);
+}
+
 .quiz-respostas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2032,6 +2059,39 @@ button.cta-grande:disabled {
 
 .quiz-detalhe-posicoes a {
   color: var(--brand);
+}
+
+/* ---------- Guia do quiz ---------- */
+
+.secao-guia-quiz {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.guia-quiz-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-5);
+}
+
+.guia-quiz-item .eyebrow {
+  margin-bottom: var(--space-3);
+}
+
+.guia-quiz-item h2 {
+  font-size: 1.1rem;
+  margin: 0 0 var(--space-3);
+}
+
+.guia-quiz-item p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  line-height: 1.6;
 }
 
 /* ---------- Compartilhar resultado ---------- */

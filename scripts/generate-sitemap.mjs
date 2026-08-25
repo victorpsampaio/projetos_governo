@@ -30,6 +30,7 @@ const urls = [
   { loc: "/busca", changefreq: "weekly", priority: "0.6" },
   { loc: "/temas", changefreq: "monthly", priority: "0.6" },
   { loc: "/quiz", changefreq: "monthly", priority: "0.7" },
+  { loc: "/quiz/guia", changefreq: "monthly", priority: "0.4" },
 ];
 
 for (const tema of temas) {

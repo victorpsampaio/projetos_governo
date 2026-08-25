@@ -3,6 +3,7 @@
     "id": "economia-privatizacao",
     "tema": "Economia",
     "pergunta": "O Estado deve privatizar Petrobras, Banco do Brasil, Caixa e Correios?",
+    "contexto": "Essas quatro estatais são um dos eixos mais tradicionais da divisão esquerda/direita na economia brasileira: soberania energética e financeira de um lado, eficiência de gestão e redução da dívida pública do outro.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -68,6 +69,7 @@
     "id": "economia-divida-auditoria",
     "tema": "Economia",
     "pergunta": "O pagamento da dívida pública deve ser suspenso unilateralmente para auditoria, antes de continuar sendo pago?",
+    "contexto": "A dívida pública consome uma fatia grande do orçamento federal em juros. Propostas de auditoria remontam a movimentos como a CPI da Dívida e dividem quem quer apurar a legitimidade de parte da dívida e quem teme calote e juros mais altos no futuro.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -145,6 +147,7 @@
     "id": "economia-imposto-fortunas",
     "tema": "Economia",
     "pergunta": "Deve haver imposto progressivo sobre grandes fortunas, lucros e dividendos?",
+    "contexto": "O Brasil é um dos poucos países que não tributa dividendos distribuídos a pessoas físicas, e a Constituição prevê — sem regulamentação até hoje — um imposto sobre grandes fortunas. É um debate sobre financiar o Estado via tributação direta versus o risco de fuga de capital e investimento.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -204,6 +207,7 @@
     "id": "saude-gestao-publica",
     "tema": "Saúde",
     "pergunta": "A gestão de hospitais e postos do SUS deve ser 100% pública, sem Organizações Sociais nem parcerias privadas?",
+    "contexto": "Desde os anos 1990, muitos estados e municípios terceirizam a gestão de unidades de saúde para Organizações Sociais (OSs) — um modelo defendido por ganhos de eficiência administrativa e criticado por reduzir o controle público direto sobre o SUS.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -257,6 +261,7 @@
     "id": "saude-fim-planos-privados",
     "tema": "Saúde",
     "pergunta": "Os planos de saúde privados devem deixar de existir, com os recursos redirecionados ao SUS?",
+    "contexto": "Cerca de 1 em cada 4 brasileiros tem plano de saúde privado, coexistindo com o SUS universal e gratuito. A pergunta testa até onde vai o compromisso com um sistema único estatal versus a liberdade de escolha no mercado de saúde suplementar.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -334,6 +339,7 @@
     "id": "saude-piso-constitucional",
     "tema": "Saúde",
     "pergunta": "O piso constitucional de investimento em Saúde deve ser mantido ou ampliado por lei, em vez de flexibilizado ou extinto?",
+    "contexto": "A Constituição obriga a União a aplicar um valor mínimo em saúde todo ano. Esse piso é visto por uns como garantia mínima contra cortes no SUS, e por outros como uma trava fiscal que engessa o orçamento e dificulta ajustar as contas públicas.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -387,6 +393,7 @@
     "id": "poderes-stf",
     "tema": "Reforma do Estado e Poderes",
     "pergunta": "O Supremo Tribunal Federal deve ter seus poderes revistos ou limitados?",
+    "contexto": "Nos últimos anos o STF ganhou protagonismo julgando temas antes decididos majoritariamente pelo Congresso e pelo Executivo, incluindo decisões monocráticas que suspendem leis. É um debate sobre separação de poderes: onde termina o papel de guardião da Constituição e onde começa o que críticos chamam de 'ativismo judicial'.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -459,6 +466,7 @@
     "id": "seguranca-faccoes-terrorismo",
     "tema": "Segurança pública",
     "pergunta": "Facções criminosas devem ser enquadradas legalmente como organizações terroristas?",
+    "contexto": "O Congresso aprovou recentemente uma Lei Antifacção tratando facções como organizações criminosas armadas, mas sem equipará-las a grupos terroristas — mudança que alteraria penas e ferramentas de investigação disponíveis contra elas.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -526,6 +534,7 @@
     "id": "seguranca-autonomia-policial",
     "tema": "Segurança pública",
     "pergunta": "As polícias devem ter mais autonomia operacional, com menos controle e revisão externa?",
+    "contexto": "Desde 2019 (ADPF das Favelas, no STF) e mais recentemente por decreto federal, foram criadas regras mais rígidas de uso da força e monitoramento de operações policiais, depois de anos de alta letalidade policial no Brasil — reduzir ou reforçar esse controle externo é um dos temas mais recorrentes de segurança pública.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -593,6 +602,7 @@
     "id": "ambiente-licenciamento",
     "tema": "Meio ambiente",
     "pergunta": "O licenciamento ambiental deve ser simplificado ou acelerado, mesmo em áreas sensíveis (ex: Foz do Amazonas)?",
+    "contexto": "Em 2025 foi sancionada uma nova Lei Geral do Licenciamento Ambiental — um dos temas mais disputados entre ambientalistas, que temem menos controle sobre impactos, e setores produtivos, que reclamam de prazos longos e burocracia. O caso mais recente e simbólico é a exploração de petróleo na Foz do Amazonas.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -660,6 +670,7 @@
     "id": "ambiente-desmatamento-agro",
     "tema": "Meio ambiente",
     "pergunta": "O combate ao desmatamento deve ser priorizado mesmo quando gera atrito com o agronegócio?",
+    "contexto": "O agronegócio é um dos setores mais importantes da economia brasileira, mas está historicamente ligado ao avanço do desmatamento em biomas como Amazônia e Cerrado. A pergunta testa como equilibrar produção agropecuária e metas ambientais quando os dois entram em conflito direto.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -732,6 +743,7 @@
     "id": "armas-acesso",
     "tema": "Armas e costumes",
     "pergunta": "Deve ser facilitado o acesso de cidadãos comuns à posse e ao porte de arma de fogo?",
+    "contexto": "Posse e porte de armas são regulados pelo Estatuto do Desarmamento (2003), com decretos mais restritivos ou mais permissivos alternando a cada governo — debate entre o direito à autodefesa individual e o risco de mais armas em circulação aumentarem a violência.",
     "posicoes": [
       {
         "candidatoId": "lula",
@@ -799,6 +811,7 @@
     "id": "aborto-descriminalizacao",
     "tema": "Armas e costumes",
     "pergunta": "O aborto deve ser descriminalizado em mais casos além dos já previstos em lei?",
+    "contexto": "Hoje o aborto só é legal no Brasil em 3 casos — risco de morte à mãe, estupro e anencefalia; fora disso é crime. É um dos temas mais polarizados da política brasileira, no cruzamento entre saúde pública, religião e direitos individuais.",
     "posicoes": [
       {
         "candidatoId": "lula",

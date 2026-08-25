@@ -70,6 +70,7 @@ export default function Quiz() {
         <nav className="nav-setores">
           <Link to="/busca">Buscar</Link>
           <Link to="/temas">Temas</Link>
+          <Link to="/quiz/guia">Guia</Link>
         </nav>
       </div>
 
@@ -118,6 +119,11 @@ export default function Quiz() {
 
           <span className="eyebrow">{pergunta.tema}</span>
           <p className="quiz-pergunta-texto">{pergunta.pergunta}</p>
+
+          <details className="quiz-contexto" key={pergunta.id}>
+            <summary>Por que essa pergunta?</summary>
+            <p>{pergunta.contexto}</p>
+          </details>
 
           <div className="quiz-respostas">
             {(["nao", "depende", "sim"] as RespostaQuiz[]).map((valor) => (
@@ -168,7 +174,26 @@ export default function Quiz() {
             voto, pesquisa eleitoral nem teste vocacional. O score neutro
             (rigor/execução) e a opinião pessoal do curador, em cada ficha,
             continuam sendo coisas completamente separadas disso.
+            <br />
+            <Link to="/quiz/guia">Saiba mais sobre cada pergunta →</Link>
           </div>
+
+          <CompartilharResultado
+            top3={resultado
+              .slice(0, 3)
+              .map((r) => {
+                const candidato = getCandidato(r.candidatoId);
+                return candidato
+                  ? { candidato, pontuacao: r.pontuacao }
+                  : null;
+              })
+              .filter(
+                (
+                  item,
+                ): item is { candidato: Candidato; pontuacao: number } =>
+                  item !== null,
+              )}
+          />
 
           <div className="quiz-ranking">
             {resultado.map((r) => {
@@ -205,23 +230,6 @@ export default function Quiz() {
               );
             })}
           </div>
-
-          <CompartilharResultado
-            top3={resultado
-              .slice(0, 3)
-              .map((r) => {
-                const candidato = getCandidato(r.candidatoId);
-                return candidato
-                  ? { candidato, pontuacao: r.pontuacao }
-                  : null;
-              })
-              .filter(
-                (
-                  item,
-                ): item is { candidato: Candidato; pontuacao: number } =>
-                  item !== null,
-              )}
-          />
 
           <details className="quiz-detalhe-perguntas">
             <summary>

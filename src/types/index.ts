@@ -85,6 +85,7 @@ export interface PerguntaQuiz {
   id: string;
   tema: string;
   pergunta: string;
+  contexto: string;
   posicoes: PosicaoCandidato[];
 }
 

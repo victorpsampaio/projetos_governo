@@ -14,6 +14,7 @@ import Busca from "./pages/Busca";
 import Temas from "./pages/Temas";
 import TemaPortal from "./pages/TemaPortal";
 import Quiz from "./pages/Quiz";
+import GuiaQuiz from "./pages/GuiaQuiz";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
         <Route path="/temas" element={<Temas />} />
         <Route path="/tema/:temaId" element={<TemaPortal />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/quiz/guia" element={<GuiaQuiz />} />
       </Routes>
       <TemaToggle />
       <ConsentBanner />
