@@ -946,8 +946,8 @@
   {
     "id": "educacao-novo-ensino-medio",
     "tema": "Educação",
-    "pergunta": "O Novo Ensino Médio deve ser mantido como está, revisto ou revogado?",
-    "contexto": "A reforma de 2017 (revisada em 2024) mudou a carga horária e criou 'itinerários formativos' eletivos no ensino médio — defensores dizem que aproxima o ensino da realidade do aluno, críticos dizem que fragmentou o currículo e reduziu carga de disciplinas obrigatórias.",
+    "pergunta": "O Novo Ensino Médio deve ser mantido como está, sem mudanças estruturais?",
+    "contexto": "A reforma de 2017 (revisada em 2024) mudou a carga horária e criou 'itinerários formativos' eletivos no ensino médio — defensores dizem que aproxima o ensino da realidade do aluno, críticos dizem que fragmentou o currículo e reduziu carga de disciplinas obrigatórias. SIM = manter como está; DEPENDE = revisar pontos específicos; NÃO = mudança estrutural ampla ou revogação.",
     "posicoes": [
       {
         "candidatoId": "lula",
